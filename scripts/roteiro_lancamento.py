@@ -23,8 +23,8 @@ def fmt(c, v):
 H1 = ('horas', lambda l: l['semana_inicio'] == '2026-11-02', 'semana de 02/11')
 H2 = ('horas', lambda l: l['semana_inicio'] == '2026-11-09', 'semana de 09/11')
 PESSOAS = [
-    ('Diego', ['sprint', 'backlog', 'itemSprint', 'defeitos', 'quadro', 'impedimentos', 'implantacoes']),
-    ('Caique', ['avanco', 'producao']),
+    ('Diego', ['avanco', 'producao']),
+    ('Caique', ['sprint', 'backlog', 'itemSprint', 'defeitos', 'quadro', 'impedimentos', 'implantacoes']),
     ('José', [H1, 'custos']),
     ('Marjorie', [H2, 'medicoes', 'inspecoes']),
     ('Guilherme', ['mudancas', 'okr', 'funil']),
@@ -91,7 +91,7 @@ def main():
     <li>Em <b>Lançamentos</b>, toque na aba da tela (os botões com B1, B2…). Preencha <b>uma linha da tabela por vez</b> e toque em <b>Salvar</b>. Espere a mensagem "Salvo em…" antes da próxima.</li>
     <li>Campos marcados como <i>vazio</i>: deixe em branco ou escolha "— vazio —". Datas no formato do iPad/celular; números com vírgula ou ponto.</li>
     <li><b>Errou?</b> Na lista "Últimos lançamentos" embaixo da tela, toque em <b>apagar</b> na linha errada e lance de novo. <b>Nunca lance a mesma linha duas vezes</b>: duplicata quebra os números de controle.</li>
-    <li>Ordem entre pessoas: o <b>Diego</b> faz "Novo item no backlog" antes de "Itens da sprint" e do quadro. As outras telas podem ser feitas em qualquer ordem, ao mesmo tempo.</li>
+    <li>Ordem entre pessoas: o <b>Caique</b> faz "Novo item no backlog" antes de "Itens da sprint" e do quadro. As outras telas podem ser feitas em qualquer ordem, ao mesmo tempo.</li>
     <li>No fim, o <b>Diego</b> abre <b>Conferência</b>: as 13 linhas da coluna "até 13/11" devem ficar com ✔ confere.</li></ol></div>
     {"".join(partes)}
     </body></html>'''

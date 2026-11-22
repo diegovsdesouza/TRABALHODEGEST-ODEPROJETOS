@@ -104,8 +104,8 @@
 
 | Quem | Documentos | Folhas | Ferramenta | Boletins que lança no sistema | Na apresentação |
 |---|---|---|---|---|---|
-| Diego (coordenação) | D16 e relatório gerencial (slides) | M7 | GitHub | B5, B6, B7 (sprint, quadro e impedimentos) e confere os números de controle | Abertura, cenários e recomendação |
-| Caique | D3, D4, D12, D17 | M1, M2 | ProjectLibre | B1 (avanço) e B10 (produção das equipes) | Prazo, caminho crítico e modelo 3D |
+| Diego (coordenação) | D16 e relatório gerencial (slides) | M7 | GitHub | B1 (avanço) e B10 (produção das equipes); confere os números de controle | Abertura, cenários e recomendação |
+| Caique | D3, D4, D12, D17 | M1, M2 | ProjectLibre | B5, B6, B7 (sprint, quadro e impedimentos) | Prazo, caminho crítico e modelo 3D |
 | José | D1, D5, D15 | M3 | — | B2 (horas, semana de 02/11) e B3 (custos) | Custo, valor agregado e caso de negócio |
 | Marjorie | D9, D10 | M4, M6 | — | B2 (horas, semana de 09/11), B3 (medições) e B4 (inspeções) | Riscos, reserva e fornecedores |
 | **Guilherme** | D7, D8, D11 | M5 | **Jira (responsável)**: site, projeto Scrum, professor convidado, backlog importado, sprint S14 executada, burndown e velocidade | B8 (mudanças), B9 (OKR) e B10 (funil do piloto) | Trilha ágil, escopo fora do controle e Bússola de Abordagem |

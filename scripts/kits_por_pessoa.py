@@ -134,13 +134,13 @@ PERG = {
 }
 
 PESSOAS = [
- ('Diego', 'Coordenação', ['D16', 'REL'], ['M7'], 'GitHub', ['sprint', 'backlog', 'itemSprint', 'defeitos', 'quadro', 'impedimentos', 'implantacoes'], 'Abertura, cenários e recomendação',
+ ('Diego', 'Coordenação', ['D16', 'REL'], ['M7'], 'GitHub', ['avanco', 'producao'], 'Abertura, cenários e recomendação',
   ['Convidar os colegas e o professor como colaboradores no GitHub e mandar o link do sistema e o roteiro ao grupo.',
-   'Você lança a trilha ágil (B5 a B7): faça "Novo item no backlog" ANTES de "Itens da sprint" e do quadro, e mova os cartões na ordem exata. É o treino para o boletim surpresa ao vivo.',
    'Depois dos lançamentos, abrir Conferência e checar as 13 linhas "até 13/11" (todas ✔).',
    'Montar a ficha do grupo (uma página: quem fez o quê), o diário de prompts (10 entradas, de 3 pessoas) e enviar o formulário de entrega até 24/11, 23h59.']),
- ('Caique', '', ['D3', 'D4', 'D12', 'D17'], ['M1', 'M2'], 'ProjectLibre', ['avanco', 'producao'], 'Prazo, caminho crítico e modelo 3D',
-  ['Instalar o ProjectLibre e importar o arquivo que eu gero; salvar a linha de base e o avanço em 13/11; exportar o PDF do Gantt.']),
+ ('Caique', '', ['D3', 'D4', 'D12', 'D17'], ['M1', 'M2'], 'ProjectLibre', ['sprint', 'backlog', 'itemSprint', 'defeitos', 'quadro', 'impedimentos', 'implantacoes'], 'Prazo, caminho crítico e modelo 3D',
+  ['Instalar o ProjectLibre e importar o arquivo que eu gero; salvar a linha de base e o avanço em 13/11; exportar o PDF do Gantt.',
+   'Você lança a trilha ágil (B5 a B7): faça "Novo item no backlog" ANTES de "Itens da sprint" e do quadro, e mova os cartões na ordem exata do roteiro.']),
  ('José', '', ['D1', 'D5', 'D15'], ['M3'], '—', [R.H1, 'custos'], 'Custo, valor agregado e caso de negócio', []),
  ('Marjorie', '', ['D9', 'D10'], ['M4', 'M6'], '—', [R.H2, 'medicoes', 'inspecoes'], 'Riscos, reserva e fornecedores', []),
  ('Guilherme', '', ['D7', 'D8', 'D11'], ['M5'], 'Jira (responsável)', ['mudancas', 'okr', 'funil'],
