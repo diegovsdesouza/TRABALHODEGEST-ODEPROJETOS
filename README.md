@@ -5,7 +5,7 @@ O grupo assume o escritório de projetos da implantação da **linha de injeçã
 
 - **Data de status:** 13/11/2026 · **Entrega digital:** 24/11/2026, 23h59
 - **Sistema publicado:** _[link da Vercel/Netlify]_
-- **Jira:** _[link]_ · **Integrantes:** Diego (coordenação), Kaique, Marjorie, José, Guilherme e Arley
+- **Jira:** _[link]_ · **Integrantes:** Diego (coordenação), Caique, Marjorie, José, Guilherme e Arley
 
 ## Estrutura
 
