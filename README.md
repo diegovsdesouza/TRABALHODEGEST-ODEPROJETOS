@@ -4,7 +4,7 @@ Trabalho final de **ENGN62 · Gestão de Projetos** (UFBA, 2026.2, Prof. Lucas M
 O grupo assume o escritório de projetos da implantação da **linha de injeção e pintura de para-choques** da Plásticos Abrantes, em Camaçari/BA. O projeto é híbrido: trilha preditiva no ProjectLibre e trilha ágil no Jira.
 
 - **Data de status:** 13/11/2026 · **Entrega digital:** 24/11/2026, 23h59
-- **Sistema publicado:** _[link da Vercel/Netlify]_
+- **Sistema publicado:** https://trabalhodegest-odeprojetos.netlify.app (Netlify, publica a cada push na `main`)
 - **Jira:** _[link]_ · **Integrantes:** Diego (coordenação), Caique, Marjorie, José, Guilherme e Arley
 
 ## Estrutura
