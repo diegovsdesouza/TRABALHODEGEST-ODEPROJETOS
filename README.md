@@ -34,3 +34,20 @@ O grupo assume o escritório de projetos da implantação da **linha de injeçã
 | Custo mensal da folha, tab. 39 | R$ 282.910,40 | R$ 282.910,40 ✅ |
 
 Os números após a quinzena de campo (até 13/11) serão conferidos no sistema, depois do lançamento dos boletins pelas telas.
+
+## Sistema (Parte 2): requisitos atendidos
+
+| Requisito | Onde no sistema |
+|---|---|
+| R1 · R2 Importar e guardar | Supabase (`supabase/`): 46 tabelas tratadas, RLS (todos leem, só logado grava); página **Conferência** com os 13 números de controle |
+| R3 Lançar pelas telas | **Lançamentos**: 19 telas dos boletins B1 a B10 + quadro da sprint; cada linha grava quem lançou |
+| R4 Rede e caminho crítico | **Prazo**: Gantt linha de base × previsão, tabela da rede, cadeia que define o término |
+| R5 Valor agregado | **Valor agregado**: por entrega e frente, curva S |
+| R6 Painel ágil | **Painel ágil**: velocidade, burndown, ciclo, vazão, Little, DORA, previsão das releases |
+| R7 · R8 Riscos e mudanças | **Riscos e mudanças**: VME, matriz 5 × 5, consumo das reservas, mudanças × alçadas, pedidos diretos |
+| R9 · R10 Contratos e partes | **Contratos e partes**: pago × previsto, multas, seleção de fornecedor, qualidade, poder × interesse e engajamento |
+| R11 Dashboard | **Dashboard** com a data de corte no topo (vale para todas as páginas) |
+| R12 Modelo 3D | **Modelo 3D**: 24 elementos da tabela 38 em etapas ligadas às atividades, controle de data |
+| R13 Assistente de IA | **Assistente IA**: função do Netlify (`netlify/functions/assistente.mjs`, chave `GEMINI_API_KEY` só no painel do Netlify) + assistente local |
+| R14 · R15 Pessoas e produtividade | **Pessoas**: custo/hora, alocação × apontado, reajuste, pontos/hora, produtividade e diagnóstico |
+| R16 Simulador de cenários | **Cenários**: C1 a C6 e combinações, VPL, payback e resultado (C1, C3 e C4 conferem com o dossiê) |
