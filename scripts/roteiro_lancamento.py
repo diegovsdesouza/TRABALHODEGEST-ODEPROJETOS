@@ -53,37 +53,41 @@ AVISO = {
     'horas': 'Item: código da atividade (A12), da sprint (S14) ou GESTAO. Horas extras = 0 em todas.',
 }
 
-partes = []
-for nome, telas in PESSOAS:
-    blocos = []
-    for t in telas:
-        if t == 'quadro':
-            blocos.append(f'<h3><span class="chip">B6</span> Quadro da sprint (mover cartões) · {len(MOV)} movimentos</h3>{quadro()}')
-            continue
-        aviso = f'<p class="dica">{AVISO[t]}</p>' if t in AVISO else ''
-        blocos.append(f'<h3><span class="chip">{BOL[t]}</span> {html.escape(TIT[t])} · {len(B[t])} linha(s)</h3>{aviso}{tabela(t)}')
-    partes.append(f'<section><h2>{nome}</h2>{"".join(blocos)}</section>')
+def main():
+    partes = []
+    for nome, telas in PESSOAS:
+        blocos = []
+        for t in telas:
+            if t == 'quadro':
+                blocos.append(f'<h3><span class="chip">B6</span> Quadro da sprint (mover cartões) · {len(MOV)} movimentos</h3>{quadro()}')
+                continue
+            aviso = f'<p class="dica">{AVISO[t]}</p>' if t in AVISO else ''
+            blocos.append(f'<h3><span class="chip">{BOL[t]}</span> {html.escape(TIT[t])} · {len(B[t])} linha(s)</h3>{aviso}{tabela(t)}')
+        partes.append(f'<section><h2>{nome}</h2>{"".join(blocos)}</section>')
 
-doc = f'''<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><title>Roteiro de lançamento dos boletins · G7</title><style>
-@page {{ size: A4 landscape; margin: 10mm; }}
-body {{ font-family: "DejaVu Sans", Arial, sans-serif; font-size: 10.5px; color: #1d2733; }}
-h1 {{ font-size: 18px; margin: 0 0 4px; color: #1f3a5f; }} h2 {{ font-size: 16px; color: #fff; background: #1f3a5f; padding: 5px 8px; margin: 0 0 6px; }}
-h3 {{ font-size: 12px; color: #1f3a5f; margin: 10px 0 4px; }} section {{ page-break-before: always; }}
-table {{ border-collapse: collapse; width: 100%; margin-bottom: 4px; }} th {{ background: #e8eef5; }} th, td {{ border: 1px solid #c9d2dc; padding: 3px 4px; text-align: left; vertical-align: top; }}
-td.n {{ color: #6b7785; width: 18px; }} .chip {{ background: #1f3a5f; color: #fff; border-radius: 8px; padding: 0 6px; font-size: 10px; }}
-.dica {{ background: #fff4e5; border: 1px solid #ffc58b; padding: 4px 6px; margin: 3px 0; }} ol {{ margin: 4px 0 0 16px; padding: 0; }} li {{ margin: 3px 0; }}
-.caixa {{ border: 1px solid #c9d2dc; border-radius: 6px; padding: 6px 10px; margin-top: 6px; }}
-</style></head><body>
-<h1>Roteiro de lançamento dos boletins · G7 Plásticos Abrantes</h1>
-<p>Sistema: <b>https://trabalhodegest-odeprojetos.netlify.app</b> → menu <b>Lançamentos</b>. Data de status: 13/11/2026.</p>
-<div class="caixa"><b>Antes de começar (cada um, uma vez):</b><ol>
-<li>Abra o sistema, toque em <b>Entrar</b> → digite o <b>seu</b> e-mail e uma senha (mínimo 6 caracteres) → <b>Criar conta</b>. Depois <b>Entrar</b>. No topo deve aparecer o seu e-mail.</li>
-<li>Em <b>Lançamentos</b>, toque na aba da tela (os botões com B1, B2…). Preencha <b>uma linha da tabela por vez</b> e toque em <b>Salvar</b>. Espere a mensagem "Salvo em…" antes da próxima.</li>
-<li>Campos marcados como <i>vazio</i>: deixe em branco ou escolha "— vazio —". Datas no formato do iPad/celular; números com vírgula ou ponto.</li>
-<li><b>Errou?</b> Na lista "Últimos lançamentos" embaixo da tela, toque em <b>apagar</b> na linha errada e lance de novo. <b>Nunca lance a mesma linha duas vezes</b>: duplicata quebra os números de controle.</li>
-<li>Ordem entre pessoas: o <b>Guilherme</b> faz "Novo item no backlog" antes de "Itens da sprint" e do quadro. As outras telas podem ser feitas em qualquer ordem, ao mesmo tempo.</li>
-<li>No fim, o <b>Diego</b> abre <b>Conferência</b>: as 13 linhas da coluna "até 13/11" devem ficar com ✔ confere.</li></ol></div>
-{"".join(partes)}
-</body></html>'''
-open(sys.argv[1], 'w').write(doc)
-print('ok', sys.argv[1])
+    doc = f'''<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><title>Roteiro de lançamento dos boletins · G7</title><style>
+    @page {{ size: A4 landscape; margin: 10mm; }}
+    body {{ font-family: "DejaVu Sans", Arial, sans-serif; font-size: 10.5px; color: #1d2733; }}
+    h1 {{ font-size: 18px; margin: 0 0 4px; color: #1f3a5f; }} h2 {{ font-size: 16px; color: #fff; background: #1f3a5f; padding: 5px 8px; margin: 0 0 6px; }}
+    h3 {{ font-size: 12px; color: #1f3a5f; margin: 10px 0 4px; }} section {{ page-break-before: always; }}
+    table {{ border-collapse: collapse; width: 100%; margin-bottom: 4px; }} th {{ background: #e8eef5; }} th, td {{ border: 1px solid #c9d2dc; padding: 3px 4px; text-align: left; vertical-align: top; }}
+    td.n {{ color: #6b7785; width: 18px; }} .chip {{ background: #1f3a5f; color: #fff; border-radius: 8px; padding: 0 6px; font-size: 10px; }}
+    .dica {{ background: #fff4e5; border: 1px solid #ffc58b; padding: 4px 6px; margin: 3px 0; }} ol {{ margin: 4px 0 0 16px; padding: 0; }} li {{ margin: 3px 0; }}
+    .caixa {{ border: 1px solid #c9d2dc; border-radius: 6px; padding: 6px 10px; margin-top: 6px; }}
+    </style></head><body>
+    <h1>Roteiro de lançamento dos boletins · G7 Plásticos Abrantes</h1>
+    <p>Sistema: <b>https://trabalhodegest-odeprojetos.netlify.app</b> → menu <b>Lançamentos</b>. Data de status: 13/11/2026.</p>
+    <div class="caixa"><b>Antes de começar (cada um, uma vez):</b><ol>
+    <li>Abra o sistema, toque em <b>Entrar</b> → digite o <b>seu</b> e-mail e uma senha (mínimo 6 caracteres) → <b>Criar conta</b>. Depois <b>Entrar</b>. No topo deve aparecer o seu e-mail.</li>
+    <li>Em <b>Lançamentos</b>, toque na aba da tela (os botões com B1, B2…). Preencha <b>uma linha da tabela por vez</b> e toque em <b>Salvar</b>. Espere a mensagem "Salvo em…" antes da próxima.</li>
+    <li>Campos marcados como <i>vazio</i>: deixe em branco ou escolha "— vazio —". Datas no formato do iPad/celular; números com vírgula ou ponto.</li>
+    <li><b>Errou?</b> Na lista "Últimos lançamentos" embaixo da tela, toque em <b>apagar</b> na linha errada e lance de novo. <b>Nunca lance a mesma linha duas vezes</b>: duplicata quebra os números de controle.</li>
+    <li>Ordem entre pessoas: o <b>Guilherme</b> faz "Novo item no backlog" antes de "Itens da sprint" e do quadro. As outras telas podem ser feitas em qualquer ordem, ao mesmo tempo.</li>
+    <li>No fim, o <b>Diego</b> abre <b>Conferência</b>: as 13 linhas da coluna "até 13/11" devem ficar com ✔ confere.</li></ol></div>
+    {"".join(partes)}
+    </body></html>'''
+    open(sys.argv[1], 'w').write(doc)
+    print('ok', sys.argv[1])
+
+if __name__ == '__main__':
+    main()
