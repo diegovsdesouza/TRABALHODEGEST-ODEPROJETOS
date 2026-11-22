@@ -46,7 +46,7 @@ class H(http.server.SimpleHTTPRequestHandler):
                 sql = f"select * from {t}{where}" + (f" order by {ident(s['order'][0])} {'asc' if s['order'][1] else 'desc'}" if s['order'] else '')
                 if s['range']: sql += f" offset {s['range'][0]} limit {s['range'][1]-s['range'][0]+1}"
                 if s['limit']: sql += f" limit {s['limit']}"
-                out = json.loads(psql(f"select coalesce(json_agg(x),'[]') from ({sql}) x"))
+                out = json.loads(psql(f"select coalesce(json_agg(_r),'[]') from ({sql}) _r"))
                 return self._json({'data': (out[0] if out else None) if s['single'] else out, 'error': None})
             if s['method'] in ('insert', 'upsert'):
                 rows = s['body'] if isinstance(s['body'], list) else [s['body']]; cols = list(rows[0].keys())
