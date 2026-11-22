@@ -1,0 +1,23 @@
+id_cenario,acao,id_item,titulo,id_epico,id_release,pontos
+C3,EXCLUIR,PA-141,Registrar o consumo real de materiais por ordem,EP04,R2,3
+C3,EXCLUIR,PA-142,"Configurar o monitoramento e os registros: Receitas, setup e ordens de produção",EP04,R2,5
+C3,EXCLUIR,PA-144,Bloquear o início da ordem sem liberação da qualidade,EP04,R2,3
+C3,EXCLUIR,PA-145,Sequenciar as ordens do turno por arrastar e soltar,EP04,R2,3
+C3,EXCLUIR,PA-147,Comparar o setup realizado com o setup padrão,EP04,R2,8
+C3,EXCLUIR,PA-158,Ver a carta de controle das variáveis críticas,EP03,R3,8
+C3,EXCLUIR,PA-159,Registrar a passagem de turno com pendências,EP05,R3,8
+C3,EXCLUIR,PA-160,Receber o passo a passo de partida e parada da linha,EP05,R3,2
+C3,EXCLUIR,PA-161,Simular um recall e listar os clientes afetados,EP03,R3,3
+C3,EXCLUIR,PA-162,Manter o histórico de alterações das receitas,EP04,R3,5
+C4,INCLUIR,PA-N1,Mostrar o estado da célula de paletização no painel da linha,EP02,R3,5
+C4,INCLUIR,PA-N2,Registrar os paletes produzidos por ordem de produção,EP02,R3,5
+C4,INCLUIR,PA-N3,Alertar a manutenção quando a célula de paletização parar,EP02,R3,3
+C4,INCLUIR,PA-N4,Rastrear o lote de cada palete expedido,EP02,R3,8
+C5,EXCLUIR,PA-141,Registrar o consumo real de materiais por ordem,EP04,R2,3
+C5,EXCLUIR,PA-142,"Configurar o monitoramento e os registros: Receitas, setup e ordens de produção",EP04,R2,5
+C5,EXCLUIR,PA-144,Bloquear o início da ordem sem liberação da qualidade,EP04,R2,3
+C5,EXCLUIR,PA-145,Sequenciar as ordens do turno por arrastar e soltar,EP04,R2,3
+C5,EXCLUIR,PA-147,Comparar o setup realizado com o setup padrão,EP04,R2,8
+C5,EXCLUIR,PA-162,Manter o histórico de alterações das receitas,EP04,R3,5
+C5,INCLUIR,PA-N8,"Integrar a solução de mercado de Receitas, setup e ordens de produção",EP04,R2,8
+C5,INCLUIR,PA-N9,"Migrar os dados para a solução de mercado de Receitas, setup e ordens de produção",EP04,R2,5

@@ -1,0 +1,60 @@
+id_atividade,codigo_eap,nome_atividade,disciplina,tipo_atividade,duracao_du,ES,EF,LS,LF,folga,critica,inicio_lb,termino_lb
+A01,1.1.1,Elaborar o projeto básico e o layout da linha,ENG,ESTIMADA,21,1,21,1,21,0,1,2026-02-02,2026-03-04
+A02,1.1.2,Elaborar o projeto executivo civil e de utilidades,ENG,ESTIMADA,27,22,48,101,127,79,0,2026-03-05,2026-04-13
+A03,1.1.2,Elaborar o projeto executivo elétrico e de automação,ENG,ESTIMADA,29,22,50,99,127,77,0,2026-03-05,2026-04-15
+A04,1.1.2,Compatibilizar os projetos e emitir para construção,ENG,ESTIMADA,7,51,57,128,134,77,0,2026-04-16,2026-04-27
+A05,1.1.3,Obter as licenças e aprovações (ambiental e bombeiros),REG,ESTIMADA,51,11,61,110,160,99,0,2026-02-18,2026-05-04
+A06,1.1.3,Realizar a análise de risco NR-12 do projeto,REG,ESTIMADA,14,34,47,219,232,185,0,2026-03-23,2026-04-10
+A07,1.2.1,Elaborar a especificação técnica: Injetora de 3.200 t,SUP,ESTIMADA,9,22,30,22,30,0,1,2026-03-05,2026-03-17
+A08,1.2.1,Contratar o fornecimento: Injetora de 3.200 t,SUP,ESTIMADA,8,31,38,31,38,0,1,2026-03-18,2026-03-27
+A09,1.2.1,Fabricar: Injetora de 3.200 t,SUP,ESTIMADA,122,39,160,39,160,0,1,2026-03-30,2026-09-24
+A10,1.2.1,Aprovar os desenhos de fabricação e de bases: Injetora de 3.200 t,SUP,ESTIMADA,11,39,49,144,154,105,0,2026-03-30,2026-04-14
+A11,1.2.1,Realizar o teste de aceite em fábrica (FAT): Injetora de 3.200 t,SUP,ESTIMADA,6,161,166,161,166,0,1,2026-09-25,2026-10-02
+A12,1.2.1,Transportar e desembaraçar: Injetora de 3.200 t,SUP,ESTIMADA,28,167,194,167,194,0,1,2026-10-05,2026-11-13
+A13,1.2.1,Receber e inspecionar na fábrica: Injetora de 3.200 t,SUP,ESTIMADA,4,195,198,195,198,0,1,2026-11-16,2026-11-19
+A14,1.2.2,Elaborar a especificação técnica: Cabine de pintura robotizada,SUP,ESTIMADA,11,22,32,55,65,33,0,2026-03-05,2026-03-19
+A15,1.2.2,Contratar o fornecimento: Cabine de pintura robotizada,SUP,ESTIMADA,9,33,41,66,74,33,0,2026-03-20,2026-04-01
+A16,1.2.2,Fabricar: Cabine de pintura robotizada,SUP,ESTIMADA,108,42,149,75,182,33,0,2026-04-02,2026-09-09
+A17,1.2.2,Aprovar os desenhos de fabricação e de bases: Cabine de pintura robotizada,SUP,ESTIMADA,11,42,52,144,154,102,0,2026-04-02,2026-04-17
+A18,1.2.2,Realizar o teste de aceite em fábrica (FAT): Cabine de pintura robotizada,SUP,ESTIMADA,6,150,155,183,188,33,0,2026-09-10,2026-09-17
+A19,1.2.2,Transportar e descarregar: Cabine de pintura robotizada,SUP,ESTIMADA,9,156,164,189,197,33,0,2026-09-18,2026-09-30
+A20,1.2.2,Receber e inspecionar na fábrica: Cabine de pintura robotizada,SUP,ESTIMADA,4,165,168,198,201,33,0,2026-10-01,2026-10-06
+A21,1.2.3,Especificar e contratar: Transportador aéreo e robôs de manipulação,SUP,ESTIMADA,19,27,45,110,128,83,0,2026-03-12,2026-04-08
+A22,1.2.3,Fabricar e entregar: Transportador aéreo e robôs de manipulação,SUP,ESTIMADA,80,46,125,129,208,83,0,2026-04-09,2026-08-05
+A23,1.2.3,Receber e inspecionar na fábrica: Transportador aéreo e robôs de manipulação,SUP,ESTIMADA,4,126,129,209,212,83,0,2026-08-06,2026-08-11
+A24,1.3.1,Mobilizar o canteiro e isolar a área em relação à Linha de painéis,CIV,ESTIMADA,9,58,66,135,143,77,0,2026-04-28,2026-05-11
+A25,1.3.2,Demolir o piso existente e escavar as bases,CIV,ESTIMADA,11,67,77,144,154,77,0,2026-05-12,2026-05-26
+A26,1.3.2,Executar as bases dos equipamentos,CIV,ESTIMADA,21,78,98,155,175,77,0,2026-05-27,2026-06-26
+A27,1.3.2,Executar o piso industrial e as canaletas,CIV,ESTIMADA,23,99,121,176,198,77,0,2026-06-29,2026-07-30
+A28,1.3.3,"Instalar as redes de utilidades: água gelada, ar comprimido e tratamento de efluentes",MEC,ESTIMADA,38,77,114,208,245,131,0,2026-05-26,2026-07-21
+A29,1.3.3,Testar e liberar as redes de utilidades,MEC,ESTIMADA,6,115,120,246,251,131,0,2026-07-22,2026-07-29
+A30,1.3.4,"Adequar o prédio (cobertura, exaustão e iluminação)",CIV,ESTIMADA,26,72,97,228,253,156,0,2026-05-19,2026-06-25
+A31,1.3.4,Instalar a rede de combate a incêndio da área,CIV,ESTIMADA,16,80,95,236,251,156,0,2026-05-29,2026-06-22
+A32,1.4.1,Fabricar e instalar os painéis de força e a subestação,ELE,ESTIMADA,42,58,99,187,228,129,0,2026-04-28,2026-06-29
+A33,1.4.1,Instalar a infraestrutura elétrica e lançar os cabos,ELE,ESTIMADA,29,122,150,202,230,80,0,2026-07-31,2026-09-10
+A34,1.4.1,Energizar os painéis e testar a alimentação,ELE,ESTIMADA,5,151,155,231,235,80,0,2026-09-11,2026-09-17
+A35,1.4.2,Instalar a instrumentação e a rede industrial,AUT,ESTIMADA,28,132,159,224,251,92,0,2026-08-14,2026-09-23
+A36,1.4.2,Programar os CLPs e o supervisório,AUT,ESTIMADA,42,61,102,201,242,140,0,2026-05-04,2026-07-03
+A37,1.4.2,Testar a lógica dos CLPs em bancada,AUT,ESTIMADA,9,103,111,243,251,140,0,2026-07-06,2026-07-16
+A38,1.5.1,Montar: Injetora de 3.200 t,MEC,ESTIMADA,27,199,225,199,225,0,1,2026-11-23,2026-12-30
+A39,1.5.1,Montar: Cabine de pintura robotizada,MEC,ESTIMADA,24,169,192,202,225,33,0,2026-10-07,2026-11-11
+A40,1.5.1,Montar e interligar: Transportador aéreo e robôs de manipulação,MEC,ESTIMADA,20,207,226,213,232,6,0,2026-12-03,2026-12-31
+A41,1.5.1,Alinhar e nivelar os equipamentos,MEC,ESTIMADA,7,226,232,226,232,0,1,2026-12-31,2027-01-11
+A42,1.5.2,Interligar eletricamente os equipamentos,ELE,ESTIMADA,16,226,241,236,251,10,0,2026-12-31,2027-01-22
+A43,1.5.2,Instalar as proteções e adequar a linha à NR-12,MEC,ESTIMADA,13,233,245,233,245,0,1,2027-01-12,2027-01-28
+A44,1.5.2,Emitir o laudo de conformidade com a NR-12,REG,ESTIMADA,6,246,251,246,251,0,1,2027-01-29,2027-02-05
+A45,1.6.1,Elaborar os procedimentos de comissionamento e partida,COM,ESTIMADA,11,66,76,241,251,175,0,2026-05-11,2026-05-25
+A46,1.6.1,Executar os testes a frio (sem produto),COM,ESTIMADA,14,252,265,252,265,0,1,2027-02-10,2027-03-01
+A47,1.6.1,Executar o teste de aceite em campo (SAT) com produto,COM,ESTIMADA,11,266,276,266,276,0,1,2027-03-02,2027-03-16
+A48,1.6.2,Corrigir as pendências do teste de aceite,COM,ESTIMADA,9,277,285,290,298,13,0,2027-03-17,2027-03-30
+A49,1.6.2,Conduzir a partida assistida e a curva de ramp-up,COM,ESTIMADA,22,277,298,277,298,0,1,2027-03-17,2027-04-16
+A50,1.7.1,Recrutar e contratar os operadores da nova linha,TRE,ESTIMADA,31,62,92,230,260,168,0,2026-05-05,2026-06-17
+A51,1.7.2,Elaborar o plano de treinamento e os materiais,TRE,ESTIMADA,16,42,57,245,260,203,0,2026-04-02,2026-04-27
+A52,1.7.2,Elaborar os procedimentos operacionais padrão,TRE,ESTIMADA,16,58,73,261,276,203,0,2026-04-28,2026-05-20
+A53,1.7.2,Treinar os operadores e a equipe de manutenção,TRE,ESTIMADA,16,227,242,261,276,34,0,2027-01-04,2027-01-25
+A54,1.7.3,"Organizar os sobressalentes, os planos de manutenção e o data book",TRE,ESTIMADA,16,252,267,283,298,31,0,2027-02-10,2027-03-03
+A55,1.7.3,Registrar as lições aprendidas e desmobilizar o canteiro,ENG,ESTIMADA,7,287,293,292,298,5,0,2027-04-01,2027-04-09
+A56,1.7.3,Formalizar o aceite final e encerrar o projeto,ENG,ESTIMADA,6,299,304,299,304,0,1,2027-04-19,2027-04-27
+A57,1.8.1,Desenvolver até a Release 1 (MVP) — sprints 1 a 5,AGI,MARCO_AGIL,47,61,107,137,183,76,0,2026-05-04,2026-07-10
+A58,1.8.2,Desenvolver até a Release 2 — sprints 6 a 11,AGI,MARCO_AGIL,59,108,166,184,242,76,0,2026-07-13,2026-10-02
+A59,1.8.3,Desenvolver até a Release 3 — sprints 12 a 17,AGI,MARCO_AGIL,56,167,222,243,298,76,0,2026-10-05,2026-12-24

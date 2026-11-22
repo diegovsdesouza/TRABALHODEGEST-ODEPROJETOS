@@ -1,0 +1,25 @@
+parametro,valor,unidade,descricao
+empresa,Plásticos Abrantes,texto,Empresa do caso
+projeto,Linha de injeção e pintura de para-choques,texto,Nome do projeto
+tipo_de_projeto,Expansão de linha de produção,texto,Natureza do projeto
+data_inicio_projeto,2026-02-02,data,Dia útil 1 da rede
+data_termino_contratual,2027-05-07,data,Data-limite assumida com o patrocinador e os clientes
+data_status,2026-11-13,data,Data de referência de todas as análises
+data_corte_folha_m3,2026-09-25,data,Data de corte do valor agregado calculado à mão (folha M3)
+reserva_de_contingencia_rs,831000.0,R$,"Reserva para riscos identificados, sob autoridade do gerente do projeto"
+reserva_gerencial_rs,1170000.0,R$,"Reserva para riscos não identificados, sob autoridade do patrocinador"
+custo_indireto_mensal_orcado_rs,85800.0,R$/mês,"Orçamento mensal das notas de gestão do projeto (categoria INDIRETO), sem as horas da equipe de gestão"
+taxa_minima_de_atratividade_aa,0.14,fração ao ano,Taxa de desconto do caso de negócio
+custo_do_atraso_por_du_rs,50100.0,R$/dia útil,Ganho líquido que a empresa deixa de ter a cada dia útil de atraso da entrada em operação
+fator_hora_extra,1.5,multiplicador,Custo da hora extra em relação à hora normal
+horas_por_dia,8,h,Jornada normal por dia útil
+duracao_da_sprint_semanas,2,semanas,Sprints de segunda a sexta da semana seguinte
+data_inicio_sprint_1,2026-05-04,data,Primeiro dia da sprint 1
+sprints_planejadas,17,sprints,Quantidade de sprints da linha de base da frente ágil
+velocidade_planejada_pontos,14.4,pontos/sprint,Velocidade assumida no plano: pontos do escopo inicial ÷ sprints planejadas
+peso_criterio_preco,0.35,fração,Seleção de fornecedores: peso do preço (menor preço ÷ preço da proposta)
+peso_criterio_tecnica,0.3,fração,Seleção de fornecedores: peso da nota técnica (nota ÷ 10)
+peso_criterio_prazo,0.15,fração,Seleção de fornecedores: peso do prazo (menor prazo ÷ prazo da proposta)
+peso_criterio_experiencia,0.1,fração,Seleção de fornecedores: peso dos projetos similares (quantidade ÷ maior quantidade)
+peso_criterio_garantia,0.1,fração,Seleção de fornecedores: peso da garantia (meses ÷ maior garantia)
+objetivo_do_projeto,"Aprovar as peças no cliente e iniciar o fornecimento em série na data contratual, com refugo de pintura abaixo de 6% na partida.",texto,Objetivo aprovado no termo de abertura

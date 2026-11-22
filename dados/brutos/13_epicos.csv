@@ -1,0 +1,6 @@
+id_epico,nome_epico,persona,beneficio_esperado,id_release_planejada,valor_de_negocio
+EP01,Coleta de dados da linha,técnico de automação,ter os dados da linha no sistema sem digitação,R1,79
+EP02,Painel de desempenho e paradas,supervisor de produção,enxergar o desempenho do turno em tempo real,R1,87
+EP03,Rastreabilidade de lotes e qualidade,analista de qualidade,rastrear qualquer lote em minutos,R2,57
+EP04,"Receitas, setup e ordens de produção",operador líder,trocar de produto sem erro de parâmetro,R2,28
+EP05,Manutenção e treinamento digital,técnico de manutenção,resolver a falha mais rápido e treinar a equipe,R3,51

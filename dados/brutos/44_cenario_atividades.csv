@@ -1,0 +1,11 @@
+id_cenario,acao,id_atividade,nome_atividade,disciplina,duracao_du,predecessoras,sucessoras,custo_adicional_rs
+C2,ALTERAR_DURACAO,A12,Transportar e desembaraçar: Injetora de 3.200 t,SUP,22,,,176400.0
+C2,ALTERAR_DURACAO,A38,Montar: Injetora de 3.200 t,MEC,21,,,626400.0
+C2,ALTERAR_DURACAO,A43,Instalar as proteções e adequar a linha à NR-12,MEC,10,,,108000.0
+C2,ALTERAR_DURACAO,A46,Executar os testes a frio (sem produto),COM,12,,,133400.0
+C3,EXCLUIR,A40,Montar e interligar: Transportador aéreo e robôs de manipulação,MEC,0,,,-232800.0
+C4,INCLUIR,N01,Especificar e contratar a célula de paletização,SUP,15,,,8700.0
+C4,INCLUIR,N02,Fabricar e entregar a célula de paletização,SUP,70,N01:TI:0,,1018500.0
+C4,INCLUIR,N03,Montar e interligar a célula de paletização,MEC,12,N02:TI:0;A27:TI:0,A46:TI:0,116400.0
+C5,INCLUIR,N04,"Contratar e configurar a solução de mercado de Receitas, setup e ordens de produção",SUP,20,,A47:TI:0,27900.0
+C6,INCLUIR,N05,"Preparar a partida antecipada em um turno, com operação manual",COM,8,A46:TI:0,,116400.0

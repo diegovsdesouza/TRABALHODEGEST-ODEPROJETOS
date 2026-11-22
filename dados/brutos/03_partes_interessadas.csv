@@ -1,0 +1,15 @@
+id_parte,parte_interessada,contato,papel_no_projeto,tipo,poder,interesse,engajamento_inicial,engajamento_desejado,principal_expectativa
+PI01,Diretor de operações,Ramon Jesus,Patrocinador,INTERNO,5,5,LIDERA,LIDERA,Retorno do investimento e partida no prazo
+PI02,Gerente de produção,Túlio Xavier,Cliente interno da nova linha,INTERNO,4,5,NEUTRO,APOIA,Não parar a Linha de painéis e receber uma linha fácil de operar
+PI03,Diretor financeiro,Carla Teixeira,Aprovador dos desembolsos,INTERNO,5,3,NEUTRO,APOIA,Custo dentro do aprovado e previsibilidade de caixa
+PI04,Gerente de manutenção,Diego Pedreira,Futuro mantenedor,INTERNO,3,4,NEUTRO,APOIA,"Sobressalentes, documentação e treinamento"
+PI05,Gerente de qualidade,Márcio Figueiredo,Aprovador do produto,INTERNO,3,4,APOIA,APOIA,Produto dentro da especificação desde a partida
+PI06,Segurança do trabalho (SESMT),Karina Jesus,Libera as frentes de serviço,INTERNO,4,3,NEUTRO,APOIA,Zero acidente e atendimento às normas
+PI07,Fornecedor: Injetora de 3.200 t,Débora Calmon,Fornecedor do equipamento principal,EXTERNO,3,4,APOIA,APOIA,Pagamento por marcos e aceite sem pendências
+PI08,Empreiteira da obra civil,Aline Xavier,Fornecedor,EXTERNO,2,4,APOIA,APOIA,Medições pagas em dia e frentes liberadas
+PI09,Integrador de automação,Wanda Figueiredo,Fornecedor,EXTERNO,2,4,APOIA,APOIA,Escopo estável e acesso aos equipamentos
+PI10,Operadores da nova linha,Valéria Dantas,Usuários,INTERNO,1,5,DESCONHECE,APOIA,"Treinamento, ergonomia e segurança"
+PI11,Sindicato dos trabalhadores,Gustavo Xavier,Representação,EXTERNO,3,2,NEUTRO,NEUTRO,"Turnos, contratações e condições de trabalho"
+PI12,Órgão ambiental e Corpo de Bombeiros,Lorena Itaparica,Regulador,EXTERNO,5,1,DESCONHECE,NEUTRO,Cumprimento das condicionantes e das normas
+PI13,Gerente de engenharia do cliente,Zeca Espinheira,Cliente final (montadora),EXTERNO,5,4,NEUTRO,APOIA,Peças aprovadas e fornecimento na data contratual
+PI14,TI corporativa,Ana Dórea,Dona dos sistemas e da rede,INTERNO,3,3,NEUTRO,APOIA,Padrões de segurança e integração com o ERP

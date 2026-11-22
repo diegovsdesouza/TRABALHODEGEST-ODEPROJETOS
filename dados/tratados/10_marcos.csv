@@ -1,0 +1,7 @@
+id_marco,nome_marco,id_atividade,regra,criterio_de_aceite,data_real
+M1,Projeto executivo aprovado,A04,Término da atividade vinculada,Projetos compatibilizados e emitidos para construção,2026-05-04
+M2,Injetora de 3.200 t na fábrica,A13,Término da atividade vinculada,Equipamento descarregado e inspecionado,
+M3,Release 1 dos sistemas digitais,A57,Término da atividade vinculada,Release implantada em produção,2026-08-07
+M4,Montagem mecânica concluída,A40,Término da atividade vinculada,Linha montada e interligada,
+M5,Teste de aceite em campo aprovado,A47,Término da atividade vinculada,Desempenho contratual atingido por 8 horas seguidas,
+M6,Aceite final,A56,Término da atividade vinculada,Termo de aceite assinado pelo patrocinador,

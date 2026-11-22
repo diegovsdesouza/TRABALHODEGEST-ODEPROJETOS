@@ -1,0 +1,20 @@
+id_risco,data_identificacao,tipo_risco,categoria,descricao,causa,probabilidade_pct,impacto_custo_rs,impacto_prazo_du,frente,id_atividade,estrategia_resposta,custo_resposta_rs,id_responsavel,status
+R01,2026-03-04,AMEACA,TECNICO,Utilidades existentes sem capacidade para a nova linha,Levantamento de cargas incompleto,30,283000.0,12,PREDITIVA,A28,MITIGAR,29100.0,P08,ENCERRADO
+R02,2026-03-13,AMEACA,TECNICO,"Incompatibilidade entre os projetos civil, elétrico e mecânico",Projetos feitos por empresas diferentes,37,159000.0,10,PREDITIVA,A33,MITIGAR,19700.0,P09,ABERTO
+R03,2026-02-27,AMEACA,REGULATORIO,Licença do tratamento de efluentes da pintura atrasar,Análise do órgão ambiental,30,160000.0,20,PREDITIVA,A05,MITIGAR,7200.0,P05,ENCERRADO
+R04,2026-03-04,AMEACA,ESCOPO,Montadora alterar o desenho do para-choque depois do molde pronto,Mudança de engenharia do veículo,40,850000.0,20,PREDITIVA,A36,MITIGAR,57300.0,P10,ENCERRADO
+R05,2026-04-16,AMEACA,TECNICO,Interferência da obra com a Linha de painéis em operação,Frentes de serviço próximas à produção,37,192000.0,8,PREDITIVA,A26,MITIGAR,26800.0,P07,OCORRIDO
+R06,2026-02-23,AMEACA,SEGURANCA,Acidente com afastamento durante a montagem,Içamento de cargas e trabalho em altura,17,193000.0,6,PREDITIVA,A38,EVITAR,9900.0,P08,ABERTO
+R07,2026-03-12,OPORTUNIDADE,FORNECEDOR,Antecipar a entrega do terceiro equipamento com pagamento à vista,Fornecedor com capacidade ociosa,30,-71000.0,-10,PREDITIVA,A22,EXPLORAR,4600.0,P06,ENCERRADO
+R08,2026-06-10,AMEACA,TECNICO,Atraso da integração dos sistemas digitais com o ERP,Dependência da TI corporativa,38,64000.0,0,AGIL,,MITIGAR,7400.0,P08,OCORRIDO
+R09,2026-04-15,AMEACA,EXTERNO,Chuvas fortes durante a obra civil,Período chuvoso,37,61000.0,6,PREDITIVA,A26,ACEITAR,0.0,P07,ENCERRADO
+R10,2026-03-06,AMEACA,PESSOAS,Saída de pessoa-chave da equipe do projeto,Assédio do mercado,27,65000.0,8,PROJETO,,ACEITAR,0.0,P09,ABERTO
+R11,2026-03-04,OPORTUNIDADE,EXTERNO,Enquadrar o investimento em incentivo fiscal estadual,Programa de incentivo à indústria,21,-402000.0,0,PROJETO,,EXPLORAR,31100.0,P02,ABERTO
+R12,2026-02-19,AMEACA,FORNECEDOR,Atraso na entrega da injetora importada,Rota marítima congestionada,35,340000.0,20,PREDITIVA,A12,TRANSFERIR,21600.0,P06,ABERTO
+R13,2026-03-04,AMEACA,TECNICO,Cabine de pintura não atingir o padrão de aparência do cliente,Controle de temperatura e umidade,40,480000.0,15,PREDITIVA,A47,MITIGAR,66400.0,P11,ABERTO
+R14,2026-08-25,AMEACA,TECNICO,Falha de comunicação entre os CLPs dos fabricantes e o supervisório,Protocolos e versões diferentes,47,126000.0,12,PREDITIVA,A36,MITIGAR,14800.0,P10,OCORRIDO
+R15,2026-03-03,AMEACA,EXTERNO,Variação cambial nos equipamentos importados,Contratos em moeda estrangeira sem trava,44,546000.0,0,PROJETO,,MITIGAR,38700.0,P11,OCORRIDO
+R16,2026-03-30,AMEACA,PESSOAS,Perda do especialista de pintura para um concorrente,Poucos profissionais na região,25,220000.0,10,PREDITIVA,A53,MITIGAR,20300.0,P12,ABERTO
+R17,2026-03-12,AMEACA,FORNECEDOR,Empreiteira civil sem efetivo suficiente no pico da obra,Mão de obra disputada na região,31,132000.0,12,PREDITIVA,A27,MITIGAR,18300.0,P07,ENCERRADO
+R18,2026-03-13,AMEACA,FORNECEDOR,Reprovação do equipamento principal no teste de aceite em fábrica,Desempenho abaixo do especificado,23,132000.0,15,PREDITIVA,A11,TRANSFERIR,5800.0,P06,ENCERRADO
+R19,2026-04-06,AMEACA,ESCOPO,Pedidos de alteração de layout depois do projeto executivo,Requisitos da produção levantados tarde,40,184000.0,10,PREDITIVA,A26,MITIGAR,11800.0,P07,ENCERRADO

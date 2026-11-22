@@ -1,0 +1,16 @@
+id_fornecedor,nome,localidade,categoria
+F01,Projeta Engenharia Industrial,Salvador/BA,Engenharia
+F02,Licencia Consultoria Ambiental,Salvador/BA,Consultoria
+F03,Officine Bertolani S.p.A.,"Parma, Itália",Equipamentos de processo
+F04,Tecnomaq Equipamentos Industriais,Joinville/SC,Equipamentos de processo
+F05,Metalúrgica Vale do Sinos,São Leopoldo/RS,Equipamentos de processo
+F06,TransAtlântica Logística,Salvador/BA,Logística
+F07,Construtora Pedra do Cavalo,Feira de Santana/BA,Obra civil
+F08,Termofluido Instalações Industriais,Camaçari/BA,Utilidades
+F09,Eletro Recôncavo Montagens,Simões Filho/BA,Elétrica
+F10,Sinapse Automação Industrial,Camaçari/BA,Automação
+F11,Montec Montagens Industriais,Candeias/BA,Montagem mecânica
+F12,Capacita Treinamentos Técnicos,Salvador/BA,Treinamento
+F13,Vértice Serviços Técnicos,Salvador/BA,Serviços técnicos
+F14,Atlas Engenharia e Sistemas,Recife/PE,Serviços técnicos
+F15,Polo Soluções Integradas,Camaçari/BA,Serviços técnicos

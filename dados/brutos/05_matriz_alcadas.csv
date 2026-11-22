@@ -1,0 +1,4 @@
+nivel_decisor,limite_custo_rs,limite_prazo_du,pode_alterar_escopo,descricao
+GERENTE,195000.0,5,NAO,"Gerente do projeto decide mudanças pequenas, sem alterar o escopo aprovado"
+PATROCINADOR,780000.0,15,SIM,Patrocinador decide mudanças médias e o uso da reserva gerencial
+COMITE,,,SIM,Comitê diretor decide mudanças acima dos limites do patrocinador ou que alterem o caso de negócio

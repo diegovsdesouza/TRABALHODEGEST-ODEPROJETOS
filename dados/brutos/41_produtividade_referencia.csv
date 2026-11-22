@@ -1,0 +1,14 @@
+id_atividade,servico,unidade,quantidade_total,produtividade_planejada,equipe_planejada_pessoas,id_contrato
+A25,Demolição e escavação,m3,198.0,0.22,10,CT07
+A26,Concreto das bases,m3,306.0,0.133,14,CT07
+A27,Piso industrial,m2,2296.0,0.88,14,CT07
+A28,Tubulação de utilidades,m,1249.0,0.5,8,CT08
+A30,Cobertura e fechamentos,m2,1217.0,0.54,11,CT07
+A31,Tubulação de incêndio,m,437.0,0.7,5,CT07
+A33,Cabos lançados,m,11401.0,6.18,8,CT09
+A35,Pontos de instrumentação,ponto,108.0,0.096,5,CT10
+A38,Montagem mecânica,t,98.0,0.042,11,CT11
+A39,Montagem mecânica,t,82.0,0.043,10,CT11
+A40,Montagem mecânica,t,41.4,0.036,7,CT11
+A42,Interligações elétricas,ponto,152.0,0.2,6,CT09
+A43,Proteções e enclausuramento,m,103.0,0.165,6,CT11

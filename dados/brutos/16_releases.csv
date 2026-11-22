@@ -1,0 +1,4 @@
+id_release,nome_release,id_sprint_planejada,data_planejada,data_real,objetivo
+R1,Release 1 (MVP),S05,2026-07-10,2026-08-07,Menor produto que já entrega valor no piloto
+R2,Release 2,S11,2026-10-02,,Funcionalidades necessárias para a entrada em operação
+R3,Release 3,S17,2026-12-25,,Evolução após a entrada em operação

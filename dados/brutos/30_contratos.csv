@@ -1,0 +1,14 @@
+id_contrato,id_fornecedor,objeto,tipo_contrato,moeda,valor_contratado_rs,multa_atraso_pct_dia,teto_multa_pct
+CT01,F01,Projeto básico e projetos executivos,PRECO_FIXO,BRL,654700.0,0.1,10.0
+CT02,F02,Consultoria de licenciamento e análise de risco NR-12,TEMPO_E_MATERIAL,BRL,128100.0,0.0,0.0
+CT03,F03,Fornecimento: Injetora de 3.200 t,PRECO_FIXO,EUR,10350000.0,0.1,10.0
+CT04,F04,Fornecimento: Cabine de pintura robotizada,PRECO_FIXO,BRL,8370000.0,0.1,10.0
+CT05,F05,Fornecimento: Transportador aéreo e robôs de manipulação,PRECO_FIXO,BRL,3960000.0,0.1,10.0
+CT06,F06,"Transporte internacional, seguro e desembaraço",CUSTO_REEMBOLSAVEL,BRL,629100.0,0.0,0.0
+CT07,F07,Obra civil e adequação predial,PRECO_UNITARIO,BRL,3900000.0,0.0,0.0
+CT08,F08,"Redes de utilidades (água gelada, ar comprimido e tratamento de efluentes)",PRECO_FIXO,BRL,1513200.0,0.1,10.0
+CT09,F09,"Painéis, infraestrutura e montagem elétrica",PRECO_FIXO,BRL,2298900.0,0.1,10.0
+CT10,F10,Integração de automação (CLPs e supervisório),TEMPO_E_MATERIAL,BRL,931200.0,0.0,0.0
+CT11,F11,Montagem mecânica e proteções NR-12,PRECO_FIXO,BRL,1367700.0,0.1,10.0
+CT12,F03,Supervisão de montagem e comissionamento pelos fabricantes,TEMPO_E_MATERIAL,BRL,3212600.0,0.0,0.0
+CT13,F12,Treinamento técnico e material didático,PRECO_FIXO,BRL,122200.0,0.1,10.0

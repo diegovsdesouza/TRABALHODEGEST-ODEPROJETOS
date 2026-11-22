@@ -1,0 +1,105 @@
+id_medicao,id_contrato,id_atividade,descricao_marco,data_prevista,valor_previsto_rs,data_real,valor_pago_rs,aceite,nao_conformidades
+MED-CT01-01,CT01,A01,Primeira medição — Elaborar o projeto básico e o layout da linha,2026-02-11,48000.0,2026-02-18,48000.0,APROVADO,1
+MED-CT01-02,CT01,A01,Segunda medição — Elaborar o projeto básico e o layout da linha,2026-02-24,48000.0,2026-02-27,48000.0,APROVADO,0
+MED-CT01-03,CT01,A01,Medição final e aceite — Elaborar o projeto básico e o layout da linha,2026-03-04,64000.0,2026-03-10,64000.0,APROVADO,1
+MED-CT01-04,CT01,A02,Primeira medição — Elaborar o projeto executivo civil e de utilidades,2026-03-18,65460.0,2026-03-23,65460.0,APROVADO,0
+MED-CT01-05,CT01,A02,Segunda medição — Elaborar o projeto executivo civil e de utilidades,2026-03-31,65460.0,2026-04-06,65460.0,APROVADO,1
+MED-CT01-06,CT01,A02,Medição final e aceite — Elaborar o projeto executivo civil e de utilidades,2026-04-13,87280.0,2026-04-15,87280.0,APROVADO,0
+MED-CT01-07,CT01,A03,Primeira medição — Elaborar o projeto executivo elétrico e de automação,2026-03-19,74220.0,2026-03-27,74220.0,APROVADO,0
+MED-CT01-08,CT01,A03,Segunda medição — Elaborar o projeto executivo elétrico e de automação,2026-04-02,74220.0,2026-04-09,74220.0,APROVADO,1
+MED-CT01-09,CT01,A03,Medição final e aceite — Elaborar o projeto executivo elétrico e de automação,2026-04-15,98960.0,2026-04-24,98960.0,APROVADO,0
+MED-CT01-10,CT01,A04,Primeira medição — Compatibilizar os projetos e emitir para construção,2026-04-20,8730.0,2026-04-29,8730.0,APROVADO,0
+MED-CT01-11,CT01,A04,Segunda medição — Compatibilizar os projetos e emitir para construção,2026-04-23,8730.0,2026-05-04,8730.0,APROVADO,0
+MED-CT01-12,CT01,A04,Medição final e aceite — Compatibilizar os projetos e emitir para construção,2026-04-27,11640.0,2026-05-05,11640.0,APROVADO,0
+MED-CT02-01,CT02,A05,Medição de 03/2026 — Obter as licenças e aprovações (ambiental e bombeiros),2026-03-31,31960.78,2026-03-31,32297.9,APROVADO,1
+MED-CT02-02,CT02,A05,Medição de 04/2026 — Obter as licenças e aprovações (ambiental e bombeiros),2026-04-30,31960.78,2026-04-30,31816.62,APROVADO,0
+MED-CT02-03,CT02,A05,Medição de 05/2026 — Obter as licenças e aprovações (ambiental e bombeiros),2026-05-11,9588.24,2026-05-11,9607.1,APROVADO,0
+MED-CT02-04,CT02,A06,Medição de 04/2026 — Realizar a análise de risco NR-12 do projeto,2026-04-30,19971.43,2026-04-30,20084.27,APROVADO,0
+MED-CT02-05,CT02,A06,Medição de 05/2026 — Realizar a análise de risco NR-12 do projeto,2026-05-06,4992.86,2026-05-06,4917.55,APROVADO,1
+MED-CT03-01,CT03,A09,Sinal na assinatura do pedido — Fabricar: Injetora de 3.200 t,2026-03-30,3450000.0,2026-04-10,3533226.8,APROVADO,0
+MED-CT03-02,CT03,A09,Inspeção intermediária de fabricação — Fabricar: Injetora de 3.200 t,2026-06-29,3450000.0,2026-07-16,3730505.15,APROVADO,0
+MED-CT03-03,CT03,A09,Aceite em fábrica e embarque — Fabricar: Injetora de 3.200 t,2026-09-24,3450000.0,2026-10-08,3898500.0,APROVADO,0
+MED-CT04-01,CT04,A16,Sinal na assinatura do pedido — Fabricar: Cabine de pintura robotizada,2026-04-02,2790000.0,2026-04-16,2790000.0,APROVADO,0
+MED-CT04-02,CT04,A16,Inspeção intermediária de fabricação — Fabricar: Cabine de pintura robotizada,2026-06-23,2790000.0,2026-06-30,2790000.0,APROVADO,0
+MED-CT04-03,CT04,A16,Aceite em fábrica e embarque — Fabricar: Cabine de pintura robotizada,2026-09-09,2790000.0,2026-09-09,2790000.0,APROVADO,0
+MED-CT06-01,CT06,A19,Prestação de contas — Transportar e descarregar: Cabine de pintura robotizada,2026-09-29,111600.0,2026-09-29,112546.47,APROVADO,0
+MED-CT05-01,CT05,A22,Sinal na assinatura do pedido — Fabricar e entregar: Transportador aéreo e robôs de manipulação,2026-04-09,1320000.0,2026-04-28,1320000.0,APROVADO,1
+MED-CT05-02,CT05,A22,Inspeção intermediária de fabricação — Fabricar e entregar: Transportador aéreo e robôs de manipulação,2026-06-09,1320000.0,2026-07-10,1320000.0,APROVADO_COM_RESSALVA,4
+MED-CT05-03,CT05,A22,Aceite em fábrica e embarque — Fabricar e entregar: Transportador aéreo e robôs de manipulação,2026-08-05,1320000.0,2026-09-21,1320000.0,APROVADO_COM_RESSALVA,4
+MED-CT07-01,CT07,A24,Medição de 05/2026 — Mobilizar o canteiro e isolar a área em relação à Linha de painéis,2026-05-15,234000.0,2026-05-15,243752.33,APROVADO,0
+MED-CT07-02,CT07,A25,Medição de 05/2026 — Demolir o piso existente e escavar as bases,2026-05-29,354596.36,2026-05-29,373787.84,APROVADO,0
+MED-CT07-03,CT07,A25,Medição de 06/2026 — Demolir o piso existente e escavar as bases,2026-06-01,35403.64,2026-06-01,37319.76,APROVADO,0
+MED-CT07-04,CT07,A26,Medição de 06/2026 — Executar as bases dos equipamentos,2026-06-30,419754.11,2026-06-30,453676.98,APROVADO,0
+MED-CT07-05,CT07,A26,Medição de 07/2026 — Executar as bases dos equipamentos,2026-07-29,516245.89,2026-07-29,557966.85,APROVADO,0
+MED-CT07-06,CT07,A27,Medição de 08/2026 — Executar o piso industrial e as canaletas,2026-08-31,665167.23,2026-08-31,712310.18,APROVADO,0
+MED-CT07-07,CT07,A27,Medição de 09/2026 — Executar o piso industrial e as canaletas,2026-09-11,309832.77,2026-09-11,331791.81,APROVADO,0
+MED-CT08-01,CT08,A28,"Primeira medição — Instalar as redes de utilidades: água gelada, ar comprimido e tratamento de efluentes",2026-06-15,410310.0,2026-07-01,410310.0,APROVADO,1
+MED-CT08-02,CT08,A28,"Segunda medição — Instalar as redes de utilidades: água gelada, ar comprimido e tratamento de efluentes",2026-07-06,410310.0,2026-07-22,410310.0,APROVADO_COM_RESSALVA,2
+MED-CT08-03,CT08,A28,"Medição final e aceite — Instalar as redes de utilidades: água gelada, ar comprimido e tratamento de efluentes",2026-07-21,547080.0,2026-08-12,547080.0,APROVADO,0
+MED-CT08-04,CT08,A29,Primeira medição — Testar e liberar as redes de utilidades,2026-07-24,43650.0,2026-08-17,43650.0,APROVADO,1
+MED-CT08-05,CT08,A29,Segunda medição — Testar e liberar as redes de utilidades,2026-07-28,43650.0,2026-08-19,43650.0,APROVADO,0
+MED-CT08-06,CT08,A29,Medição final e aceite — Testar e liberar as redes de utilidades,2026-07-29,58200.0,2026-08-21,58200.0,APROVADO,0
+MED-CT07-08,CT07,A30,"Medição de 05/2026 — Adequar o prédio (cobertura, exaustão e iluminação)",2026-05-29,65207.43,2026-05-29,71060.91,APROVADO,0
+MED-CT07-09,CT07,A30,"Medição de 06/2026 — Adequar o prédio (cobertura, exaustão e iluminação)",2026-06-30,842105.49,2026-06-30,917698.78,APROVADO,1
+MED-CT07-10,CT07,A30,"Medição de 07/2026 — Adequar o prédio (cobertura, exaustão e iluminação)",2026-07-08,262687.07,2026-07-08,286267.7,APROVADO,0
+MED-CT07-11,CT07,A31,Medição de 06/2026 — Instalar a rede de combate a incêndio da área,2026-06-30,155015.65,2026-06-30,163305.21,APROVADO,1
+MED-CT07-12,CT07,A31,Medição de 07/2026 — Instalar a rede de combate a incêndio da área,2026-07-06,39984.35,2026-07-06,42122.53,APROVADO,1
+MED-CT09-01,CT09,A32,Primeira medição — Fabricar e instalar os painéis de força e a subestação,2026-05-19,226980.0,2026-06-16,226980.0,APROVADO,0
+MED-CT09-02,CT09,A32,Segunda medição — Fabricar e instalar os painéis de força e a subestação,2026-06-10,226980.0,2026-07-27,226980.0,APROVADO,0
+MED-CT09-03,CT09,A32,Medição final e aceite — Fabricar e instalar os painéis de força e a subestação,2026-06-29,302640.0,2026-08-31,302640.0,APROVADO,0
+MED-CT09-04,CT09,A32,Primeira medição — Fabricar e instalar os painéis de força e a subestação,2026-05-19,104760.0,2026-06-17,104760.0,APROVADO,0
+MED-CT09-05,CT09,A32,Segunda medição — Fabricar e instalar os painéis de força e a subestação,2026-06-10,104760.0,2026-07-28,104760.0,APROVADO,0
+MED-CT09-06,CT09,A32,Medição final e aceite — Fabricar e instalar os painéis de força e a subestação,2026-06-29,139680.0,2026-09-01,139680.0,APROVADO,0
+MED-CT09-07,CT09,A33,Primeira medição — Instalar a infraestrutura elétrica e lançar os cabos,2026-08-14,165870.0,2026-10-08,165870.0,APROVADO,1
+MED-CT09-08,CT09,A33,Segunda medição — Instalar a infraestrutura elétrica e lançar os cabos,2026-08-28,165870.0,2026-10-29,165870.0,APROVADO,1
+MED-CT09-09,CT09,A33,Medição final e aceite — Instalar a infraestrutura elétrica e lançar os cabos,2026-09-10,221160.0,,,PENDENTE,
+MED-CT09-10,CT09,A33,Primeira medição — Instalar a infraestrutura elétrica e lançar os cabos,2026-08-14,96030.0,2026-10-08,96030.0,APROVADO,0
+MED-CT09-11,CT09,A33,Segunda medição — Instalar a infraestrutura elétrica e lançar os cabos,2026-08-28,96030.0,2026-10-30,96030.0,APROVADO,0
+MED-CT09-12,CT09,A33,Medição final e aceite — Instalar a infraestrutura elétrica e lançar os cabos,2026-09-10,128040.0,,,PENDENTE,
+MED-CT09-13,CT09,A34,Primeira medição — Energizar os painéis e testar a alimentação,2026-09-14,8730.0,,,PENDENTE,
+MED-CT09-14,CT09,A34,Segunda medição — Energizar os painéis e testar a alimentação,2026-09-16,8730.0,,,PENDENTE,
+MED-CT09-15,CT09,A34,Medição final e aceite — Energizar os painéis e testar a alimentação,2026-09-17,11640.0,,,PENDENTE,
+MED-CT10-01,CT10,A35,Medição de 09/2026 — Instalar a instrumentação e a rede industrial,2026-09-30,18707.14,2026-09-30,18795.9,APROVADO,0
+MED-CT10-02,CT10,A35,Medição de 10/2026 — Instalar a instrumentação e a rede industrial,2026-10-30,196425.0,2026-10-30,201556.03,APROVADO,0
+MED-CT10-04,CT10,A35,Medição de 09/2026 — Instalar a instrumentação e a rede industrial,2026-09-30,14550.0,2026-09-30,14847.06,APROVADO,0
+MED-CT10-05,CT10,A35,Medição de 10/2026 — Instalar a instrumentação e a rede industrial,2026-10-30,152775.0,2026-10-30,157918.64,APROVADO,0
+MED-CT10-07,CT10,A36,Medição de 05/2026 — Programar os CLPs e o supervisório,2026-05-29,155200.0,2026-05-29,153342.17,APROVADO,1
+MED-CT10-08,CT10,A36,Medição de 06/2026 — Programar os CLPs e o supervisório,2026-06-30,194000.0,2026-06-30,201446.65,APROVADO,0
+MED-CT10-09,CT10,A36,Medição de 07/2026 — Programar os CLPs e o supervisório,2026-07-28,184300.0,2026-07-28,187152.3,APROVADO,0
+MED-CT10-10,CT10,A37,Medição de 07/2026 — Testar a lógica dos CLPs em bancada,2026-07-31,6466.67,2026-07-31,6413.51,APROVADO,0
+MED-CT10-11,CT10,A37,Medição de 08/2026 — Testar a lógica dos CLPs em bancada,2026-08-11,45266.67,2026-08-11,46068.75,APROVADO,0
+MED-CT11-01,CT11,A38,Primeira medição — Montar: Injetora de 3.200 t,2026-12-04,139680.0,,,PENDENTE,
+MED-CT11-02,CT11,A38,Segunda medição — Montar: Injetora de 3.200 t,2026-12-17,139680.0,,,PENDENTE,
+MED-CT11-03,CT11,A38,Medição final e aceite — Montar: Injetora de 3.200 t,2026-12-30,186240.0,,,PENDENTE,
+MED-CT11-04,CT11,A39,Primeira medição — Montar: Cabine de pintura robotizada,2026-10-20,113490.0,2026-10-22,113490.0,APROVADO,0
+MED-CT11-05,CT11,A39,Segunda medição — Montar: Cabine de pintura robotizada,2026-10-30,113490.0,2026-10-29,113490.0,APROVADO,0
+MED-CT11-06,CT11,A39,Medição final e aceite — Montar: Cabine de pintura robotizada,2026-11-11,151320.0,,,PENDENTE,
+MED-CT11-07,CT11,A40,Primeira medição — Montar e interligar: Transportador aéreo e robôs de manipulação,2026-12-14,69840.0,,,PENDENTE,
+MED-CT11-08,CT11,A40,Segunda medição — Montar e interligar: Transportador aéreo e robôs de manipulação,2026-12-22,69840.0,,,PENDENTE,
+MED-CT11-09,CT11,A40,Medição final e aceite — Montar e interligar: Transportador aéreo e robôs de manipulação,2026-12-31,93120.0,,,PENDENTE,
+MED-CT11-10,CT11,A41,Primeira medição — Alinhar e nivelar os equipamentos,2027-01-05,17460.0,,,PENDENTE,
+MED-CT11-11,CT11,A41,Segunda medição — Alinhar e nivelar os equipamentos,2027-01-07,17460.0,,,PENDENTE,
+MED-CT11-12,CT11,A41,Medição final e aceite — Alinhar e nivelar os equipamentos,2027-01-11,23280.0,,,PENDENTE,
+MED-CT09-16,CT09,A42,Primeira medição — Interligar eletricamente os equipamentos,2027-01-08,61110.0,,,PENDENTE,
+MED-CT09-17,CT09,A42,Segunda medição — Interligar eletricamente os equipamentos,2027-01-15,61110.0,,,PENDENTE,
+MED-CT09-18,CT09,A42,Medição final e aceite — Interligar eletricamente os equipamentos,2027-01-22,81480.0,,,PENDENTE,
+MED-CT09-19,CT09,A42,Primeira medição — Interligar eletricamente os equipamentos,2027-01-08,26190.0,,,PENDENTE,
+MED-CT09-20,CT09,A42,Segunda medição — Interligar eletricamente os equipamentos,2027-01-15,26190.0,,,PENDENTE,
+MED-CT09-21,CT09,A42,Medição final e aceite — Interligar eletricamente os equipamentos,2027-01-22,34920.0,,,PENDENTE,
+MED-CT11-13,CT11,A43,Primeira medição — Instalar as proteções e adequar a linha à NR-12,2027-01-18,43650.0,,,PENDENTE,
+MED-CT11-14,CT11,A43,Segunda medição — Instalar as proteções e adequar a linha à NR-12,2027-01-22,43650.0,,,PENDENTE,
+MED-CT11-15,CT11,A43,Medição final e aceite — Instalar as proteções e adequar a linha à NR-12,2027-01-28,58200.0,,,PENDENTE,
+MED-CT11-16,CT11,A43,Primeira medição — Instalar as proteções e adequar a linha à NR-12,2027-01-18,26190.0,,,PENDENTE,
+MED-CT11-17,CT11,A43,Segunda medição — Instalar as proteções e adequar a linha à NR-12,2027-01-22,26190.0,,,PENDENTE,
+MED-CT11-18,CT11,A43,Medição final e aceite — Instalar as proteções e adequar a linha à NR-12,2027-01-28,34920.0,,,PENDENTE,
+MED-CT12-01,CT12,A45,Medição de 05/2026 — Elaborar os procedimentos de comissionamento e partida,2026-05-29,23300.0,2026-05-29,24262.21,APROVADO,0
+MED-CT12-02,CT12,A45,Medição de 06/2026 — Elaborar os procedimentos de comissionamento e partida,2026-06-01,2118.18,2026-06-01,2111.66,APROVADO,1
+MED-CT12-03,CT12,A47,Sinal na assinatura do pedido — Executar o teste de aceite em campo (SAT) com produto,2027-03-02,840000.0,,,PENDENTE,
+MED-CT12-04,CT12,A47,Inspeção intermediária de fabricação — Executar o teste de aceite em campo (SAT) com produto,2027-03-09,840000.0,,,PENDENTE,
+MED-CT12-05,CT12,A47,Aceite em fábrica e embarque — Executar o teste de aceite em campo (SAT) com produto,2027-03-16,840000.0,,,PENDENTE,
+MED-CT13-01,CT13,A51,Primeira medição — Elaborar o plano de treinamento e os materiais,2026-04-10,12210.0,2026-04-24,12210.0,APROVADO,0
+MED-CT13-02,CT13,A51,Segunda medição — Elaborar o plano de treinamento e os materiais,2026-04-17,12210.0,2026-05-04,12210.0,APROVADO,0
+MED-CT13-03,CT13,A51,Medição final e aceite — Elaborar o plano de treinamento e os materiais,2026-04-27,16280.0,2026-05-08,16280.0,APROVADO,0
+MED-CT13-04,CT13,A53,Primeira medição — Treinar os operadores e a equipe de manutenção,2027-01-11,24450.0,,,PENDENTE,
+MED-CT13-05,CT13,A53,Segunda medição — Treinar os operadores e a equipe de manutenção,2027-01-18,24450.0,,,PENDENTE,
+MED-CT13-06,CT13,A53,Medição final e aceite — Treinar os operadores e a equipe de manutenção,2027-01-25,32600.0,,,PENDENTE,

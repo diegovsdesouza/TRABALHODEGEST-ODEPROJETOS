@@ -1,0 +1,143 @@
+id_lancamento,data,frente,categoria_custo,id_atividade,codigo_eap,id_contrato,id_fornecedor,documento,descricao,valor_rs
+L00001,2026-02-05,GESTAO,INDIRETO,,,,,NF-GES-2602-45,"Escritório do projeto, veículos e comunicação",35556.26
+L00002,2026-02-12,GESTAO,INDIRETO,,,,,NF-GES-2602-30,"Seguros, taxas e auditorias",26284.69
+L00003,2026-02-18,PREDITIVA,SERVICO_CONTRATADO,A01,1.1.1,CT01,F01,MED-CT01-01,Primeira medição — Elaborar o projeto básico e o layout da linha,48000.0
+L00004,2026-02-20,GESTAO,INDIRETO,,,,,NF-GES-2602-25,Viagens e despesas da equipe de gestão,21373.97
+L00005,2026-02-27,PREDITIVA,SERVICO_CONTRATADO,A01,1.1.1,CT01,F01,MED-CT01-02,Segunda medição — Elaborar o projeto básico e o layout da linha,48000.0
+L00006,2026-03-05,GESTAO,INDIRETO,,,,,NF-GES-2603-45,"Escritório do projeto, veículos e comunicação",41021.96
+L00007,2026-03-10,PREDITIVA,SERVICO_CONTRATADO,A01,1.1.1,CT01,F01,MED-CT01-03,Medição final e aceite — Elaborar o projeto básico e o layout da linha,64000.0
+L00008,2026-03-11,GESTAO,INDIRETO,,,,,NF-GES-2603-30,"Seguros, taxas e auditorias",23203.08
+L00009,2026-03-17,PREDITIVA,OUTROS,A07,1.2.1,,,NF-A07-001,"Taxas, viagens e despesas — Elaborar a especificação técnica: Injetora de 3.200 t",1133.78
+L00010,2026-03-18,PREDITIVA,OUTROS,A07,1.2.1,,,NF-A07-002,"Taxas, viagens e despesas — Elaborar a especificação técnica: Injetora de 3.200 t",2647.24
+L00011,2026-03-18,PREDITIVA,OUTROS,A14,1.2.2,,,NF-A14-002,"Taxas, viagens e despesas — Elaborar a especificação técnica: Cabine de pintura robotizada",410.16
+L00012,2026-03-19,GESTAO,INDIRETO,,,,,NF-GES-2603-25,Viagens e despesas da equipe de gestão,19726.9
+L00013,2026-03-23,PREDITIVA,SERVICO_CONTRATADO,A02,1.1.2,CT01,F01,MED-CT01-04,Primeira medição — Elaborar o projeto executivo civil e de utilidades,65460.0
+L00014,2026-03-25,PREDITIVA,OUTROS,A14,1.2.2,,,NF-A14-001,"Taxas, viagens e despesas — Elaborar a especificação técnica: Cabine de pintura robotizada",2362.48
+L00015,2026-03-27,PREDITIVA,SERVICO_CONTRATADO,A03,1.1.2,CT01,F01,MED-CT01-07,Primeira medição — Elaborar o projeto executivo elétrico e de automação,74220.0
+L00016,2026-03-27,PREDITIVA,OUTROS,A08,1.2.1,,,NF-A08-001,"Taxas, viagens e despesas — Contratar o fornecimento: Injetora de 3.200 t",1012.14
+L00017,2026-03-27,PREDITIVA,OUTROS,A08,1.2.1,,,NF-A08-002,"Taxas, viagens e despesas — Contratar o fornecimento: Injetora de 3.200 t",1893.42
+L00018,2026-03-30,PREDITIVA,OUTROS,A21,1.2.3,,,NF-A21-001,"Taxas, viagens e despesas — Especificar e contratar: Transportador aéreo e robôs de manipulação",162.26
+L00019,2026-03-31,PREDITIVA,SERVICO_CONTRATADO,A05,1.1.3,CT02,F02,MED-CT02-01,Medição de 03/2026 — Obter as licenças e aprovações (ambiental e bombeiros),32297.9
+L00020,2026-04-01,PREDITIVA,OUTROS,A08,1.2.1,,,NF-A08-003,"Taxas, viagens e despesas — Contratar o fornecimento: Injetora de 3.200 t",437.27
+L00021,2026-04-06,PREDITIVA,SERVICO_CONTRATADO,A02,1.1.2,CT01,F01,MED-CT01-05,Segunda medição — Elaborar o projeto executivo civil e de utilidades,65460.0
+L00022,2026-04-06,GESTAO,INDIRETO,,,,,NF-GES-2604-45,"Escritório do projeto, veículos e comunicação",38675.26
+L00023,2026-04-09,PREDITIVA,SERVICO_CONTRATADO,,DIVERSOS,CT01,F01,MED-CT01-08,Segunda medição — Elaborar o projeto executivo elétrico e de automação,74220.0
+L00024,2026-04-09,PREDITIVA,OUTROS,A15,1.2.2,,,NF-A15-002,"Taxas, viagens e despesas — Contratar o fornecimento: Cabine de pintura robotizada",425.56
+L00025,2026-04-10,PREDITIVA,EQUIPAMENTO,A09,1.2.1,CT03,F03,MED-CT03-01,Sinal na assinatura do pedido — Fabricar: Injetora de 3.200 t,3533226.8
+L00026,2026-04-10,PREDITIVA,OUTROS,,DIVERSOS,,,NF-A15-001,"Taxas, viagens e despesas — Contratar o fornecimento: Cabine de pintura robotizada",2151.75
+L00027,2026-04-10,PREDITIVA,OUTROS,A15,1.2.2,,,NF-A15-003,"Taxas, viagens e despesas — Contratar o fornecimento: Cabine de pintura robotizada",457.55
+L00028,2026-04-10,PREDITIVA,OUTROS,A21,1.2.3,,,NF-A21-003,"Taxas, viagens e despesas — Especificar e contratar: Transportador aéreo e robôs de manipulação",1886.2
+L00029,2026-04-12,GESTAO,INDIRETO,,,,,NF-GES-2604-30,"Seguros, taxas e auditorias",25152.55
+L00030,2026-04-14,PREDITIVA,OUTROS,A21,1.2.3,,,NF-A21-002,"Taxas, viagens e despesas — Especificar e contratar: Transportador aéreo e robôs de manipulação",435.17
+L00031,2026-04-15,PREDITIVA,SERVICO_CONTRATADO,A02,1.1.2,CT01,F01,MED-CT01-06,Medição final e aceite — Elaborar o projeto executivo civil e de utilidades,87280.0
+L00032,2026-04-16,PREDITIVA,EQUIPAMENTO,A16,1.2.2,CT04,F04,MED-CT04-01,Sinal na assinatura do pedido — Fabricar: Cabine de pintura robotizada,2790000.0
+L00033,2026-04-19,GESTAO,INDIRETO,,,,,NF-GES-2604-25,Viagens e despesas da equipe de gestão,23606.51
+L00034,2026-04-20,PREDITIVA,OUTROS,A17,1.2.2,,,NF-A17-001,"Taxas, viagens e despesas — Aprovar os desenhos de fabricação e de bases: Cabine de pintura robotizada",285.4
+L00035,2026-04-20,PREDITIVA,OUTROS,A17,1.2.2,,,NF-A17-002,"Taxas, viagens e despesas — Aprovar os desenhos de fabricação e de bases: Cabine de pintura robotizada",718.77
+L00036,2026-04-24,PREDITIVA,SERVICO_CONTRATADO,A03,1.1.2,CT01,F01,MED-CT01-09,Medição final e aceite — Elaborar o projeto executivo elétrico e de automação,98960.0
+L00037,2026-04-24,PREDITIVA,SERVICO_CONTRATADO,A51,1.7.2,CT13,F12,MED-CT13-01,Primeira medição — Elaborar o plano de treinamento e os materiais,12210.0
+L00038,2026-04-24,PREDITIVA,OUTROS,A10,1.2.1,,,NF-A10-001,"Taxas, viagens e despesas — Aprovar os desenhos de fabricação e de bases: Injetora de 3.200 t",2502.48
+L00039,2026-04-28,PREDITIVA,EQUIPAMENTO,A22,1.2.3,CT05,F05,MED-CT05-01,Sinal na assinatura do pedido — Fabricar e entregar: Transportador aéreo e robôs de manipulação,1320000.0
+L00040,2026-04-29,PREDITIVA,SERVICO_CONTRATADO,A04,1.1.2,CT01,F01,MED-CT01-10,Primeira medição — Compatibilizar os projetos e emitir para construção,8730.0
+L00041,2026-04-29,PREDITIVA,OUTROS,A17,1.2.2,,,NF-A17-003,"Taxas, viagens e despesas — Aprovar os desenhos de fabricação e de bases: Cabine de pintura robotizada",825.44
+L00042,2026-04-30,PREDITIVA,SERVICO_CONTRATADO,A05,1.1.3,CT02,F02,MED-CT02-02,Medição de 04/2026 — Obter as licenças e aprovações (ambiental e bombeiros),31816.62
+L00043,2026-04-30,PREDITIVA,SERVICO_CONTRATADO,A06,1.1.3,CT02,F02,MED-CT02-04,Medição de 04/2026 — Realizar a análise de risco NR-12 do projeto,20084.27
+L00044,2026-05-04,PREDITIVA,SERVICO_CONTRATADO,A04,1.1.2,CT01,F01,MED-CT01-11,Segunda medição — Compatibilizar os projetos e emitir para construção,8730.0
+L00045,2026-05-04,PREDITIVA,SERVICO_CONTRATADO,A51,1.7.2,CT13,F12,MED-CT13-02,Segunda medição — Elaborar o plano de treinamento e os materiais,12210.0
+L00046,2026-05-04,PREDITIVA,OUTROS,A05,1.1.3,,,NF-A05-001,"Taxas, viagens e despesas — Obter as licenças e aprovações (ambiental e bombeiros)",38437.45
+L00047,2026-05-05,PREDITIVA,SERVICO_CONTRATADO,A04,1.1.2,CT01,F01,MED-CT01-12,Medição final e aceite — Compatibilizar os projetos e emitir para construção,11640.0
+L00048,2026-05-05,GESTAO,INDIRETO,,,,,NF-GES-2605-45,"Escritório do projeto, veículos e comunicação",39644.19
+L00049,2026-05-06,PREDITIVA,SERVICO_CONTRATADO,A06,1.1.3,CT02,F02,MED-CT02-05,Medição de 05/2026 — Realizar a análise de risco NR-12 do projeto,4917.55
+L00050,2026-05-08,PREDITIVA,SERVICO_CONTRATADO,,DIVERSOS,CT13,F12,MED-CT13-03,Medição final e aceite — Elaborar o plano de treinamento e os materiais,16280.0
+L00051,2026-05-09,AGIL,LICENCAS_E_NUVEM,,,,,NF-NUV-2605,Licenças de software industrial e servidor,13118.19
+L00052,2026-05-11,PREDITIVA,SERVICO_CONTRATADO,A05,1.1.3,CT02,F02,MED-CT02-03,Medição de 05/2026 — Obter as licenças e aprovações (ambiental e bombeiros),9607.1
+L00053,2026-05-12,PREDITIVA,OUTROS,,DIVERSOS,,,NF-A52-001,"Taxas, viagens e despesas — Elaborar os procedimentos operacionais padrão",10892.89
+L00054,2026-05-12,PREDITIVA,OUTROS,A52,1.7.2,,,NF-A52-002,"Taxas, viagens e despesas — Elaborar os procedimentos operacionais padrão",1589.54
+L00055,2026-05-13,GESTAO,INDIRETO,,,,,NF-GES-2605-30,"Seguros, taxas e auditorias",22727.55
+L00056,2026-05-15,PREDITIVA,SERVICO_CONTRATADO,A24,1.3.1,CT07,F07,MED-CT07-01,Medição de 05/2026 — Mobilizar o canteiro e isolar a área em relação à Linha de painéis,243752.33
+L00057,2026-05-18,PREDITIVA,SERVICO_CONTRATADO,A24,1.3.1,,,OC-001,Ocorrência: Erro de medida no projeto das bases,59100.0
+L00058,2026-05-20,GESTAO,INDIRETO,,,,,NF-GES-2605-25,Viagens e despesas da equipe de gestão,25361.81
+L00059,2026-05-29,PREDITIVA,SERVICO_CONTRATADO,,DIVERSOS,CT07,F07,MED-CT07-02,Medição de 05/2026 — Demolir o piso existente e escavar as bases,373787.84
+L00060,2026-05-29,PREDITIVA,SERVICO_CONTRATADO,A30,1.3.4,CT07,F07,MED-CT07-08,"Medição de 05/2026 — Adequar o prédio (cobertura, exaustão e iluminação)",71060.91
+L00061,2026-05-29,PREDITIVA,SERVICO_CONTRATADO,A36,1.4.2,CT10,F10,MED-CT10-07,Medição de 05/2026 — Programar os CLPs e o supervisório,153342.17
+L00062,2026-05-29,PREDITIVA,SERVICO_CONTRATADO,A45,1.6.1,CT12,F03,MED-CT12-01,Medição de 05/2026 — Elaborar os procedimentos de comissionamento e partida,24262.21
+L00063,2026-06-01,PREDITIVA,SERVICO_CONTRATADO,A25,1.3.2,CT07,F07,MED-CT07-03,Medição de 06/2026 — Demolir o piso existente e escavar as bases,37319.76
+L00064,2026-06-01,PREDITIVA,SERVICO_CONTRATADO,A45,1.6.1,CT12,F03,MED-CT12-02,Medição de 06/2026 — Elaborar os procedimentos de comissionamento e partida,2111.66
+L00065,2026-06-03,PREDITIVA,OUTROS,A50,1.7.1,,,NF-A50-001,"Taxas, viagens e despesas — Recrutar e contratar os operadores da nova linha",31244.18
+L00066,2026-06-05,PREDITIVA,SERVICO_CONTRATADO,A32,1.4.1,CT09,F09,SM-004,Mudança aprovada: Substituir o fornecedor de painéis por marca homologada pelo cliente,246410.95
+L00067,2026-06-07,GESTAO,INDIRETO,,,,,NF-GES-2606-45,"Escritório do projeto, veículos e comunicação",43300.31
+L00068,2026-06-10,PREDITIVA,SERVICO_CONTRATADO,A32,1.4.1,CT09,F09,SM-003,Mudança aprovada: Ampliar a sala elétrica para futura expansão,243787.57
+L00069,2026-06-11,GESTAO,INDIRETO,,,,,NF-GES-2606-30,"Seguros, taxas e auditorias",30291.91
+L00070,2026-06-11,AGIL,LICENCAS_E_NUVEM,,,,,NF-NUV-2606,Licenças de software industrial e servidor,13793.58
+L00071,2026-06-16,PREDITIVA,SERVICO_CONTRATADO,A32,1.4.1,CT09,F09,MED-CT09-01,Primeira medição — Fabricar e instalar os painéis de força e a subestação,226980.0
+L00072,2026-06-16,PREDITIVA,SERVICO_CONTRATADO,A26,1.3.2,CT07,F07,SM-005,Mudança aprovada: Reforçar as bases para um futuro segundo equipamento,230198.22
+L00073,2026-06-17,PREDITIVA,MATERIAL,A32,1.4.1,CT09,F09,MED-CT09-04,Primeira medição — Fabricar e instalar os painéis de força e a subestação,104760.0
+L00074,2026-06-19,GESTAO,INDIRETO,,,,,NF-GES-2606-25,Viagens e despesas da equipe de gestão,23849.04
+L00075,2026-06-19,PREDITIVA,SERVICO_CONTRATADO,A36,1.4.2,,,OC-002,Ocorrência: Falha de comunicação entre os CLPs dos fabricantes e o supervisório,100600.0
+L00076,2026-06-20,PREDITIVA,SERVICO_CONTRATADO,A30,1.3.4,,,OC-003,Ocorrência: Vazamento na rede existente durante uma interligação,35700.0
+L00077,2026-06-30,PREDITIVA,EQUIPAMENTO,A16,1.2.2,CT04,F04,MED-CT04-02,Inspeção intermediária de fabricação — Fabricar: Cabine de pintura robotizada,2790000.0
+L00078,2026-06-30,PREDITIVA,SERVICO_CONTRATADO,A26,1.3.2,CT07,F07,MED-CT07-04,Medição de 06/2026 — Executar as bases dos equipamentos,453676.98
+L00079,2026-06-30,PREDITIVA,SERVICO_CONTRATADO,A30,1.3.4,CT07,F07,MED-CT07-09,"Medição de 06/2026 — Adequar o prédio (cobertura, exaustão e iluminação)",917698.78
+L00080,2026-06-30,PREDITIVA,SERVICO_CONTRATADO,A31,1.3.4,CT07,F07,MED-CT07-11,Medição de 06/2026 — Instalar a rede de combate a incêndio da área,163305.21
+L00081,2026-06-30,PREDITIVA,SERVICO_CONTRATADO,A36,1.4.2,CT10,F10,MED-CT10-08,Medição de 06/2026 — Programar os CLPs e o supervisório,201446.65
+L00082,2026-07-01,PREDITIVA,SERVICO_CONTRATADO,A28,1.3.3,CT08,F08,MED-CT08-01,"Primeira medição — Instalar as redes de utilidades: água gelada, ar comprimido e tratamento de efluentes",410310.0
+L00083,2026-07-05,GESTAO,INDIRETO,,,,,NF-GES-2607-45,"Escritório do projeto, veículos e comunicação",43235.56
+L00084,2026-07-06,PREDITIVA,SERVICO_CONTRATADO,A31,1.3.4,CT07,F07,MED-CT07-12,Medição de 07/2026 — Instalar a rede de combate a incêndio da área,42122.53
+L00085,2026-07-08,PREDITIVA,SERVICO_CONTRATADO,A30,1.3.4,CT07,F07,MED-CT07-10,"Medição de 07/2026 — Adequar o prédio (cobertura, exaustão e iluminação)",286267.7
+L00086,2026-07-08,AGIL,OUTROS,,,,,OC-004,Ocorrência: Atraso da integração dos sistemas digitais com o ERP,49000.0
+L00087,2026-07-10,PREDITIVA,EQUIPAMENTO,A22,1.2.3,CT05,F05,MED-CT05-02,Inspeção intermediária de fabricação — Fabricar e entregar: Transportador aéreo e robôs de manipulação,1320000.0
+L00088,2026-07-11,GESTAO,INDIRETO,,,,,NF-GES-2607-30,"Seguros, taxas e auditorias",25777.1
+L00089,2026-07-11,AGIL,LICENCAS_E_NUVEM,,,,,NF-NUV-2607,Licenças de software industrial e servidor,13432.6
+L00090,2026-07-15,PREDITIVA,SERVICO_CONTRATADO,A26,1.3.2,,,OC-005,Ocorrência: Interferência da obra com a Linha de painéis em operação,135600.0
+L00091,2026-07-15,PREDITIVA,SERVICO_CONTRATADO,A28,1.3.3,CT08,F08,SM-008,Mudança aprovada: Adicionar redundância na rede de ar comprimido,166496.61
+L00092,2026-07-16,PREDITIVA,EQUIPAMENTO,A09,1.2.1,CT03,F03,MED-CT03-02,Inspeção intermediária de fabricação — Fabricar: Injetora de 3.200 t,3730505.15
+L00093,2026-07-20,GESTAO,INDIRETO,,,,,NF-GES-2607-25,Viagens e despesas da equipe de gestão,25595.66
+L00094,2026-07-22,PREDITIVA,SERVICO_CONTRATADO,A28,1.3.3,CT08,F08,MED-CT08-02,"Segunda medição — Instalar as redes de utilidades: água gelada, ar comprimido e tratamento de efluentes",410310.0
+L00095,2026-07-27,PREDITIVA,SERVICO_CONTRATADO,A32,1.4.1,CT09,F09,MED-CT09-02,Segunda medição — Fabricar e instalar os painéis de força e a subestação,226980.0
+L00096,2026-07-28,PREDITIVA,MATERIAL,A32,1.4.1,CT09,F09,MED-CT09-05,Segunda medição — Fabricar e instalar os painéis de força e a subestação,104760.0
+L00097,2026-07-28,PREDITIVA,SERVICO_CONTRATADO,A36,1.4.2,CT10,F10,MED-CT10-09,Medição de 07/2026 — Programar os CLPs e o supervisório,187152.3
+L00098,2026-07-29,PREDITIVA,SERVICO_CONTRATADO,A26,1.3.2,CT07,F07,MED-CT07-05,Medição de 07/2026 — Executar as bases dos equipamentos,557966.85
+L00099,2026-07-31,PREDITIVA,SERVICO_CONTRATADO,A37,1.4.2,CT10,F10,MED-CT10-10,Medição de 07/2026 — Testar a lógica dos CLPs em bancada,6413.51
+L00100,2026-08-06,GESTAO,INDIRETO,,,,,NF-GES-2608-45,"Escritório do projeto, veículos e comunicação",43457.56
+L00101,2026-08-09,AGIL,LICENCAS_E_NUVEM,,,,,NF-NUV-2608,Licenças de software industrial e servidor,14224.92
+L00102,2026-08-11,PREDITIVA,SERVICO_CONTRATADO,A37,1.4.2,CT10,F10,MED-CT10-11,Medição de 08/2026 — Testar a lógica dos CLPs em bancada,46068.75
+L00103,2026-08-11,GESTAO,INDIRETO,,,,,NF-GES-2608-30,"Seguros, taxas e auditorias",24991.76
+L00104,2026-08-12,PREDITIVA,SERVICO_CONTRATADO,A28,1.3.3,CT08,F08,MED-CT08-03,"Medição final e aceite — Instalar as redes de utilidades: água gelada, ar comprimido e tratamento de efluentes",547080.0
+L00105,2026-08-13,PREDITIVA,SERVICO_CONTRATADO,A27,1.3.2,CT07,F07,SM-009,Mudança aprovada: Trocar a especificação do piso para resina de alta resistência,218560.04
+L00106,2026-08-17,PREDITIVA,SERVICO_CONTRATADO,A29,1.3.3,CT08,F08,MED-CT08-04,Primeira medição — Testar e liberar as redes de utilidades,43650.0
+L00107,2026-08-19,PREDITIVA,SERVICO_CONTRATADO,A29,1.3.3,CT08,F08,MED-CT08-05,Segunda medição — Testar e liberar as redes de utilidades,43650.0
+L00108,2026-08-20,GESTAO,INDIRETO,,,,,NF-GES-2608-25,Viagens e despesas da equipe de gestão,22075.13
+L00109,2026-08-21,PREDITIVA,SERVICO_CONTRATADO,A29,1.3.3,CT08,F08,MED-CT08-06,Medição final e aceite — Testar e liberar as redes de utilidades,58200.0
+L00110,2026-08-31,PREDITIVA,SERVICO_CONTRATADO,A27,1.3.2,CT07,F07,MED-CT07-06,Medição de 08/2026 — Executar o piso industrial e as canaletas,712310.18
+L00111,2026-08-31,PREDITIVA,SERVICO_CONTRATADO,,DIVERSOS,CT09,F09,MED-CT09-03,Medição final e aceite — Fabricar e instalar os painéis de força e a subestação,302640.0
+L00112,2026-09-01,PREDITIVA,MATERIAL,A32,1.4.1,CT09,F09,MED-CT09-06,Medição final e aceite — Fabricar e instalar os painéis de força e a subestação,139680.0
+L00113,2026-09-05,GESTAO,INDIRETO,,,,,NF-GES-2609-45,"Escritório do projeto, veículos e comunicação",43247.83
+L00114,2026-09-09,PREDITIVA,EQUIPAMENTO,A16,1.2.2,CT04,F04,MED-CT04-03,Aceite em fábrica e embarque — Fabricar: Cabine de pintura robotizada,2790000.0
+L00115,2026-09-09,AGIL,LICENCAS_E_NUVEM,,,,,NF-NUV-2609,Licenças de software industrial e servidor,15571.62
+L00116,2026-09-11,PREDITIVA,SERVICO_CONTRATADO,A27,1.3.2,CT07,F07,MED-CT07-07,Medição de 09/2026 — Executar o piso industrial e as canaletas,331791.81
+L00117,2026-09-12,GESTAO,INDIRETO,,,,,NF-GES-2609-30,"Seguros, taxas e auditorias",28061.02
+L00118,2026-09-14,PREDITIVA,OUTROS,A18,1.2.2,,,NF-A18-001,"Taxas, viagens e despesas — Realizar o teste de aceite em fábrica (FAT): Cabine de pintura robotizada",460.23
+L00119,2026-09-15,PREDITIVA,OUTROS,A18,1.2.2,,,NF-A18-002,"Taxas, viagens e despesas — Realizar o teste de aceite em fábrica (FAT): Cabine de pintura robotizada",21253.93
+L00120,2026-09-18,PREDITIVA,OUTROS,A23,1.2.3,,,NF-A23-001,"Taxas, viagens e despesas — Receber e inspecionar na fábrica: Transportador aéreo e robôs de manipulação",971.95
+L00121,2026-09-19,GESTAO,INDIRETO,,,,,NF-GES-2609-25,Viagens e despesas da equipe de gestão,23714.14
+L00122,2026-09-21,PREDITIVA,EQUIPAMENTO,A22,1.2.3,CT05,F05,MED-CT05-03,Aceite em fábrica e embarque — Fabricar e entregar: Transportador aéreo e robôs de manipulação,1320000.0
+L00123,2026-09-29,PREDITIVA,SERVICO_CONTRATADO,A19,1.2.2,CT06,F06,MED-CT06-01,Prestação de contas — Transportar e descarregar: Cabine de pintura robotizada,112546.47
+L00124,2026-09-30,PREDITIVA,SERVICO_CONTRATADO,A35,1.4.2,CT10,F10,MED-CT10-01,Medição de 09/2026 — Instalar a instrumentação e a rede industrial,18795.9
+L00125,2026-09-30,PREDITIVA,MATERIAL,A35,1.4.2,CT10,F10,MED-CT10-04,Medição de 09/2026 — Instalar a instrumentação e a rede industrial,14847.06
+L00126,2026-09-30,PREDITIVA,SERVICO_CONTRATADO,A23,1.2.3,,,OC-006,Ocorrência: Furto de cabos elétricos no canteiro,69900.0
+L00127,2026-10-05,PREDITIVA,OUTROS,A20,1.2.2,,,NF-A20-001,"Taxas, viagens e despesas — Receber e inspecionar na fábrica: Cabine de pintura robotizada",1198.49
+L00128,2026-10-05,PREDITIVA,OUTROS,A20,1.2.2,,,NF-A20-002,"Taxas, viagens e despesas — Receber e inspecionar na fábrica: Cabine de pintura robotizada",730.66
+L00129,2026-10-07,GESTAO,INDIRETO,,,,,NF-GES-2610-45,"Escritório do projeto, veículos e comunicação",39381.22
+L00130,2026-10-08,PREDITIVA,EQUIPAMENTO,A09,1.2.1,CT03,F03,MED-CT03-03,Aceite em fábrica e embarque — Fabricar: Injetora de 3.200 t,3898500.0
+L00131,2026-10-08,PREDITIVA,SERVICO_CONTRATADO,A33,1.4.1,CT09,F09,MED-CT09-07,Primeira medição — Instalar a infraestrutura elétrica e lançar os cabos,165870.0
+L00132,2026-10-08,PREDITIVA,MATERIAL,A33,1.4.1,CT09,F09,MED-CT09-10,Primeira medição — Instalar a infraestrutura elétrica e lançar os cabos,96030.0
+L00133,2026-10-09,PREDITIVA,OUTROS,A11,1.2.1,,,NF-A11-001,"Taxas, viagens e despesas — Realizar o teste de aceite em fábrica (FAT): Injetora de 3.200 t",26446.58
+L00134,2026-10-10,AGIL,LICENCAS_E_NUVEM,,,,,NF-NUV-2610,Licenças de software industrial e servidor,16064.72
+L00135,2026-10-11,GESTAO,INDIRETO,,,,,NF-GES-2610-30,"Seguros, taxas e auditorias",25050.44
+L00136,2026-10-20,GESTAO,INDIRETO,,,,,NF-GES-2610-25,Viagens e despesas da equipe de gestão,20807.65
+L00137,2026-10-22,PREDITIVA,SERVICO_CONTRATADO,A39,1.5.1,CT11,F11,MED-CT11-04,Primeira medição — Montar: Cabine de pintura robotizada,113490.0
+L00138,2026-10-29,PREDITIVA,SERVICO_CONTRATADO,A33,1.4.1,CT09,F09,MED-CT09-08,Segunda medição — Instalar a infraestrutura elétrica e lançar os cabos,165870.0
+L00139,2026-10-29,PREDITIVA,SERVICO_CONTRATADO,A39,1.5.1,CT11,F11,MED-CT11-05,Segunda medição — Montar: Cabine de pintura robotizada,113490.0
+L00140,2026-10-30,PREDITIVA,MATERIAL,A33,1.4.1,CT09,F09,MED-CT09-11,Segunda medição — Instalar a infraestrutura elétrica e lançar os cabos,96030.0
+L00141,2026-10-30,PREDITIVA,SERVICO_CONTRATADO,A35,1.4.2,CT10,F10,MED-CT10-02,Medição de 10/2026 — Instalar a instrumentação e a rede industrial,201556.03
+L00142,2026-10-30,PREDITIVA,MATERIAL,A35,1.4.2,CT10,F10,MED-CT10-05,Medição de 10/2026 — Instalar a instrumentação e a rede industrial,157918.64

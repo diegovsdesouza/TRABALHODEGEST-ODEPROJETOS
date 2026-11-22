@@ -1,0 +1,60 @@
+id_atividade,codigo_eap,nome_atividade,disciplina,tipo_atividade,duracao_otimista_du,duracao_mais_provavel_du,duracao_pessimista_du,duracao_fixa_du,id_responsavel,horas_internas_orcadas
+A01,1.1.1,Elaborar o projeto básico e o layout da linha,ENG,ESTIMADA,17.0,20.0,26.0,,P04,84
+A02,1.1.2,Elaborar o projeto executivo civil e de utilidades,ENG,ESTIMADA,22.0,25.0,38.0,,P04,76
+A03,1.1.2,Elaborar o projeto executivo elétrico e de automação,ENG,ESTIMADA,24.0,28.0,36.0,,P04,80
+A04,1.1.2,Compatibilizar os projetos e emitir para construção,ENG,ESTIMADA,5.0,6.0,8.0,,P04,28
+A05,1.1.3,Obter as licenças e aprovações (ambiental e bombeiros),REG,ESTIMADA,35.0,45.0,86.0,,P05,164
+A06,1.1.3,Realizar a análise de risco NR-12 do projeto,REG,ESTIMADA,9.0,12.0,24.0,,P05,44
+A07,1.2.1,Elaborar a especificação técnica: Injetora de 3.200 t,SUP,ESTIMADA,6.0,8.0,13.0,,P06,36
+A08,1.2.1,Contratar o fornecimento: Injetora de 3.200 t,SUP,ESTIMADA,6.0,7.0,10.0,,P06,32
+A09,1.2.1,Fabricar: Injetora de 3.200 t,SUP,ESTIMADA,94.0,115.0,174.0,,P06,80
+A10,1.2.1,Aprovar os desenhos de fabricação e de bases: Injetora de 3.200 t,SUP,ESTIMADA,8.0,10.0,15.0,,P06,36
+A11,1.2.1,Realizar o teste de aceite em fábrica (FAT): Injetora de 3.200 t,SUP,ESTIMADA,4.0,5.0,9.0,,P06,40
+A12,1.2.1,Transportar e desembaraçar: Injetora de 3.200 t,SUP,ESTIMADA,20.0,25.0,43.0,,P06,68
+A13,1.2.1,Receber e inspecionar na fábrica: Injetora de 3.200 t,SUP,ESTIMADA,2.0,3.0,5.0,,P06,20
+A14,1.2.2,Elaborar a especificação técnica: Cabine de pintura robotizada,SUP,ESTIMADA,8.0,10.0,15.0,,P06,44
+A15,1.2.2,Contratar o fornecimento: Cabine de pintura robotizada,SUP,ESTIMADA,6.0,8.0,12.0,,P06,36
+A16,1.2.2,Fabricar: Cabine de pintura robotizada,SUP,ESTIMADA,80.0,100.0,163.0,,P06,68
+A17,1.2.2,Aprovar os desenhos de fabricação e de bases: Cabine de pintura robotizada,SUP,ESTIMADA,8.0,10.0,17.0,,P06,36
+A18,1.2.2,Realizar o teste de aceite em fábrica (FAT): Cabine de pintura robotizada,SUP,ESTIMADA,4.0,5.0,8.0,,P06,40
+A19,1.2.2,Transportar e descarregar: Cabine de pintura robotizada,SUP,ESTIMADA,7.0,8.0,12.0,,P06,20
+A20,1.2.2,Receber e inspecionar na fábrica: Cabine de pintura robotizada,SUP,ESTIMADA,2.0,3.0,5.0,,P06,20
+A21,1.2.3,Especificar e contratar: Transportador aéreo e robôs de manipulação,SUP,ESTIMADA,13.0,18.0,28.0,,P06,76
+A22,1.2.3,Fabricar e entregar: Transportador aéreo e robôs de manipulação,SUP,ESTIMADA,61.0,75.0,118.0,,P06,52
+A23,1.2.3,Receber e inspecionar na fábrica: Transportador aéreo e robôs de manipulação,SUP,ESTIMADA,2.0,3.0,5.0,,P06,20
+A24,1.3.1,Mobilizar o canteiro e isolar a área em relação à Linha de painéis,CIV,ESTIMADA,6.0,8.0,14.0,,P07,36
+A25,1.3.2,Demolir o piso existente e escavar as bases,CIV,ESTIMADA,8.0,10.0,15.0,,P07,36
+A26,1.3.2,Executar as bases dos equipamentos,CIV,ESTIMADA,15.0,20.0,27.0,,P07,68
+A27,1.3.2,Executar o piso industrial e as canaletas,CIV,ESTIMADA,18.0,22.0,32.0,,P07,72
+A28,1.3.3,"Instalar as redes de utilidades: água gelada, ar comprimido e tratamento de efluentes",MEC,ESTIMADA,26.0,35.0,58.0,,P08,108
+A29,1.3.3,Testar e liberar as redes de utilidades,MEC,ESTIMADA,4.0,5.0,8.0,,P08,24
+A30,1.3.4,"Adequar o prédio (cobertura, exaustão e iluminação)",CIV,ESTIMADA,21.0,25.0,35.0,,P07,64
+A31,1.3.4,Instalar a rede de combate a incêndio da área,CIV,ESTIMADA,12.0,14.0,23.0,,P07,40
+A32,1.4.1,Fabricar e instalar os painéis de força e a subestação,ELE,ESTIMADA,32.0,40.0,56.0,,P09,100
+A33,1.4.1,Instalar a infraestrutura elétrica e lançar os cabos,ELE,ESTIMADA,23.0,28.0,39.0,,P09,92
+A34,1.4.1,Energizar os painéis e testar a alimentação,ELE,ESTIMADA,3.0,4.0,6.0,,P09,24
+A35,1.4.2,Instalar a instrumentação e a rede industrial,AUT,ESTIMADA,20.0,25.0,45.0,,P10,100
+A36,1.4.2,Programar os CLPs e o supervisório,AUT,ESTIMADA,31.0,38.0,69.0,,P10,152
+A37,1.4.2,Testar a lógica dos CLPs em bancada,AUT,ESTIMADA,6.0,8.0,13.0,,P10,44
+A38,1.5.1,Montar: Injetora de 3.200 t,MEC,ESTIMADA,19.0,25.0,38.0,,P08,108
+A39,1.5.1,Montar: Cabine de pintura robotizada,MEC,ESTIMADA,18.0,22.0,37.0,,P08,96
+A40,1.5.1,Montar e interligar: Transportador aéreo e robôs de manipulação,MEC,ESTIMADA,14.0,18.0,30.0,,P08,80
+A41,1.5.1,Alinhar e nivelar os equipamentos,MEC,ESTIMADA,5.0,6.0,9.0,,P08,28
+A42,1.5.2,Interligar eletricamente os equipamentos,ELE,ESTIMADA,12.0,15.0,21.0,,P09,64
+A43,1.5.2,Instalar as proteções e adequar a linha à NR-12,MEC,ESTIMADA,9.0,12.0,17.0,,P08,40
+A44,1.5.2,Emitir o laudo de conformidade com a NR-12,REG,ESTIMADA,4.0,5.0,10.0,,P05,20
+A45,1.6.1,Elaborar os procedimentos de comissionamento e partida,COM,ESTIMADA,8.0,10.0,18.0,,P11,44
+A46,1.6.1,Executar os testes a frio (sem produto),COM,ESTIMADA,9.0,12.0,22.0,,P11,88
+A47,1.6.1,Executar o teste de aceite em campo (SAT) com produto,COM,ESTIMADA,8.0,10.0,16.0,,P11,72
+A48,1.6.2,Corrigir as pendências do teste de aceite,COM,ESTIMADA,6.0,8.0,14.0,,P11,36
+A49,1.6.2,Conduzir a partida assistida e a curva de ramp-up,COM,ESTIMADA,16.0,20.0,36.0,,P11,124
+A50,1.7.1,Recrutar e contratar os operadores da nova linha,TRE,ESTIMADA,24.0,30.0,40.0,,P12,76
+A51,1.7.2,Elaborar o plano de treinamento e os materiais,TRE,ESTIMADA,13.0,15.0,20.0,,P12,64
+A52,1.7.2,Elaborar os procedimentos operacionais padrão,TRE,ESTIMADA,12.0,15.0,19.0,,P12,64
+A53,1.7.2,Treinar os operadores e a equipe de manutenção,TRE,ESTIMADA,13.0,15.0,21.0,,P12,76
+A54,1.7.3,"Organizar os sobressalentes, os planos de manutenção e o data book",TRE,ESTIMADA,13.0,15.0,18.0,,P12,52
+A55,1.7.3,Registrar as lições aprendidas e desmobilizar o canteiro,ENG,ESTIMADA,5.0,6.0,8.0,,P04,28
+A56,1.7.3,Formalizar o aceite final e encerrar o projeto,ENG,ESTIMADA,4.0,5.0,7.0,,P04,28
+A57,1.8.1,Desenvolver até a Release 1 (MVP) — sprints 1 a 5,AGI,MARCO_AGIL,,,,47.0,P13,0
+A58,1.8.2,Desenvolver até a Release 2 — sprints 6 a 11,AGI,MARCO_AGIL,,,,59.0,P13,0
+A59,1.8.3,Desenvolver até a Release 3 — sprints 12 a 17,AGI,MARCO_AGIL,,,,56.0,P13,0

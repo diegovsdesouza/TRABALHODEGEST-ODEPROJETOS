@@ -1,0 +1,14 @@
+id_mudanca,data_abertura,id_solicitante,descricao,tipo_mudanca,frente,id_atividade,impacto_custo_rs,impacto_prazo_du,impacto_pontos,status,data_decisao,nivel_decisor,implementada
+SM-001,2026-04-06,PI13,Antecipar o treinamento para um turno adicional,PRAZO,PREDITIVA,A51,61600.0,3,0,REJEITADA,2026-04-14,GERENTE,
+SM-002,2026-05-15,PI13,Aumentar a capacidade do sistema de exaustão,ESCOPO,PREDITIVA,A30,171400.0,5,0,REJEITADA,2026-05-22,GERENTE,
+SM-003,2026-05-21,PI01,Ampliar a sala elétrica para futura expansão,ESCOPO,PREDITIVA,A32,234200.0,8,0,APROVADA,2026-05-25,GERENTE,SIM
+SM-004,2026-05-22,PI05,Substituir o fornecedor de painéis por marca homologada pelo cliente,TECNICA,PREDITIVA,A32,238300.0,10,0,APROVADA,2026-05-25,GERENTE,SIM
+SM-005,2026-05-25,PI01,Reforçar as bases para um futuro segundo equipamento,ESCOPO,PREDITIVA,A26,229500.0,7,0,APROVADA,2026-06-02,PATROCINADOR,SIM
+SM-006,2026-06-01,PI05,Incluir plataforma de acesso para manutenção do equipamento principal,ESCOPO,PREDITIVA,A28,75200.0,4,0,REJEITADA,2026-06-05,GERENTE,
+SM-007,2026-06-02,PI13,Alterar o layout para ampliar o corredor de empilhadeiras,ESCOPO,PREDITIVA,A26,111300.0,6,0,REJEITADA,2026-06-08,GERENTE,
+SM-008,2026-06-18,PI10,Adicionar redundância na rede de ar comprimido,TECNICA,PREDITIVA,A28,159600.0,5,0,APROVADA,2026-06-30,GERENTE,SIM
+SM-009,2026-06-22,PI05,Trocar a especificação do piso para resina de alta resistência,TECNICA,PREDITIVA,A27,192600.0,5,0,APROVADA,2026-07-03,GERENTE,SIM
+SM-010,2026-08-26,PI13,Enviar relatório automático por e-mail no fim do turno,ESCOPO,AGIL,,15100.0,0,5,APROVADA,2026-09-17,GERENTE,SIM
+SM-011,2026-08-31,PI13,Criar indicador de consumo de energia por produto,ESCOPO,AGIL,,15100.0,0,5,APROVADA,2026-09-18,GERENTE,SIM
+SM-012,2026-09-08,PI02,Adicionar etiqueta com QR Code por palete,ESCOPO,AGIL,,24100.0,0,8,REJEITADA,2026-10-02,GERENTE,
+SM-013,2026-10-19,PI13,Integrar o sistema ao aplicativo corporativo de manutenção,ESCOPO,AGIL,,24100.0,0,8,EM_ANALISE,,,

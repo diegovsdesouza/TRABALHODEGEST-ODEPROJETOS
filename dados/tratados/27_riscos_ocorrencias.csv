@@ -1,0 +1,8 @@
+id_ocorrencia,data,id_risco,descricao,frente,id_atividade,impacto_custo_real_rs,impacto_prazo_real_du,custo_ja_incluido_em_pagamentos
+OC-001,2026-05-13,,Erro de medida no projeto das bases,PREDITIVA,A24,59100.0,5,NAO
+OC-002,2026-06-12,R14,Falha de comunicação entre os CLPs dos fabricantes e o supervisório,PREDITIVA,A36,100600.0,13,NAO
+OC-003,2026-06-12,,Vazamento na rede existente durante uma interligação,PREDITIVA,A30,35700.0,5,NAO
+OC-004,2026-07-06,R08,Atraso da integração dos sistemas digitais com o ERP,AGIL,,49000.0,0,NAO
+OC-005,2026-07-09,R05,Interferência da obra com a Linha de painéis em operação,PREDITIVA,A26,135600.0,9,NAO
+OC-006,2026-09-21,,Furto de cabos elétricos no canteiro,PREDITIVA,A23,69900.0,5,NAO
+OC-007,2026-10-08,R15,Variação cambial nos equipamentos importados,PREDITIVA,,812200.0,0,SIM

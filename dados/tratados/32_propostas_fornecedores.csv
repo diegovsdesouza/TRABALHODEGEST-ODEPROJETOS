@@ -1,0 +1,6 @@
+id_proposta,pacote,id_fornecedor,preco_rs,prazo_du,nota_tecnica,projetos_similares,garantia_meses,condicao_pagamento
+PR-01,"Comissionamento elétrico, termografia e assistência à partida",F05,128900.0,28,6.1,2,6,30% antecipado e saldo na conclusão
+PR-02,"Comissionamento elétrico, termografia e assistência à partida",F01,157300.0,30,8.2,6,12,"Medição mensal, 30 dias"
+PR-03,"Comissionamento elétrico, termografia e assistência à partida",F13,177700.0,26,9.0,9,12,"Medição mensal, 28 dias"
+PR-04,"Comissionamento elétrico, termografia e assistência à partida",F14,146700.0,34,7.0,3,12,50% antecipado e saldo na conclusão
+PR-05,"Comissionamento elétrico, termografia e assistência à partida",F15,191700.0,27,9.4,12,24,"Medição por marco, 45 dias"
