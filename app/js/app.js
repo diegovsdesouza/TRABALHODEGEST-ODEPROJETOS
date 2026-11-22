@@ -5,12 +5,13 @@ import { paginaLancamentos } from './telas.js';
 import { paginaCenarios } from './cenarios.js';
 import { paginaRiscos, paginaContratos, paginaPessoas } from './paginas2.js';
 import { paginaModelo3D } from './modelo3d.js';
+import { paginaAssistente } from './assistente.js';
 
 const el = document.getElementById('conteudo');
 let usuario = null;
 const rotas = {
   '#/dashboard': paginaDashboard, '#/lancamentos': paginaLancamentos, '#/prazo': paginaPrazo,
-  '#/custo': paginaCusto, '#/agil': paginaAgil, '#/riscos': paginaRiscos, '#/contratos': paginaContratos, '#/pessoas': paginaPessoas, '#/cenarios': paginaCenarios, '#/3d': paginaModelo3D, '#/conferencia': paginaConferencia,
+  '#/custo': paginaCusto, '#/agil': paginaAgil, '#/riscos': paginaRiscos, '#/contratos': paginaContratos, '#/pessoas': paginaPessoas, '#/cenarios': paginaCenarios, '#/3d': paginaModelo3D, '#/assistente': paginaAssistente, '#/conferencia': paginaConferencia,
 };
 
 async function navegar() {
