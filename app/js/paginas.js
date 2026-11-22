@@ -12,7 +12,7 @@ const mil = (v) => fmt.n(v / 1000, 1);
 // ---------------- R11 · Dashboard
 export async function paginaDashboard(alvo) {
   limpar(); const db = await dados(); const d = dataCorte(); const lb = K.linhaDeBase(db);
-  const pv = K.previsao(db, d, lb); const ev = K.valorAgregado(db, d, lb); const rk = K.riscos(db); const ag = pv.agil; const pj = ev.projeto;
+  const pv = K.previsao(db, d, lb); const ev = K.valorAgregado(db, d, lb); const rk = K.riscos(db); const rs = K.reservas(db, d); const ag = pv.agil; const pj = ev.projeto;
   const pedDir = db.backlog_itens.filter((b) => b.origem === 'PEDIDO_DIRETO' && (!b.data_criacao || b.data_criacao <= d));
   alvo.innerHTML = `<h2>Dashboard do comitê · corte em ${fmt.data(d)}</h2>
   <div class="kpis">
@@ -22,7 +22,7 @@ export async function paginaDashboard(alvo) {
     ${kpi('IDC / IDP do projeto', `${fmt.i(pj.idc)} / ${fmt.i(pj.idp)}`, `IDPT ${fmt.i(pj.idpt)}`, pj.idp < 0.95 ? 'ruim' : '')}
     ${kpi('Velocidade média (5 sprints)', fmt.n(ag.vmed, 1) + ' pt', `últimas: ${ag.ult5.map((s) => ag.vel[s] || 0).join(', ')}`)}
     ${kpi('Release 2 prevista', fmt.data(ag.releases.R2.data), `planejada ${fmt.data(ag.releases.R2.planejada)} · ${ag.releases.R2.pontosRestantes} pt restantes`, ag.releases.R2.data > ag.releases.R2.planejada ? 'ruim' : '')}
-    ${kpi('Exposição a riscos (VME)', fmt.rs(rk.exposicao), `contingência ${fmt.rs(K.P.contingencia)} · cobre ${fmt.pct(Math.min(1, rk.cobertura), 0)}`, rk.cobertura < 1 ? 'ruim' : 'bom')}
+    ${kpi('Exposição a riscos (VME)', fmt.rs(rk.exposicao), `saldo da contingência ${fmt.rs(rs.contingenciaSaldo)} (consumidos ${fmt.rs(rs.contingenciaUsada)} de ${fmt.rs(K.P.contingencia)})`, rs.contingenciaSaldo < rk.exposicao ? 'ruim' : 'bom')}
     ${kpi('Pedidos diretos no backlog', pedDir.length + ' itens', `${pedDir.reduce((s, b) => s + b.pontos, 0)} pontos sem solicitação de mudança`, pedDir.length ? 'ruim' : '')}
   </div>
   <div class="grade">

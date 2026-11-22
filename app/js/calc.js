@@ -270,3 +270,92 @@ export function cenario(db, ids, corte = P.status) {
   return { ids: ids.length ? ids : ['C1'], termino: pv.termino, duAlemContrato: pv.duAlemContrato, meses, mesesGat, ent, custoAtiv, pts, custoPonto, recursos,
     varBen, varOp, vpl: cn.vpl, payback: cn.payback, custoAtraso, resultado: cn.vpl - custoAtraso, anos: cn.anos, cadeia: pv.cadeia, releases: pv.agil.releases, previsao: pv };
 }
+
+// ---------- R7 · riscos: matriz 5x5 (faixas da folha M6) e consumo da reserva
+export function faixaProb(p) { return p <= 10 ? 1 : p <= 30 ? 2 : p <= 50 ? 3 : p <= 70 ? 4 : 5; }
+export function faixaImpacto(v, ont = P.ontPred + P.ontAgil) { const f = v / ont * 100; return f < 0.25 ? 1 : f < 0.5 ? 2 : f < 1 ? 3 : f <= 2 ? 4 : 5; }
+export function reservas(db, corte) {
+  const oc = db.riscos_ocorrencias.filter((o) => o.data <= corte);
+  const cont = oc.filter((o) => o.id_risco).reduce((s, o) => s + Number(o.impacto_custo_real_rs), 0);
+  const ger = oc.filter((o) => !o.id_risco).reduce((s, o) => s + Number(o.impacto_custo_real_rs), 0);
+  return { ocorrencias: oc, contingenciaUsada: cont, gerencialUsada: ger, contingenciaSaldo: P.contingencia - cont, gerencialSaldo: P.gerencial - ger };
+}
+
+// ---------- R9 · contratos: previsto x pago, multa (convenção 14) e seleção de fornecedor (convenção 15)
+export function contratos(db, corte) {
+  return db.contratos.map((c) => {
+    const m = db.contratos_medicoes.filter((x) => x.id_contrato === c.id_contrato);
+    const pagas = m.filter((x) => x.data_real && x.data_real <= corte);
+    const previstoAte = m.filter((x) => x.data_prevista <= corte).reduce((s, x) => s + Number(x.valor_previsto_rs), 0);
+    const pago = pagas.reduce((s, x) => s + Number(x.valor_pago_rs), 0);
+    const prevPagas = pagas.reduce((s, x) => s + Number(x.valor_previsto_rs), 0);
+    const ultimo = m.slice().sort((a, b) => a.data_prevista.localeCompare(b.data_prevista)).at(-1);
+    let atraso = 0;
+    if (ultimo && ultimo.data_prevista < corte) atraso = Math.max(0, diasCorridos(ultimo.data_prevista, ultimo.data_real && ultimo.data_real <= corte ? ultimo.data_real : corte));
+    const valor = Number(c.valor_contratado_rs);
+    const multa = Math.min(atraso * Number(c.multa_atraso_pct_dia) / 100 * valor, Number(c.teto_multa_pct) / 100 * valor);
+    const pendAtras = m.filter((x) => (!x.data_real || x.data_real > corte) && x.data_prevista < corte);
+    return { ...c, fornecedor: db.fornecedores.find((f) => f.id_fornecedor === c.id_fornecedor)?.nome, medicoes: m.length, pagas: pagas.length, previstoAte, pago,
+      desvioPago: pago - prevPagas, ressalvas: pagas.filter((x) => x.aceite === 'APROVADO_COM_RESSALVA').length, nc: pagas.reduce((s, x) => s + Number(x.nao_conformidades || 0), 0),
+      atrasoUltimoMarco: atraso, multa, medicoesAtrasadas: pendAtras.length };
+  });
+}
+export function selecaoFornecedor(db) {
+  const pr = db.propostas_fornecedores; const min = (k) => Math.min(...pr.map((p) => Number(p[k]))); const max = (k) => Math.max(...pr.map((p) => Number(p[k])));
+  const w = Object.fromEntries(db.projeto_parametros.filter((p) => p.parametro.startsWith('peso_criterio_')).map((p) => [p.parametro.slice(14), Number(p.valor)]));
+  return pr.map((p) => { const n = { preco: min('preco_rs') / p.preco_rs, tecnica: p.nota_tecnica / 10, prazo: min('prazo_du') / p.prazo_du,
+    experiencia: p.projetos_similares / max('projetos_similares'), garantia: p.garantia_meses / max('garantia_meses') };
+    return { ...p, fornecedor: db.fornecedores.find((f) => f.id_fornecedor === p.id_fornecedor)?.nome || p.id_fornecedor, ...Object.fromEntries(Object.entries(n).map(([k, v]) => ['n_' + k, v])),
+      nota: Object.entries(n).reduce((s, [k, v]) => s + (w[k] || 0) * v, 0) }; }).sort((a, b) => b.nota - a.nota);
+}
+
+// ---------- R14 · pessoas (convenções 17 a 19)
+const mesDe = (iso) => iso.slice(0, 7);
+export function pessoas(db, corte, terminoPrevisto) {
+  const C = calendario(db.calendario); const fech = (m) => addDias(m + '-01', 40).slice(0, 7) <= corte.slice(0, 7) && m < corte.slice(0, 7);
+  return db.equipe.map((p) => {
+    const f = db.cargos_salarios.find((x) => x.id_pessoa === p.id_pessoa);
+    const mensal = Number(f.remuneracao_mensal_rs) * (1 + Number(f.encargos_pct) / 100) + Number(f.beneficios_mensais_rs);
+    const ch = Math.round(mensal / Number(f.horas_mensais));
+    const hs = db.apontamento_horas.filter((h) => h.id_pessoa === p.id_pessoa && h.semana_inicio <= corte);
+    const porMes = {}; hs.forEach((h) => { const m = mesDe(h.semana_inicio); porMes[m] = (porMes[m] || 0) + Number(h.horas_normais) + Number(h.horas_extras); });
+    const plan = Object.fromEntries(db.alocacao_planejada.filter((a) => a.id_pessoa === p.id_pessoa).map((a) => [mesDe(a.mes), Number(a.horas_planejadas)]));
+    const meses = [...new Set([...Object.keys(porMes), ...Object.keys(plan)])].sort().filter((m) => m < corte.slice(0, 7));
+    const desvios = meses.map((m) => ({ mes: m, plan: plan[m] || 0, apont: porMes[m] || 0, desvio: (porMes[m] || 0) - (plan[m] || 0),
+      pct: plan[m] ? ((porMes[m] || 0) - plan[m]) / plan[m] : null })).filter((x) => x.plan || x.apont);
+    const fechados = meses.slice(-3); const media3 = fechados.reduce((s, m) => s + (porMes[m] || 0), 0) / (fechados.length || 1);
+    const ini = f.mes_do_reajuste > addDias(corte, 31).slice(0, 7) + '-01' ? f.mes_do_reajuste : addDias(corte, 31).slice(0, 7) + '-01';
+    const mesesReaj = terminoPrevisto ? Math.max(0, diasCorridos(ini, terminoPrevisto) / 30.4) : 0;
+    const reajuste = media3 * mesesReaj * ch * Number(f.reajuste_previsto_pct) / 100;
+    const custoHoras = hs.reduce((s, h) => s + (Number(h.horas_normais) + Number(h.horas_extras) * P.fatorHE) * Number(p.custo_hora_rs), 0);
+    return { ...p, mensal, custoHoraCalc: ch, confere: ch === Number(p.custo_hora_rs), horas: hs.reduce((s, h) => s + Number(h.horas_normais) + Number(h.horas_extras), 0),
+      custoHoras, desvios, mesesAcima20: desvios.filter((x) => x.pct != null && Math.abs(x.pct) > 0.2).length, reajuste, media3, mesReaj: ini.slice(0, 7) };
+  });
+}
+export function devs(db, corte) {
+  const eq = Object.fromEntries(db.equipe.map((p) => [p.id_pessoa, Number(p.custo_hora_rs)]));
+  return db.equipe.filter((p) => p.frente === 'AGIL').map((p) => {
+    const hs = db.apontamento_horas.filter((h) => h.id_pessoa === p.id_pessoa && h.tipo_item === 'SPRINT' && h.semana_inicio <= corte);
+    const horas = hs.reduce((s, h) => s + Number(h.horas_normais) + Number(h.horas_extras), 0);
+    const custo = hs.reduce((s, h) => s + (Number(h.horas_normais) + Number(h.horas_extras) * P.fatorHE) * eq[p.id_pessoa], 0);
+    const pts = db.backlog_itens.filter((b) => b.id_responsavel === p.id_pessoa && b.status === 'CONCLUIDO' && (!b.data_conclusao || b.data_conclusao <= corte)).reduce((s, b) => s + Number(b.pontos), 0);
+    return { id: p.id_pessoa, nome: p.nome, papel: p.papel, horas, custo, pontos: pts, ptsHora: horas ? pts / horas : null, custoPonto: pts ? custo / pts : null };
+  });
+}
+
+// ---------- R15 · produtividade das equipes (convenção 20)
+export function produtividade(db, corte) {
+  return db.produtividade_referencia.map((r) => {
+    const sem = db.producao_semanal.filter((x) => x.id_atividade === r.id_atividade && x.semana_fim <= corte).sort((a, b) => a.semana_fim.localeCompare(b.semana_fim));
+    const exec = sem.reduce((s, x) => s + Number(x.quantidade_executada), 0); const hh = sem.reduce((s, x) => s + Number(x.hh_trabalhadas), 0);
+    const real = hh ? exec / hh : null; const ult3 = sem.slice(-3); const ef3 = ult3.reduce((s, x) => s + Number(x.efetivo_medio), 0) / (ult3.length || 1);
+    const efMed = sem.reduce((s, x) => s + Number(x.efetivo_medio), 0) / (sem.length || 1);
+    const resta = Math.max(0, Number(r.quantidade_total) - exec);
+    return { ...r, semanas: sem.length, executado: exec, hh, real, indProd: real != null ? real / Number(r.produtividade_planejada) : null,
+      efetivoMedio: sem.length ? efMed : null, efetivo3: sem.length ? ef3 : null, indEfetivo: sem.length ? efMed / Number(r.equipe_planejada_pessoas) : null,
+      restante: resta, duracaoRestante: real && resta ? ceil(resta / (real * ef3 * 8)) : (sem.length ? 0 : null),
+      diagnostico: !sem.length ? 'sem produção' : (efMed / r.equipe_planejada_pessoas < 0.9 && real / r.produtividade_planejada >= 0.9 ? 'falta gente'
+        : real / r.produtividade_planejada < 0.9 && efMed / r.equipe_planejada_pessoas >= 0.9 ? 'baixa produtividade'
+        : real / r.produtividade_planejada < 0.9 ? 'falta gente e produtividade' : 'no ritmo') };
+  });
+}
