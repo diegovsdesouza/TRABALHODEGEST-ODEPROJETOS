@@ -106,8 +106,8 @@
 |---|---|---|---|---|---|
 | Diego (coordenação) | D16 e relatório gerencial (slides) | M7 | GitHub | Confere os números de controle | Abertura, cenários e recomendação |
 | Caique | D3, D4, D12, D17 | M1, M2 | ProjectLibre | B1 (avanço) | Prazo, caminho crítico e modelo 3D |
-| Marjorie | D1, D5, D15 | M3 | — | B2 e B3 (horas e custos) | Custo, valor agregado e caso de negócio |
-| José | D9, D10 | M4, M6 | — | B4 e B8 (inspeções, riscos e mudanças) | Riscos, reserva e fornecedores |
+| José | D1, D5, D15 | M3 | — | B2 e B3 (horas e custos) | Custo, valor agregado e caso de negócio |
+| Marjorie | D9, D10 | M4, M6 | — | B4 e B8 (inspeções, riscos e mudanças) | Riscos, reserva e fornecedores |
 | **Guilherme** | D7, D8, D11 | M5 | **Jira (responsável)**: site, projeto Scrum, professor convidado, backlog importado, sprint S14 executada, burndown e velocidade | B5, B6 e B7 (sprint, quadro e impedimentos) | Trilha ágil, escopo fora do controle e Bússola de Abordagem |
 | Arley | D2, D6, D13, D14 | M8 | — | B9 e B10 (reuniões, engajamento e produção) | Partes interessadas, pessoas e produtividade |
 
