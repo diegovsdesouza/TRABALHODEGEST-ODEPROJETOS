@@ -74,7 +74,7 @@ export function ultimoAvanco(avanco, corte) {
 }
 
 // ---------- convenções 8 e 10: velocidade e previsão das releases
-export function agil(db, corte) {
+export function agil(db, corte, mods = {}) {
   const C = calendario(db.calendario);
   const sprints = db.sprints.slice().sort((a, b) => a.numero - b.numero);
   const encerradas = sprints.filter((s) => s.data_fim <= corte).map((s) => s.id_sprint);
@@ -84,8 +84,15 @@ export function agil(db, corte) {
   const releases = {}; const ultimaN = encerradas.length ? Number(encerradas.at(-1).slice(1)) : 0;
   ['R1', 'R2', 'R3'].forEach((rel, j) => {
     const alvo = ['R1', 'R2', 'R3'].slice(0, j + 1);
-    const rest = db.backlog_itens.filter((b) => !concl(b) && b.prioridade_moscow !== 'WONT' && alvo.includes(b.id_release)).reduce((s, b) => s + Number(b.pontos), 0);
-    const n = rest ? ceil(rest / vmed) : 0; const sp = 'S' + String(ultimaN + n).padStart(2, '0');
+    const excl = mods.excluirItens || new Set();
+    const rest = db.backlog_itens.filter((b) => !concl(b) && b.prioridade_moscow !== 'WONT' && alvo.includes(b.id_release) && !excl.has(b.id_item)).reduce((s, b) => s + Number(b.pontos), 0)
+      + (mods.incluirItens || []).filter((x) => alvo.includes(x.id_release)).reduce((s, x) => s + Number(x.pontos), 0);
+    let n = 0;
+    if (rest) {
+      if (!mods.ganho) n = ceil(rest / vmed);
+      else { let feito = 0; while (feito < rest - 1e-9) { n++; feito += vmed + (n > mods.rampa ? mods.ganho : 0); } }
+    }
+    const sp = 'S' + String(ultimaN + n).padStart(2, '0');
     const real = db.releases.find((r) => r.id_release === rel)?.data_real;
     releases[rel] = { pontosRestantes: rest, sprints: n, sprint: sp, data: real && real <= corte ? real : (n ? C.fimSprint[sp] : (real || corte)), real: real && real <= corte ? real : null,
       planejada: db.releases.find((r) => r.id_release === rel)?.data_planejada };
@@ -97,21 +104,33 @@ export function agil(db, corte) {
 }
 
 // ---------- convenção 11: previsão de término pela rede na data de corte
-export function previsao(db, corte, lb = linhaDeBase(db)) {
-  const C = lb.C; const st = C.duAte(corte); const u = ultimoAvanco(db.avanco_semanal, corte); const ag = agil(db, corte);
+export function previsao(db, corte, lb = linhaDeBase(db), mods = {}) {
+  const C = lb.C; const st = C.duAte(corte); const u = ultimoAvanco(db.avanco_semanal, corte); const ag = agil(db, corte, mods);
+  if (mods.novas?.length || mods.durNova) {  // rede modificada pelo cenário (convenção 21)
+    const dur = { ...lb.dur }; const dep = db.dependencias.slice();
+    for (const n of mods.novas || []) { dur[n.id] = n.dur; n.links.forEach((l) => dep.push(l)); }
+    const r = cpm(Object.keys(dur), dur, dep); lb = { ...lb, ordem: r.ordem, preds: r.preds, dur, ativ: { ...lb.ativ } };
+    for (const n of mods.novas || []) lb.ativ[n.id] = { EF: 0 };
+  }
+  const durNova = mods.durNova || {};
   const duDe = (iso) => C.duAte(iso);
   const ES = {}, EF = {}, sit = {};
   const relDe = { A57: 'R1', A58: 'R2', A59: 'R3' };
   for (const i of lb.ordem) {
-    const a = db.atividades.find((x) => x.id_atividade === i); const inf = u[i]; const ps = lb.preds[i];
+    const a = db.atividades.find((x) => x.id_atividade === i) || { tipo_atividade: 'NOVA' }; const inf = u[i]; const ps = lb.preds[i];
+    const dNova = durNova[i];
     const cedo = (min) => Math.max(min, ...ps.map((l) => (l.t === 'TI' ? EF[l.p] + 1 + l.d : ES[l.p] + l.d)));
     if (a.tipo_atividade === 'MARCO_AGIL') {
       const r = ag.releases[relDe[i]];
       if (r.real) { ES[i] = lb.ativ[i].ES; EF[i] = duDe(r.real); sit[i] = 'CONCLUIDA'; }
       else { ES[i] = cedo(1); EF[i] = Math.max(ES[i], C.d2du.get(r.data) ?? duDe(r.data)); sit[i] = 'PREVISTA_PELA_RELEASE'; }
     } else if (inf && inf.situacao === 'CONCLUIDA') { ES[i] = duDe(inf.data_inicio_real); EF[i] = duDe(inf.data_termino_real); sit[i] = 'CONCLUIDA'; }
-    else if (inf) { ES[i] = duDe(inf.data_inicio_real); EF[i] = st + ceil(lb.dur[i] * (1 - Number(inf.avanco_acumulado_pct) / 100)); sit[i] = 'EM_ANDAMENTO'; }
-    else { ES[i] = cedo(st + 1); EF[i] = ES[i] + lb.dur[i] - 1; sit[i] = 'NAO_INICIADA'; }
+    else if (inf) {
+      let rest = ceil(lb.dur[i] * (1 - Number(inf.avanco_acumulado_pct) / 100));
+      if (dNova != null) rest = Math.max(1, rest - (lb.dur[i] - dNova));  // em andamento: reduz o restante na mesma quantidade
+      ES[i] = duDe(inf.data_inicio_real); EF[i] = st + rest; sit[i] = 'EM_ANDAMENTO';
+    }
+    else { ES[i] = cedo(st + 1); EF[i] = ES[i] + (dNova != null ? dNova : lb.dur[i]) - 1; sit[i] = 'NAO_INICIADA'; }
   }
   const fim = Math.max(...Object.values(EF)); const contrato = C.d2du.get(P.contrato);
   // cadeia que define o término
@@ -119,7 +138,7 @@ export function previsao(db, corte, lb = linhaDeBase(db)) {
   while (i) { cadeia.push(i); if (sit[i] === 'CONCLUIDA') break;
     const amarra = lb.preds[i].filter((l) => (l.t === 'TI' ? EF[l.p] + 1 + l.d : ES[l.p] + l.d) === ES[i]); i = amarra[0]?.p; }
   const ativ = {}; for (const k of lb.ordem) ativ[k] = { ES: ES[k], EF: EF[k], situacao: sit[k], inicio: C.data(ES[k]), termino: C.data(EF[k]),
-    desvio: EF[k] - lb.ativ[k].EF, avanco: u[k] ? Number(u[k].avanco_acumulado_pct) : (sit[k] === 'CONCLUIDA' ? 100 : 0), naCadeia: cadeia.includes(k) };
+    desvio: EF[k] - (lb.ativ[k]?.EF || EF[k]), avanco: u[k] ? Number(u[k].avanco_acumulado_pct) : (sit[k] === 'CONCLUIDA' ? 100 : 0), naCadeia: cadeia.includes(k) };
   return { ativ, fim, termino: C.data(fim), duAlemContrato: fim - contrato, custoAtraso: Math.max(0, fim - contrato) * P.atrasoDu,
     desvioLb: fim - lb.fim, cadeia: cadeia.reverse(), agil: ag };
 }
@@ -193,4 +212,61 @@ export function riscos(db) {
     .map((r) => ({ ...r, vme: Number(r.probabilidade_pct) / 100 * Number(r.impacto_custo_rs) })).sort((a, b) => b.vme - a.vme);
   const exposicao = ab.reduce((s, r) => s + r.vme, 0);
   return { abertas: ab, exposicao, cobertura: P.contingencia / exposicao };
+}
+
+// ---------- convenções 16, 21, 22 e 23: caso de negócio e cenários
+export function casoNegocio(db, { varBen = 0, varOp = 0, extraAno0 = 0, mesesAtraso = 0 } = {}) {
+  const anos = db.caso_de_negocio.slice().sort((a, b) => a.ano - b.ano).map((a) => ({ ano: Number(a.ano),
+    inv: Number(a.investimento_rs) + (Number(a.ano) === 0 ? extraAno0 : 0),
+    ben: Number(a.beneficio_bruto_rs) * (1 + varBen / 100), op: Number(a.ano) === 0 ? 0 : Number(a.custo_operacional_rs) + varOp }));
+  anos.forEach((a) => (a.fluxo = a.ben - a.op - a.inv));
+  const a1 = anos.find((a) => a.ano === 1); a1.perdaAtraso = a1.fluxo * mesesAtraso / 12; a1.fluxo -= a1.perdaAtraso;
+  let acum = 0, payback = null;
+  for (const a of anos) { const antes = acum; acum += a.fluxo; a.acumulado = acum; if (payback == null && antes < 0 && acum >= 0) payback = a.ano - 1 + (-antes / a.fluxo); }
+  const vpl = anos.reduce((s, a) => s + a.fluxo / Math.pow(1 + P.tma, a.ano), 0);
+  return { anos, vpl, payback };
+}
+
+export function cenario(db, ids, corte = P.status) {
+  ids = [].concat(ids).filter((c) => c !== 'C1');
+  const lb = linhaDeBase(db); const ev = valorAgregado(db, corte, lb); const ag0 = agil(db, corte);
+  const custoPonto = ev.agil.cr / ag0.pontosConcluidos;
+  const mods = { durNova: {}, novas: [], excluirItens: new Set(), incluirItens: [], ganho: 0, rampa: 0 };
+  let custoAtiv = 0, pts = 0, recursos = 0, invest = 0, varBen = 0, varOp = 0, parcela = 0, gatilho = null;
+  for (const id of ids) {
+    const c = db.cenarios.find((x) => x.id_cenario === id);
+    varBen += Number(c.variacao_beneficio_pct); varOp += Number(c.variacao_custo_operacional_anual_rs); invest += Number(c.investimento_adicional_rs);
+    if (Number(c.parcela_beneficio_antecipada_pct)) { parcela = Number(c.parcela_beneficio_antecipada_pct) / 100; gatilho = c.id_atividade_gatilho; }
+    for (const a of db.cenario_atividades.filter((x) => x.id_cenario === id)) {
+      custoAtiv += Number(a.custo_adicional_rs);
+      if (a.acao === 'ALTERAR_DURACAO') mods.durNova[a.id_atividade] = Number(a.duracao_du);
+      else if (a.acao === 'EXCLUIR') mods.durNova[a.id_atividade] = 0;
+      else {
+        const links = [];
+        const lig = (txt, comoPred) => (txt || '').split(';').filter(Boolean).forEach((t) => { const [o, tp, d] = t.split(':');
+          links.push(comoPred ? { id_predecessora: o, id_sucessora: a.id_atividade, tipo_dependencia: tp, defasagem_du: Number(d) }
+                              : { id_predecessora: a.id_atividade, id_sucessora: o, tipo_dependencia: tp, defasagem_du: Number(d) }); });
+        lig(a.predecessoras, true); lig(a.sucessoras, false);
+        mods.novas.push({ id: a.id_atividade, dur: Number(a.duracao_du), links });
+      }
+    }
+    for (const b of db.cenario_backlog.filter((x) => x.id_cenario === id)) {
+      if (b.acao === 'EXCLUIR') { if (!mods.excluirItens.has(b.id_item)) { mods.excluirItens.add(b.id_item); pts -= Number(b.pontos); } }
+      else { mods.incluirItens.push(b); pts += Number(b.pontos); }
+    }
+    for (const r of db.cenario_recursos.filter((x) => x.id_cenario === id)) {
+      recursos += Number(r.quantidade) * Number(r.custo_mensal_rs) * Number(r.meses);
+      mods.ganho += Number(r.ganho_velocidade_pontos_por_sprint); mods.rampa = Math.max(mods.rampa, Number(r.sprints_de_rampa));
+    }
+  }
+  const pv = previsao(db, corte, lb, mods);
+  const ent = ev.projeto.ent + custoAtiv + pts * custoPonto + recursos + invest;
+  const ontProj = ev.projeto.ont;
+  const mesesTerm = diasCorridos(lb.termino, pv.termino) / 30.4;
+  let meses = mesesTerm, mesesGat = null;
+  if (parcela && gatilho) { mesesGat = diasCorridos(lb.termino, pv.ativ[gatilho].termino) / 30.4; meses = parcela * mesesGat + (1 - parcela) * mesesTerm; }
+  const cn = casoNegocio(db, { varBen, varOp, extraAno0: ent - ontProj, mesesAtraso: meses });
+  const custoAtraso = Math.max(0, pv.duAlemContrato) * P.atrasoDu;
+  return { ids: ids.length ? ids : ['C1'], termino: pv.termino, duAlemContrato: pv.duAlemContrato, meses, mesesGat, ent, custoAtiv, pts, custoPonto, recursos,
+    varBen, varOp, vpl: cn.vpl, payback: cn.payback, custoAtraso, resultado: cn.vpl - custoAtraso, anos: cn.anos, cadeia: pv.cadeia, releases: pv.agil.releases, previsao: pv };
 }

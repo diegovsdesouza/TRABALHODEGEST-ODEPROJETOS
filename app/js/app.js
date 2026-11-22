@@ -2,12 +2,13 @@
 import { sb } from './db.js';
 import { paginaDashboard, paginaPrazo, paginaCusto, paginaAgil, paginaConferencia } from './paginas.js';
 import { paginaLancamentos } from './telas.js';
+import { paginaCenarios } from './cenarios.js';
 
 const el = document.getElementById('conteudo');
 let usuario = null;
 const rotas = {
   '#/dashboard': paginaDashboard, '#/lancamentos': paginaLancamentos, '#/prazo': paginaPrazo,
-  '#/custo': paginaCusto, '#/agil': paginaAgil, '#/conferencia': paginaConferencia,
+  '#/custo': paginaCusto, '#/agil': paginaAgil, '#/cenarios': paginaCenarios, '#/conferencia': paginaConferencia,
 };
 
 async function navegar() {

@@ -158,9 +158,10 @@ export async function paginaConferencia(alvo) {
     { folha: 'M1 · caminho crítico da sub-rede', sistema: sub.ordem.filter((i) => sub.ativ[i].critica).sort((a, b) => sub.ativ[a].ES - sub.ativ[b].ES).join(' → ') },
     { folha: 'M3 · VP / VA / CR do projeto em 25/09 (R$ mil)', sistema: `${mil(ev.vp)} / ${mil(ev.va)} / ${mil(ev.cr)}` },
     { folha: 'M3 · IDP / IDC do projeto em 25/09', sistema: `${fmt.n(ev.idp, 3)} / ${fmt.n(ev.idc, 3)}` },
+    ...['C1', 'C3', 'C4'].map((c) => { const r = K.cenario(db, [c], '2026-11-13'); return { folha: `M7 · ${c}: término / ENT / VPL / payback / resultado`, sistema: `${fmt.data(r.termino)} / ${fmt.rs(r.ent)} / ${fmt.rs(r.vpl)} / ${fmt.n(r.payback, 2)} anos / ${fmt.rs(r.resultado)}` }; }),
     { folha: 'M5 · velocidade da S13 / burndown (pontos restantes no fim de cada dia)', sistema: `${bd.vel} pt / ${bd.rest.join(', ')}` },
   ], [{ campo: 'folha', titulo: 'Folha', t: 1 }, { campo: 'sistema', titulo: 'Sistema', t: 1 }])}
-  <p class="fonte">O integrante compara com a própria folha. A M7 (VPL dos cenários) entra com o simulador de cenários.</p></div>`;
+  <p class="fonte">O integrante compara com a própria folha. M7: a tabela do dossiê confere término e ENT (C1 41.764.252; C3 41.389.882; C4 42.969.789).</p></div>`;
 }
 
 // sub-rede da folha M1 (dossiê): 12 atividades, ligações com o resto do projeto retiradas
