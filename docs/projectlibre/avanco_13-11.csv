@@ -1,0 +1,42 @@
+atividade,nome,percentual,inicio_real,termino_real
+A01,Elaborar o projeto básico e o layout da linha,100,2026-02-03,2026-03-09
+A02,Elaborar o projeto executivo civil e de utilidades,100,2026-03-10,2026-04-14
+A03,Elaborar o projeto executivo elétrico e de automação,100,2026-03-12,2026-04-22
+A04,Compatibilizar os projetos e emitir para construção,100,2026-04-23,2026-05-04
+A05,Obter as licenças e aprovações (ambiental e bombeiros),100,2026-03-04,2026-05-11
+A06,Realizar a análise de risco NR-12 do projeto,100,2026-04-14,2026-05-06
+A07,Elaborar a especificação técnica: Injetora de 3.200 t,100,2026-03-11,2026-03-23
+A08,Contratar o fornecimento: Injetora de 3.200 t,100,2026-03-26,2026-04-07
+A09,Fabricar: Injetora de 3.200 t,100,2026-04-10,2026-10-08
+A10,Aprovar os desenhos de fabricação e de bases: Injetora de 3.200 t,100,2026-04-10,2026-04-27
+A11,Realizar o teste de aceite em fábrica (FAT): Injetora de 3.200 t,100,2026-10-09,2026-10-19
+A12,Transportar e desembaraçar: Injetora de 3.200 t,70,2026-10-20,
+A14,Elaborar a especificação técnica: Cabine de pintura robotizada,100,2026-03-12,2026-03-27
+A15,Contratar o fornecimento: Cabine de pintura robotizada,100,2026-03-30,2026-04-13
+A16,Fabricar: Cabine de pintura robotizada,100,2026-04-16,2026-09-09
+A17,Aprovar os desenhos de fabricação e de bases: Cabine de pintura robotizada,100,2026-04-14,2026-04-30
+A18,Realizar o teste de aceite em fábrica (FAT): Cabine de pintura robotizada,100,2026-09-11,2026-09-17
+A19,Transportar e descarregar: Cabine de pintura robotizada,100,2026-09-18,2026-09-29
+A20,Receber e inspecionar na fábrica: Cabine de pintura robotizada,100,2026-10-01,2026-10-06
+A21,Especificar e contratar: Transportador aéreo e robôs de manipulação,100,2026-03-19,2026-04-17
+A22,Fabricar e entregar: Transportador aéreo e robôs de manipulação,100,2026-04-28,2026-09-17
+A23,Receber e inspecionar na fábrica: Transportador aéreo e robôs de manipulação,100,2026-09-18,2026-09-22
+A24,Mobilizar o canteiro e isolar a área em relação à Linha de painéis,100,2026-05-05,2026-05-15
+A25,Demolir o piso existente e escavar as bases,100,2026-05-18,2026-06-01
+A26,Executar as bases dos equipamentos,100,2026-06-03,2026-07-29
+A27,Executar o piso industrial e as canaletas,100,2026-08-03,2026-09-11
+A28,"Instalar as redes de utilidades: água gelada, ar comprimido e tratamento de efluentes",100,2026-06-03,2026-08-11
+A29,Testar e liberar as redes de utilidades,100,2026-08-13,2026-08-20
+A30,"Adequar o prédio (cobertura, exaustão e iluminação)",100,2026-05-27,2026-07-08
+A31,Instalar a rede de combate a incêndio da área,100,2026-06-11,2026-07-06
+A32,Fabricar e instalar os painéis de força e a subestação,100,2026-05-06,2026-08-28
+A33,Instalar a infraestrutura elétrica e lançar os cabos,90,2026-09-14,
+A35,Instalar a instrumentação e a rede industrial,100,2026-09-29,2026-11-09
+A36,Programar os CLPs e o supervisório,100,2026-05-08,2026-07-28
+A37,Testar a lógica dos CLPs em bancada,100,2026-07-31,2026-08-11
+A39,Montar: Cabine de pintura robotizada,100,2026-10-07,2026-11-10
+A45,Elaborar os procedimentos de comissionamento e partida,100,2026-05-15,2026-06-01
+A50,Recrutar e contratar os operadores da nova linha,100,2026-05-08,2026-06-22
+A51,Elaborar o plano de treinamento e os materiais,100,2026-04-14,2026-05-06
+A52,Elaborar os procedimentos operacionais padrão,100,2026-05-07,2026-05-28
+A57,Desenvolver até a Release 1 (MVP) — sprints 1 a 5,100,2026-05-04,2026-08-07

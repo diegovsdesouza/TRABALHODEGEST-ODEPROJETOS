@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project xmlns="http://schemas.microsoft.com/project">
+<Name>G7 Plásticos Abrantes · Linha de injeção e pintura</Name><Title>Linha de injeção e pintura de para-choques</Title>
+<ScheduleFromStart>1</ScheduleFromStart><StartDate>2026-02-02T08:00:00</StartDate><StatusDate>2026-11-13T17:00:00</StatusDate>
+<CalendarUID>1</CalendarUID><DefaultStartTime>08:00:00</DefaultStartTime><DefaultFinishTime>17:00:00</DefaultFinishTime>
+<MinutesPerDay>480</MinutesPerDay><MinutesPerWeek>2400</MinutesPerWeek><DaysPerMonth>20</DaysPerMonth><DurationFormat>7</DurationFormat>
+<Calendars><Calendar><UID>1</UID><Name>Projeto G7 (seg a sex, feriados da tabela 11)</Name><IsBaseCalendar>1</IsBaseCalendar><WeekDays>
+<WeekDay><DayType>1</DayType><DayWorking>0</DayWorking></WeekDay>
+<WeekDay><DayType>2</DayType><DayWorking>1</DayWorking><WorkingTimes><WorkingTime><FromTime>08:00:00</FromTime><ToTime>12:00:00</ToTime></WorkingTime><WorkingTime><FromTime>13:00:00</FromTime><ToTime>17:00:00</ToTime></WorkingTime></WorkingTimes></WeekDay>
+<WeekDay><DayType>3</DayType><DayWorking>1</DayWorking><WorkingTimes><WorkingTime><FromTime>08:00:00</FromTime><ToTime>12:00:00</ToTime></WorkingTime><WorkingTime><FromTime>13:00:00</FromTime><ToTime>17:00:00</ToTime></WorkingTime></WorkingTimes></WeekDay>
+<WeekDay><DayType>4</DayType><DayWorking>1</DayWorking><WorkingTimes><WorkingTime><FromTime>08:00:00</FromTime><ToTime>12:00:00</ToTime></WorkingTime><WorkingTime><FromTime>13:00:00</FromTime><ToTime>17:00:00</ToTime></WorkingTime></WorkingTimes></WeekDay>
+<WeekDay><DayType>5</DayType><DayWorking>1</DayWorking><WorkingTimes><WorkingTime><FromTime>08:00:00</FromTime><ToTime>12:00:00</ToTime></WorkingTime><WorkingTime><FromTime>13:00:00</FromTime><ToTime>17:00:00</ToTime></WorkingTime></WorkingTimes></WeekDay>
+<WeekDay><DayType>6</DayType><DayWorking>1</DayWorking><WorkingTimes><WorkingTime><FromTime>08:00:00</FromTime><ToTime>12:00:00</ToTime></WorkingTime><WorkingTime><FromTime>13:00:00</FromTime><ToTime>17:00:00</ToTime></WorkingTime></WorkingTimes></WeekDay>
+<WeekDay><DayType>7</DayType><DayWorking>0</DayWorking></WeekDay>
+<WeekDay><DayType>0</DayType><DayWorking>0</DayWorking><TimePeriod><FromDate>2026-02-16T00:00:00</FromDate><ToDate>2026-02-16T23:59:00</ToDate></TimePeriod></WeekDay>
+<WeekDay><DayType>0</DayType><DayWorking>0</DayWorking><TimePeriod><FromDate>2026-02-17T00:00:00</FromDate><ToDate>2026-02-17T23:59:00</ToDate></TimePeriod></WeekDay>
+<WeekDay><DayType>0</DayType><DayWorking>0</DayWorking><TimePeriod><FromDate>2026-04-03T00:00:00</FromDate><ToDate>2026-04-03T23:59:00</ToDate></TimePeriod></WeekDay>
+<WeekDay><DayType>0</DayType><DayWorking>0</DayWorking><TimePeriod><FromDate>2026-04-21T00:00:00</FromDate><ToDate>2026-04-21T23:59:00</ToDate></TimePeriod></WeekDay>
+<WeekDay><DayType>0</DayType><DayWorking>0</DayWorking><TimePeriod><FromDate>2026-05-01T00:00:00</FromDate><ToDate>2026-05-01T23:59:00</ToDate></TimePeriod></WeekDay>
+<WeekDay><DayType>0</DayType><DayWorking>0</DayWorking><TimePeriod><FromDate>2026-06-04T00:00:00</FromDate><ToDate>2026-06-04T23:59:00</ToDate></TimePeriod></WeekDay>
+<WeekDay><DayType>0</DayType><DayWorking>0</DayWorking><TimePeriod><FromDate>2026-06-24T00:00:00</FromDate><ToDate>2026-06-24T23:59:00</ToDate></TimePeriod></WeekDay>
+<WeekDay><DayType>0</DayType><DayWorking>0</DayWorking><TimePeriod><FromDate>2026-07-02T00:00:00</FromDate><ToDate>2026-07-02T23:59:00</ToDate></TimePeriod></WeekDay>
+<WeekDay><DayType>0</DayType><DayWorking>0</DayWorking><TimePeriod><FromDate>2026-09-07T00:00:00</FromDate><ToDate>2026-09-07T23:59:00</ToDate></TimePeriod></WeekDay>
+<WeekDay><DayType>0</DayType><DayWorking>0</DayWorking><TimePeriod><FromDate>2026-10-12T00:00:00</FromDate><ToDate>2026-10-12T23:59:00</ToDate></TimePeriod></WeekDay>
+<WeekDay><DayType>0</DayType><DayWorking>0</DayWorking><TimePeriod><FromDate>2026-11-02T00:00:00</FromDate><ToDate>2026-11-02T23:59:00</ToDate></TimePeriod></WeekDay>
+<WeekDay><DayType>0</DayType><DayWorking>0</DayWorking><TimePeriod><FromDate>2026-11-20T00:00:00</FromDate><ToDate>2026-11-20T23:59:00</ToDate></TimePeriod></WeekDay>
+<WeekDay><DayType>0</DayType><DayWorking>0</DayWorking><TimePeriod><FromDate>2026-12-25T00:00:00</FromDate><ToDate>2026-12-25T23:59:00</ToDate></TimePeriod></WeekDay>
+<WeekDay><DayType>0</DayType><DayWorking>0</DayWorking><TimePeriod><FromDate>2027-01-01T00:00:00</FromDate><ToDate>2027-01-01T23:59:00</ToDate></TimePeriod></WeekDay>
+<WeekDay><DayType>0</DayType><DayWorking>0</DayWorking><TimePeriod><FromDate>2027-02-08T00:00:00</FromDate><ToDate>2027-02-08T23:59:00</ToDate></TimePeriod></WeekDay>
+<WeekDay><DayType>0</DayType><DayWorking>0</DayWorking><TimePeriod><FromDate>2027-02-09T00:00:00</FromDate><ToDate>2027-02-09T23:59:00</ToDate></TimePeriod></WeekDay>
+<WeekDay><DayType>0</DayType><DayWorking>0</DayWorking><TimePeriod><FromDate>2027-03-26T00:00:00</FromDate><ToDate>2027-03-26T23:59:00</ToDate></TimePeriod></WeekDay>
+<WeekDay><DayType>0</DayType><DayWorking>0</DayWorking><TimePeriod><FromDate>2027-04-21T00:00:00</FromDate><ToDate>2027-04-21T23:59:00</ToDate></TimePeriod></WeekDay>
+<WeekDay><DayType>0</DayType><DayWorking>0</DayWorking><TimePeriod><FromDate>2027-05-27T00:00:00</FromDate><ToDate>2027-05-27T23:59:00</ToDate></TimePeriod></WeekDay>
+<WeekDay><DayType>0</DayType><DayWorking>0</DayWorking><TimePeriod><FromDate>2027-06-24T00:00:00</FromDate><ToDate>2027-06-24T23:59:00</ToDate></TimePeriod></WeekDay>
+<WeekDay><DayType>0</DayType><DayWorking>0</DayWorking><TimePeriod><FromDate>2027-07-02T00:00:00</FromDate><ToDate>2027-07-02T23:59:00</ToDate></TimePeriod></WeekDay>
+<WeekDay><DayType>0</DayType><DayWorking>0</DayWorking><TimePeriod><FromDate>2027-09-07T00:00:00</FromDate><ToDate>2027-09-07T23:59:00</ToDate></TimePeriod></WeekDay>
+<WeekDay><DayType>0</DayType><DayWorking>0</DayWorking><TimePeriod><FromDate>2027-10-12T00:00:00</FromDate><ToDate>2027-10-12T23:59:00</ToDate></TimePeriod></WeekDay>
+<WeekDay><DayType>0</DayType><DayWorking>0</DayWorking><TimePeriod><FromDate>2027-11-02T00:00:00</FromDate><ToDate>2027-11-02T23:59:00</ToDate></TimePeriod></WeekDay>
+</WeekDays></Calendar></Calendars><Tasks>
+<Task><UID>0</UID><ID>0</ID><Name>Linha de injeção e pintura de para-choques</Name><OutlineLevel>0</OutlineLevel><Summary>1</Summary></Task>
+<Task><UID>1</UID><ID>1</ID><Name>1.1 Engenharia e licenças</Name><OutlineLevel>1</OutlineLevel><WBS>1.1</WBS><Summary>1</Summary>
+</Task>
+<Task><UID>2</UID><ID>2</ID><Name>1.1.1 Projeto básico</Name><OutlineLevel>2</OutlineLevel><WBS>1.1.1</WBS><Summary>1</Summary>
+</Task>
+<Task><UID>3</UID><ID>3</ID><Name>A01 Elaborar o projeto básico e o layout da linha</Name><OutlineLevel>3</OutlineLevel><WBS>1.1.1</WBS><Summary>0</Summary>
+<Duration>PT168H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+</Task>
+<Task><UID>4</UID><ID>4</ID><Name>1.1.2 Projetos executivos</Name><OutlineLevel>2</OutlineLevel><WBS>1.1.2</WBS><Summary>1</Summary>
+</Task>
+<Task><UID>5</UID><ID>5</ID><Name>A02 Elaborar o projeto executivo civil e de utilidades</Name><OutlineLevel>3</OutlineLevel><WBS>1.1.2</WBS><Summary>0</Summary>
+<Duration>PT216H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>3</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>6</UID><ID>6</ID><Name>A03 Elaborar o projeto executivo elétrico e de automação</Name><OutlineLevel>3</OutlineLevel><WBS>1.1.2</WBS><Summary>0</Summary>
+<Duration>PT232H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>3</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>7</UID><ID>7</ID><Name>A04 Compatibilizar os projetos e emitir para construção</Name><OutlineLevel>3</OutlineLevel><WBS>1.1.2</WBS><Summary>0</Summary>
+<Duration>PT56H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>5</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>6</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>8</UID><ID>8</ID><Name>1.1.3 Licenças</Name><OutlineLevel>2</OutlineLevel><WBS>1.1.3</WBS><Summary>1</Summary>
+</Task>
+<Task><UID>9</UID><ID>9</ID><Name>A05 Obter as licenças e aprovações (ambiental e bombeiros)</Name><OutlineLevel>3</OutlineLevel><WBS>1.1.3</WBS><Summary>0</Summary>
+<Duration>PT408H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>3</PredecessorUID><Type>3</Type><LinkLag>48000</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>10</UID><ID>10</ID><Name>A06 Realizar a análise de risco NR-12 do projeto</Name><OutlineLevel>3</OutlineLevel><WBS>1.1.3</WBS><Summary>0</Summary>
+<Duration>PT112H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>6</PredecessorUID><Type>3</Type><LinkLag>57600</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>11</UID><ID>11</ID><Name>1.2 Equipamentos principais</Name><OutlineLevel>1</OutlineLevel><WBS>1.2</WBS><Summary>1</Summary>
+</Task>
+<Task><UID>12</UID><ID>12</ID><Name>1.2.1 Injetora de 3.200 t</Name><OutlineLevel>2</OutlineLevel><WBS>1.2.1</WBS><Summary>1</Summary>
+</Task>
+<Task><UID>13</UID><ID>13</ID><Name>A07 Elaborar a especificação técnica: Injetora de 3.200 t</Name><OutlineLevel>3</OutlineLevel><WBS>1.2.1</WBS><Summary>0</Summary>
+<Duration>PT72H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>3</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>14</UID><ID>14</ID><Name>A08 Contratar o fornecimento: Injetora de 3.200 t</Name><OutlineLevel>3</OutlineLevel><WBS>1.2.1</WBS><Summary>0</Summary>
+<Duration>PT64H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>13</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>15</UID><ID>15</ID><Name>A09 Fabricar: Injetora de 3.200 t</Name><OutlineLevel>3</OutlineLevel><WBS>1.2.1</WBS><Summary>0</Summary>
+<Duration>PT976H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>14</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>16</UID><ID>16</ID><Name>A10 Aprovar os desenhos de fabricação e de bases: Injetora de 3.200 t</Name><OutlineLevel>3</OutlineLevel><WBS>1.2.1</WBS><Summary>0</Summary>
+<Duration>PT88H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>14</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>17</UID><ID>17</ID><Name>A11 Realizar o teste de aceite em fábrica (FAT): Injetora de 3.200 t</Name><OutlineLevel>3</OutlineLevel><WBS>1.2.1</WBS><Summary>0</Summary>
+<Duration>PT48H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>15</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>18</UID><ID>18</ID><Name>A12 Transportar e desembaraçar: Injetora de 3.200 t</Name><OutlineLevel>3</OutlineLevel><WBS>1.2.1</WBS><Summary>0</Summary>
+<Duration>PT224H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>17</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>19</UID><ID>19</ID><Name>A13 Receber e inspecionar na fábrica: Injetora de 3.200 t</Name><OutlineLevel>3</OutlineLevel><WBS>1.2.1</WBS><Summary>0</Summary>
+<Duration>PT32H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>18</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>20</UID><ID>20</ID><Name>1.2.2 Cabine de pintura robotizada</Name><OutlineLevel>2</OutlineLevel><WBS>1.2.2</WBS><Summary>1</Summary>
+</Task>
+<Task><UID>21</UID><ID>21</ID><Name>A14 Elaborar a especificação técnica: Cabine de pintura robotizada</Name><OutlineLevel>3</OutlineLevel><WBS>1.2.2</WBS><Summary>0</Summary>
+<Duration>PT88H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>3</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>22</UID><ID>22</ID><Name>A15 Contratar o fornecimento: Cabine de pintura robotizada</Name><OutlineLevel>3</OutlineLevel><WBS>1.2.2</WBS><Summary>0</Summary>
+<Duration>PT72H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>21</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>23</UID><ID>23</ID><Name>A16 Fabricar: Cabine de pintura robotizada</Name><OutlineLevel>3</OutlineLevel><WBS>1.2.2</WBS><Summary>0</Summary>
+<Duration>PT864H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>22</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>24</UID><ID>24</ID><Name>A17 Aprovar os desenhos de fabricação e de bases: Cabine de pintura robotizada</Name><OutlineLevel>3</OutlineLevel><WBS>1.2.2</WBS><Summary>0</Summary>
+<Duration>PT88H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>22</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>25</UID><ID>25</ID><Name>A18 Realizar o teste de aceite em fábrica (FAT): Cabine de pintura robotizada</Name><OutlineLevel>3</OutlineLevel><WBS>1.2.2</WBS><Summary>0</Summary>
+<Duration>PT48H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>23</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>26</UID><ID>26</ID><Name>A19 Transportar e descarregar: Cabine de pintura robotizada</Name><OutlineLevel>3</OutlineLevel><WBS>1.2.2</WBS><Summary>0</Summary>
+<Duration>PT72H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>25</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>27</UID><ID>27</ID><Name>A20 Receber e inspecionar na fábrica: Cabine de pintura robotizada</Name><OutlineLevel>3</OutlineLevel><WBS>1.2.2</WBS><Summary>0</Summary>
+<Duration>PT32H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>26</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>28</UID><ID>28</ID><Name>1.2.3 Transportador aéreo e robôs de manipulação</Name><OutlineLevel>2</OutlineLevel><WBS>1.2.3</WBS><Summary>1</Summary>
+</Task>
+<Task><UID>29</UID><ID>29</ID><Name>A21 Especificar e contratar: Transportador aéreo e robôs de manipulação</Name><OutlineLevel>3</OutlineLevel><WBS>1.2.3</WBS><Summary>0</Summary>
+<Duration>PT152H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>3</PredecessorUID><Type>1</Type><LinkLag>24000</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>30</UID><ID>30</ID><Name>A22 Fabricar e entregar: Transportador aéreo e robôs de manipulação</Name><OutlineLevel>3</OutlineLevel><WBS>1.2.3</WBS><Summary>0</Summary>
+<Duration>PT640H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>29</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>31</UID><ID>31</ID><Name>A23 Receber e inspecionar na fábrica: Transportador aéreo e robôs de manipulação</Name><OutlineLevel>3</OutlineLevel><WBS>1.2.3</WBS><Summary>0</Summary>
+<Duration>PT32H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>30</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>32</UID><ID>32</ID><Name>1.3 Obra civil e utilidades</Name><OutlineLevel>1</OutlineLevel><WBS>1.3</WBS><Summary>1</Summary>
+</Task>
+<Task><UID>33</UID><ID>33</ID><Name>1.3.1 Preparação da área</Name><OutlineLevel>2</OutlineLevel><WBS>1.3.1</WBS><Summary>1</Summary>
+</Task>
+<Task><UID>34</UID><ID>34</ID><Name>A24 Mobilizar o canteiro e isolar a área em relação à Linha de painéis</Name><OutlineLevel>3</OutlineLevel><WBS>1.3.1</WBS><Summary>0</Summary>
+<Duration>PT72H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>7</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>9</PredecessorUID><Type>3</Type><LinkLag>120000</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>35</UID><ID>35</ID><Name>1.3.2 Bases e piso</Name><OutlineLevel>2</OutlineLevel><WBS>1.3.2</WBS><Summary>1</Summary>
+</Task>
+<Task><UID>36</UID><ID>36</ID><Name>A25 Demolir o piso existente e escavar as bases</Name><OutlineLevel>3</OutlineLevel><WBS>1.3.2</WBS><Summary>0</Summary>
+<Duration>PT88H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>34</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>37</UID><ID>37</ID><Name>A26 Executar as bases dos equipamentos</Name><OutlineLevel>3</OutlineLevel><WBS>1.3.2</WBS><Summary>0</Summary>
+<Duration>PT168H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>36</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>16</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>24</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>38</UID><ID>38</ID><Name>A27 Executar o piso industrial e as canaletas</Name><OutlineLevel>3</OutlineLevel><WBS>1.3.2</WBS><Summary>0</Summary>
+<Duration>PT184H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>37</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>39</UID><ID>39</ID><Name>1.3.3 Utilidades</Name><OutlineLevel>2</OutlineLevel><WBS>1.3.3</WBS><Summary>1</Summary>
+</Task>
+<Task><UID>40</UID><ID>40</ID><Name>A28 Instalar as redes de utilidades: água gelada, ar comprimido e tratamento de efluentes</Name><OutlineLevel>3</OutlineLevel><WBS>1.3.3</WBS><Summary>0</Summary>
+<Duration>PT304H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>36</PredecessorUID><Type>3</Type><LinkLag>48000</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>41</UID><ID>41</ID><Name>A29 Testar e liberar as redes de utilidades</Name><OutlineLevel>3</OutlineLevel><WBS>1.3.3</WBS><Summary>0</Summary>
+<Duration>PT48H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>40</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>42</UID><ID>42</ID><Name>1.3.4 Adequação predial</Name><OutlineLevel>2</OutlineLevel><WBS>1.3.4</WBS><Summary>1</Summary>
+</Task>
+<Task><UID>43</UID><ID>43</ID><Name>A30 Adequar o prédio (cobertura, exaustão e iluminação)</Name><OutlineLevel>3</OutlineLevel><WBS>1.3.4</WBS><Summary>0</Summary>
+<Duration>PT208H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>36</PredecessorUID><Type>3</Type><LinkLag>24000</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>44</UID><ID>44</ID><Name>A31 Instalar a rede de combate a incêndio da área</Name><OutlineLevel>3</OutlineLevel><WBS>1.3.4</WBS><Summary>0</Summary>
+<Duration>PT128H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>43</PredecessorUID><Type>3</Type><LinkLag>38400</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>45</UID><ID>45</ID><Name>1.4 Elétrica e automação</Name><OutlineLevel>1</OutlineLevel><WBS>1.4</WBS><Summary>1</Summary>
+</Task>
+<Task><UID>46</UID><ID>46</ID><Name>1.4.1 Força</Name><OutlineLevel>2</OutlineLevel><WBS>1.4.1</WBS><Summary>1</Summary>
+</Task>
+<Task><UID>47</UID><ID>47</ID><Name>A32 Fabricar e instalar os painéis de força e a subestação</Name><OutlineLevel>3</OutlineLevel><WBS>1.4.1</WBS><Summary>0</Summary>
+<Duration>PT336H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>7</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>48</UID><ID>48</ID><Name>A33 Instalar a infraestrutura elétrica e lançar os cabos</Name><OutlineLevel>3</OutlineLevel><WBS>1.4.1</WBS><Summary>0</Summary>
+<Duration>PT232H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>38</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>47</PredecessorUID><Type>3</Type><LinkLag>72000</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>49</UID><ID>49</ID><Name>A34 Energizar os painéis e testar a alimentação</Name><OutlineLevel>3</OutlineLevel><WBS>1.4.1</WBS><Summary>0</Summary>
+<Duration>PT40H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>47</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>48</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>50</UID><ID>50</ID><Name>1.4.2 Automação de campo</Name><OutlineLevel>2</OutlineLevel><WBS>1.4.2</WBS><Summary>1</Summary>
+</Task>
+<Task><UID>51</UID><ID>51</ID><Name>A35 Instalar a instrumentação e a rede industrial</Name><OutlineLevel>3</OutlineLevel><WBS>1.4.2</WBS><Summary>0</Summary>
+<Duration>PT224H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>48</PredecessorUID><Type>3</Type><LinkLag>48000</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>52</UID><ID>52</ID><Name>A36 Programar os CLPs e o supervisório</Name><OutlineLevel>3</OutlineLevel><WBS>1.4.2</WBS><Summary>0</Summary>
+<Duration>PT336H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>6</PredecessorUID><Type>1</Type><LinkLag>48000</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>53</UID><ID>53</ID><Name>A37 Testar a lógica dos CLPs em bancada</Name><OutlineLevel>3</OutlineLevel><WBS>1.4.2</WBS><Summary>0</Summary>
+<Duration>PT72H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>52</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>54</UID><ID>54</ID><Name>1.5 Montagem</Name><OutlineLevel>1</OutlineLevel><WBS>1.5</WBS><Summary>1</Summary>
+</Task>
+<Task><UID>55</UID><ID>55</ID><Name>1.5.1 Montagem mecânica</Name><OutlineLevel>2</OutlineLevel><WBS>1.5.1</WBS><Summary>1</Summary>
+</Task>
+<Task><UID>56</UID><ID>56</ID><Name>A38 Montar: Injetora de 3.200 t</Name><OutlineLevel>3</OutlineLevel><WBS>1.5.1</WBS><Summary>0</Summary>
+<Duration>PT216H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>19</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>38</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>57</UID><ID>57</ID><Name>A39 Montar: Cabine de pintura robotizada</Name><OutlineLevel>3</OutlineLevel><WBS>1.5.1</WBS><Summary>0</Summary>
+<Duration>PT192H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>27</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>38</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>58</UID><ID>58</ID><Name>A40 Montar e interligar: Transportador aéreo e robôs de manipulação</Name><OutlineLevel>3</OutlineLevel><WBS>1.5.1</WBS><Summary>0</Summary>
+<Duration>PT160H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>31</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>56</PredecessorUID><Type>3</Type><LinkLag>38400</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>57</PredecessorUID><Type>3</Type><LinkLag>38400</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>59</UID><ID>59</ID><Name>A41 Alinhar e nivelar os equipamentos</Name><OutlineLevel>3</OutlineLevel><WBS>1.5.1</WBS><Summary>0</Summary>
+<Duration>PT56H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>56</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>57</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>60</UID><ID>60</ID><Name>1.5.2 Interligações e segurança</Name><OutlineLevel>2</OutlineLevel><WBS>1.5.2</WBS><Summary>1</Summary>
+</Task>
+<Task><UID>61</UID><ID>61</ID><Name>A42 Interligar eletricamente os equipamentos</Name><OutlineLevel>3</OutlineLevel><WBS>1.5.2</WBS><Summary>0</Summary>
+<Duration>PT128H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>49</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>56</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>57</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>62</UID><ID>62</ID><Name>A43 Instalar as proteções e adequar a linha à NR-12</Name><OutlineLevel>3</OutlineLevel><WBS>1.5.2</WBS><Summary>0</Summary>
+<Duration>PT104H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>58</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>59</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>10</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>63</UID><ID>63</ID><Name>A44 Emitir o laudo de conformidade com a NR-12</Name><OutlineLevel>3</OutlineLevel><WBS>1.5.2</WBS><Summary>0</Summary>
+<Duration>PT48H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>62</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>64</UID><ID>64</ID><Name>1.6 Comissionamento e partida</Name><OutlineLevel>1</OutlineLevel><WBS>1.6</WBS><Summary>1</Summary>
+</Task>
+<Task><UID>65</UID><ID>65</ID><Name>1.6.1 Testes</Name><OutlineLevel>2</OutlineLevel><WBS>1.6.1</WBS><Summary>1</Summary>
+</Task>
+<Task><UID>66</UID><ID>66</ID><Name>A45 Elaborar os procedimentos de comissionamento e partida</Name><OutlineLevel>3</OutlineLevel><WBS>1.6.1</WBS><Summary>0</Summary>
+<Duration>PT88H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>6</PredecessorUID><Type>1</Type><LinkLag>72000</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>67</UID><ID>67</ID><Name>A46 Executar os testes a frio (sem produto)</Name><OutlineLevel>3</OutlineLevel><WBS>1.6.1</WBS><Summary>0</Summary>
+<Duration>PT112H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>61</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>63</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>51</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>53</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>41</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>44</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>66</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>68</UID><ID>68</ID><Name>A47 Executar o teste de aceite em campo (SAT) com produto</Name><OutlineLevel>3</OutlineLevel><WBS>1.6.1</WBS><Summary>0</Summary>
+<Duration>PT88H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>67</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>87</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>69</UID><ID>69</ID><Name>1.6.2 Partida</Name><OutlineLevel>2</OutlineLevel><WBS>1.6.2</WBS><Summary>1</Summary>
+</Task>
+<Task><UID>70</UID><ID>70</ID><Name>A48 Corrigir as pendências do teste de aceite</Name><OutlineLevel>3</OutlineLevel><WBS>1.6.2</WBS><Summary>0</Summary>
+<Duration>PT72H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>68</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>71</UID><ID>71</ID><Name>A49 Conduzir a partida assistida e a curva de ramp-up</Name><OutlineLevel>3</OutlineLevel><WBS>1.6.2</WBS><Summary>0</Summary>
+<Duration>PT176H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>68</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>78</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>77</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>72</UID><ID>72</ID><Name>1.7 Pessoas e transição</Name><OutlineLevel>1</OutlineLevel><WBS>1.7</WBS><Summary>1</Summary>
+</Task>
+<Task><UID>73</UID><ID>73</ID><Name>1.7.1 Pessoas</Name><OutlineLevel>2</OutlineLevel><WBS>1.7.1</WBS><Summary>1</Summary>
+</Task>
+<Task><UID>74</UID><ID>74</ID><Name>A50 Recrutar e contratar os operadores da nova linha</Name><OutlineLevel>3</OutlineLevel><WBS>1.7.1</WBS><Summary>0</Summary>
+<Duration>PT248H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>3</PredecessorUID><Type>1</Type><LinkLag>192000</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>75</UID><ID>75</ID><Name>1.7.2 Treinamento</Name><OutlineLevel>2</OutlineLevel><WBS>1.7.2</WBS><Summary>1</Summary>
+</Task>
+<Task><UID>76</UID><ID>76</ID><Name>A51 Elaborar o plano de treinamento e os materiais</Name><OutlineLevel>3</OutlineLevel><WBS>1.7.2</WBS><Summary>0</Summary>
+<Duration>PT128H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>6</PredecessorUID><Type>3</Type><LinkLag>96000</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>77</UID><ID>77</ID><Name>A52 Elaborar os procedimentos operacionais padrão</Name><OutlineLevel>3</OutlineLevel><WBS>1.7.2</WBS><Summary>0</Summary>
+<Duration>PT128H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>76</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>78</UID><ID>78</ID><Name>A53 Treinar os operadores e a equipe de manutenção</Name><OutlineLevel>3</OutlineLevel><WBS>1.7.2</WBS><Summary>0</Summary>
+<Duration>PT128H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>76</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>58</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>74</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>79</UID><ID>79</ID><Name>1.7.3 Encerramento</Name><OutlineLevel>2</OutlineLevel><WBS>1.7.3</WBS><Summary>1</Summary>
+</Task>
+<Task><UID>80</UID><ID>80</ID><Name>A54 Organizar os sobressalentes, os planos de manutenção e o data book</Name><OutlineLevel>3</OutlineLevel><WBS>1.7.3</WBS><Summary>0</Summary>
+<Duration>PT128H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>67</PredecessorUID><Type>3</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>81</UID><ID>81</ID><Name>A55 Registrar as lições aprendidas e desmobilizar o canteiro</Name><OutlineLevel>3</OutlineLevel><WBS>1.7.3</WBS><Summary>0</Summary>
+<Duration>PT56H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>71</PredecessorUID><Type>3</Type><LinkLag>48000</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>82</UID><ID>82</ID><Name>A56 Formalizar o aceite final e encerrar o projeto</Name><OutlineLevel>3</OutlineLevel><WBS>1.7.3</WBS><Summary>0</Summary>
+<Duration>PT48H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>71</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>80</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>89</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>70</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>81</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>83</UID><ID>83</ID><Name>1.8 Sistemas digitais da linha (frente ágil)</Name><OutlineLevel>1</OutlineLevel><WBS>1.8</WBS><Summary>1</Summary>
+</Task>
+<Task><UID>84</UID><ID>84</ID><Name>1.8.1 Release 1 (MVP)</Name><OutlineLevel>2</OutlineLevel><WBS>1.8.1</WBS><Summary>1</Summary>
+</Task>
+<Task><UID>85</UID><ID>85</ID><Name>A57 Desenvolver até a Release 1 (MVP) — sprints 1 a 5</Name><OutlineLevel>3</OutlineLevel><WBS>1.8.1</WBS><Summary>0</Summary>
+<Duration>PT376H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>3</PredecessorUID><Type>3</Type><LinkLag>288000</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>86</UID><ID>86</ID><Name>1.8.2 Release 2</Name><OutlineLevel>2</OutlineLevel><WBS>1.8.2</WBS><Summary>1</Summary>
+</Task>
+<Task><UID>87</UID><ID>87</ID><Name>A58 Desenvolver até a Release 2 — sprints 6 a 11</Name><OutlineLevel>3</OutlineLevel><WBS>1.8.2</WBS><Summary>0</Summary>
+<Duration>PT472H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>85</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+<Task><UID>88</UID><ID>88</ID><Name>1.8.3 Release 3</Name><OutlineLevel>2</OutlineLevel><WBS>1.8.3</WBS><Summary>1</Summary>
+</Task>
+<Task><UID>89</UID><ID>89</ID><Name>A59 Desenvolver até a Release 3 — sprints 12 a 17</Name><OutlineLevel>3</OutlineLevel><WBS>1.8.3</WBS><Summary>0</Summary>
+<Duration>PT448H0M0S</Duration><DurationFormat>7</DurationFormat><Start>2026-02-02T08:00:00</Start><ConstraintType>0</ConstraintType><Manual>0</Manual>
+<PredecessorLink><PredecessorUID>87</PredecessorUID><Type>1</Type><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+</Task>
+</Tasks></Project>

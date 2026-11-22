@@ -1,0 +1,100 @@
+Issue Id,Issue Type,Summary,Description,Story Points,Priority,Labels,Labels,Fix Version,Parent,Status
+1,Epic,EP01 · Coleta de dados da linha,"Como técnico de automação, quero ter os dados da linha no sistema sem digitação. Valor de negócio 79.",,High,EP01,,R1,,To Do
+2,Epic,EP02 · Painel de desempenho e paradas,"Como supervisor de produção, quero enxergar o desempenho do turno em tempo real. Valor de negócio 87.",,High,EP02,,R1,,To Do
+3,Epic,EP03 · Rastreabilidade de lotes e qualidade,"Como analista de qualidade, quero rastrear qualquer lote em minutos. Valor de negócio 57.",,High,EP03,,R2,,To Do
+4,Epic,"EP04 · Receitas, setup e ordens de produção","Como operador líder, quero trocar de produto sem erro de parâmetro. Valor de negócio 28.",,High,EP04,,R2,,To Do
+5,Epic,EP05 · Manutenção e treinamento digital,"Como técnico de manutenção, quero resolver a falha mais rápido e treinar a equipe. Valor de negócio 51.",,High,EP05,,R3,,To Do
+100,Bug,PA-182 · Corrigir o erro ao receber as ordens de produção do ERP (cálculo errado),,1,Highest,MUST,DEFEITO,R2,4,Done
+101,Bug,PA-179 · Corrigir a falha em: Montar um painel com o destaque do mês (erro no celular),,2,Highest,MUST,DEFEITO,R2,5,Done
+102,Bug,PA-183 · Corrigir o erro ao receber as ordens de produção do ERP (mensagem confusa),,1,Highest,MUST,DEFEITO,R2,4,Done
+103,Bug,PA-194 · Corrigir a falha em: Configurar o monitoramento e os registros: Rastreabilidade de lotes e qualidade (lentidão),,1,Highest,MUST,DEFEITO,R2,3,To Do
+104,Bug,PA-174 · Corrigir o erro ao ver a lista de verificação de setup no tablet (mensagem confusa),,3,Highest,MUST,DEFEITO,R2,4,Done
+105,Bug,PA-193 · Corrigir a falha em: Criar indicador de consumo de energia por produto (lentidão),,1,Highest,MUST,DEFEITO,R2,5,Done
+106,Bug,PA-187 · Corrigir o erro ao receber as ordens de produção do ERP (mensagem confusa),,1,Highest,MUST,DEFEITO,R2,4,Done
+107,Bug,PA-165 · Corrigir a falha em: Configurar o monitoramento e os registros: Coleta de dados da linha (dado incorreto),,3,Highest,MUST,DEFEITO,R1,1,Done
+108,Bug,PA-166 · Corrigir a falha em: Documentar a API e o contrato: Painel de desempenho e paradas (cálculo errado),,1,Highest,MUST,DEFEITO,R1,2,Done
+109,Bug,PA-176 · Corrigir o erro ao emitir o laudo do lote para o cliente (não salva),,1,Highest,MUST,DEFEITO,R2,3,Done
+110,Bug,PA-192 · Corrigir o erro ao cronometrar o tempo de troca por etapa (cálculo errado),,1,Highest,MUST,DEFEITO,R2,4,In Progress
+111,Bug,PA-184 · Corrigir o erro ao registrar não conformidades com foto (dado incorreto),,1,Highest,MUST,DEFEITO,R2,3,Done
+112,Bug,PA-185 · Corrigir o erro ao receber as ordens de produção do ERP (erro no celular),,1,Highest,MUST,DEFEITO,R2,4,In Progress
+113,Bug,PA-167 · Corrigir a falha em: Documentar a API e o contrato: Coleta de dados da linha (falha intermitente),,1,Highest,MUST,DEFEITO,R1,1,Done
+114,Bug,PA-175 · Corrigir o erro ao consultar a genealogia completa de um lote (tela trava),,2,Highest,MUST,DEFEITO,R2,3,Done
+115,Bug,PA-178 · Corrigir a falha em: Montar um painel com o destaque do mês (falha intermitente),,2,Highest,MUST,DEFEITO,R2,5,Done
+116,Bug,PA-186 · Corrigir o erro ao receber as ordens de produção do ERP (não salva),,2,Highest,MUST,DEFEITO,R2,4,In Progress
+117,Bug,PA-172 · Corrigir o erro ao ver a lista de verificação de setup no tablet (erro no celular),,2,Highest,MUST,DEFEITO,R2,4,Done
+118,Bug,PA-191 · Corrigir o erro ao cronometrar o tempo de troca por etapa (tela trava),,2,Highest,MUST,DEFEITO,R2,4,Done
+119,Bug,PA-177 · Corrigir o erro ao enviar a receita à injetora de 3.200 t com dupla confirmação (não salva),,2,Highest,MUST,DEFEITO,R2,4,Done
+120,Bug,PA-169 · Corrigir a falha em: Documentar a API e o contrato: Coleta de dados da linha (mensagem confusa),,1,Highest,MUST,DEFEITO,R1,1,Done
+121,Bug,PA-190 · Corrigir a falha em: Enviar relatório automático por e-mail no fim do turno (tela trava),,2,Highest,MUST,DEFEITO,R2,4,To Do
+122,Bug,PA-188 · Corrigir o erro ao registrar não conformidades com foto (cálculo errado),,1,Highest,MUST,DEFEITO,R2,3,In Progress
+123,Story,PA-170 · Incluir um gráfico adicional por supervisor,,3,High,SHOULD,PEDIDO_DIRETO,R1,5,Done
+124,Story,PA-163 · Exportar paradas para a planilha antiga,,2,High,SHOULD,PEDIDO_DIRETO,R1,2,Done
+125,Story,PA-171 · Incluir um campo de observação livre no apontamento,,2,High,SHOULD,PEDIDO_DIRETO,R1,4,Done
+126,Story,PA-168 · Comparar o resultado com a meta do ano anterior,,2,High,SHOULD,PEDIDO_DIRETO,R1,2,Done
+127,Story,PA-164 · Calcular um indicador especial pedido pela gerência,,3,High,SHOULD,PEDIDO_DIRETO,R1,3,Done
+128,Story,PA-101 · Sincronizar o relógio dos CLPs com o servidor,"Como técnico de automação, quero sincronizar o relógio dos CLPs com o servidor para ter os dados da linha no sistema sem digitação.",3,Highest,MUST,PLANO_INICIAL,R1,1,Done
+129,Story,PA-102 · Armazenar os dados em buffer quando a rede cair,"Como técnico de automação, quero armazenar os dados em buffer quando a rede cair para ter os dados da linha no sistema sem digitação.",5,Highest,MUST,PLANO_INICIAL,R1,1,Done
+130,Story,PA-103 · Ler os contadores de produção do CLP da injetora de 3.200 t,"Como técnico de automação, quero ler os contadores de produção do CLP da injetora de 3.200 t para ter os dados da linha no sistema sem digitação.",2,Highest,MUST,PLANO_INICIAL,R1,1,Done
+131,Task,PA-104 · Investigar a viabilidade técnica: Coleta de dados da linha,,2,Highest,MUST,PLANO_INICIAL,R1,1,Done
+132,Story,PA-105 · Ver a produção da hora contra a meta,"Como supervisor de produção, quero ver a produção da hora contra a meta para enxergar o desempenho do turno em tempo real.",5,Highest,MUST,PLANO_INICIAL,R1,2,Done
+133,Story,PA-106 · Comparar o desempenho entre turnos,"Como supervisor de produção, quero comparar o desempenho entre turnos para enxergar o desempenho do turno em tempo real.",3,Highest,MUST,PLANO_INICIAL,R1,2,Done
+134,Story,PA-107 · Registrar automaticamente o início e o fim de cada ordem,"Como técnico de automação, quero registrar automaticamente o início e o fim de cada ordem para ter os dados da linha no sistema sem digitação.",5,Highest,MUST,PLANO_INICIAL,R1,1,Done
+135,Story,PA-108 · Classificar o motivo de cada parada em dois toques,"Como supervisor de produção, quero classificar o motivo de cada parada em dois toques para enxergar o desempenho do turno em tempo real.",3,Highest,MUST,PLANO_INICIAL,R1,2,Done
+136,Story,"PA-109 · Ler os estados de máquina (rodando, parada, falha) da cabine de pintura robotizada","Como técnico de automação, quero ler os estados de máquina (rodando, parada, falha) da cabine de pintura robotizada para ter os dados da linha no sistema sem digitação.",8,Highest,MUST,PLANO_INICIAL,R1,1,Done
+137,Story,PA-110 · Ver o status de cada equipamento em uma tela,"Como supervisor de produção, quero ver o status de cada equipamento em uma tela para enxergar o desempenho do turno em tempo real.",3,Highest,MUST,PLANO_INICIAL,R1,2,Done
+138,Story,PA-111 · Ver o Pareto de paradas do turno e da semana,"Como supervisor de produção, quero ver o Pareto de paradas do turno e da semana para enxergar o desempenho do turno em tempo real.",3,Highest,MUST,PLANO_INICIAL,R1,2,Done
+139,Story,PA-112 · Receber alerta quando uma parada passar de 10 minutos,"Como supervisor de produção, quero receber alerta quando uma parada passar de 10 minutos para enxergar o desempenho do turno em tempo real.",8,High,SHOULD,PLANO_INICIAL,R1,2,Done
+140,Story,PA-113 · Mapear os alarmes da injetora de 3.200 t para motivos de parada,"Como técnico de automação, quero mapear os alarmes da injetora de 3.200 t para motivos de parada para ter os dados da linha no sistema sem digitação.",2,High,SHOULD,PLANO_INICIAL,R1,1,Done
+141,Story,PA-114 · Ver a evolução do ramp-up contra a curva planejada,"Como supervisor de produção, quero ver a evolução do ramp-up contra a curva planejada para enxergar o desempenho do turno em tempo real.",5,High,SHOULD,PLANO_INICIAL,R1,2,Done
+142,Story,PA-115 · Ler consumo de energia e de utilidades por equipamento,"Como técnico de automação, quero ler consumo de energia e de utilidades por equipamento para ter os dados da linha no sistema sem digitação.",5,High,SHOULD,PLANO_INICIAL,R1,1,Done
+143,Story,PA-116 · Exportar o relatório do turno em PDF,"Como supervisor de produção, quero exportar o relatório do turno em PDF para enxergar o desempenho do turno em tempo real.",1,High,SHOULD,PLANO_INICIAL,R1,2,Done
+144,Story,PA-117 · Monitorar a saúde da comunicação com cada CLP,"Como técnico de automação, quero monitorar a saúde da comunicação com cada CLP para ter os dados da linha no sistema sem digitação.",3,High,SHOULD,PLANO_INICIAL,R1,1,Done
+145,Task,PA-118 · Documentar a API e o contrato: Painel de desempenho e paradas,,3,High,SHOULD,PLANO_INICIAL,R1,2,Done
+146,Task,PA-119 · Configurar o monitoramento e os registros: Coleta de dados da linha,,2,High,SHOULD,PLANO_INICIAL,R1,1,Done
+147,Task,PA-120 · Documentar a API e o contrato: Coleta de dados da linha,,5,High,SHOULD,PLANO_INICIAL,R1,1,Done
+148,Task,PA-121 · Configurar o monitoramento e os registros: Painel de desempenho e paradas,,5,High,SHOULD,PLANO_INICIAL,R1,2,Done
+149,Story,PA-122 · Enviar ao ERP o apontamento de produção do turno,"Como técnico de automação, quero enviar ao ERP o apontamento de produção do turno para ter os dados da linha no sistema sem digitação.",1,Medium,COULD,PLANO_INICIAL,R1,1,Done
+150,Story,PA-123 · Exibir o painel na TV da área de produção,"Como supervisor de produção, quero exibir o painel na TV da área de produção para enxergar o desempenho do turno em tempo real.",3,Medium,COULD,PLANO_INICIAL,R1,2,Done
+151,Story,PA-124 · Filtrar os indicadores por produto e por formato,"Como supervisor de produção, quero filtrar os indicadores por produto e por formato para enxergar o desempenho do turno em tempo real.",2,Medium,COULD,PLANO_INICIAL,R1,2,Done
+152,Story,PA-180 · Enviar relatório automático por e-mail no fim do turno,,5,High,SHOULD,MUDANCA_APROVADA,R2,4,Done
+153,Story,PA-173 · Montar um painel com o destaque do mês,,5,High,SHOULD,PEDIDO_DIRETO,R2,5,Done
+154,Story,PA-181 · Criar indicador de consumo de energia por produto,,5,High,SHOULD,MUDANCA_APROVADA,R2,5,Done
+155,Story,PA-189 · Criar uma tela de consulta para a linha vizinha,,3,High,SHOULD,PEDIDO_DIRETO,R2,4,Done
+156,Story,PA-125 · Lançar os resultados das análises de processo no tablet,"Como analista de qualidade, quero lançar os resultados das análises de processo no tablet para rastrear qualquer lote em minutos.",1,Highest,MUST,PLANO_INICIAL,R2,3,Done
+157,Story,PA-126 · Bloquear um lote reprovado antes da expedição,"Como analista de qualidade, quero bloquear um lote reprovado antes da expedição para rastrear qualquer lote em minutos.",5,Highest,MUST,PLANO_INICIAL,R2,3,Done
+158,Story,PA-127 · Registrar o lote de matéria-prima usado em cada ordem,"Como analista de qualidade, quero registrar o lote de matéria-prima usado em cada ordem para rastrear qualquer lote em minutos.",1,Highest,MUST,PLANO_INICIAL,R2,3,Done
+159,Story,PA-128 · Ver a lista de verificação de setup no tablet,"Como operador líder, quero ver a lista de verificação de setup no tablet para trocar de produto sem erro de parâmetro.",5,Highest,MUST,PLANO_INICIAL,R2,4,Done
+160,Story,PA-129 · Enviar a receita à injetora de 3.200 t com dupla confirmação,"Como operador líder, quero enviar a receita à injetora de 3.200 t com dupla confirmação para trocar de produto sem erro de parâmetro.",8,Highest,MUST,PLANO_INICIAL,R2,4,Done
+161,Story,PA-130 · Consultar a genealogia completa de um lote,"Como analista de qualidade, quero consultar a genealogia completa de um lote para rastrear qualquer lote em minutos.",5,Highest,MUST,PLANO_INICIAL,R2,3,Done
+162,Task,PA-131 · Investigar a viabilidade técnica: Rastreabilidade de lotes e qualidade,,2,Highest,MUST,PLANO_INICIAL,R2,3,Done
+163,Story,PA-132 · Receber as ordens de produção do ERP,"Como operador líder, quero receber as ordens de produção do ERP para trocar de produto sem erro de parâmetro.",8,Highest,MUST,PLANO_INICIAL,R2,4,Done
+164,Story,PA-133 · Emitir o laudo do lote para o cliente,"Como analista de qualidade, quero emitir o laudo do lote para o cliente para rastrear qualquer lote em minutos.",5,Highest,MUST,PLANO_INICIAL,R2,3,Done
+165,Story,PA-134 · Cronometrar o tempo de troca por etapa,"Como operador líder, quero cronometrar o tempo de troca por etapa para trocar de produto sem erro de parâmetro.",5,Highest,MUST,PLANO_INICIAL,R2,4,Done
+166,Story,PA-135 · Cadastrar a receita de parâmetros de cada produto,"Como operador líder, quero cadastrar a receita de parâmetros de cada produto para trocar de produto sem erro de parâmetro.",5,Highest,MUST,PLANO_INICIAL,R2,4,Done
+167,Story,PA-136 · Registrar não conformidades com foto,"Como analista de qualidade, quero registrar não conformidades com foto para rastrear qualquer lote em minutos.",5,High,SHOULD,PLANO_INICIAL,R2,3,Done
+168,Story,PA-137 · Registrar a liberação de linha após cada limpeza ou setup,"Como analista de qualidade, quero registrar a liberação de linha após cada limpeza ou setup para rastrear qualquer lote em minutos.",2,High,SHOULD,PLANO_INICIAL,R2,3,Done
+169,Task,PA-138 · Configurar o monitoramento e os registros: Rastreabilidade de lotes e qualidade,,5,High,SHOULD,PLANO_INICIAL,R2,3,Done
+170,Task,PA-139 · Documentar a API e o contrato: Rastreabilidade de lotes e qualidade,,3,High,SHOULD,PLANO_INICIAL,R2,3,Done
+171,Task,PA-140 · Automatizar os testes: Rastreabilidade de lotes e qualidade,,5,High,SHOULD,PLANO_INICIAL,R2,3,In Progress
+172,Story,PA-141 · Registrar o consumo real de materiais por ordem,"Como operador líder, quero registrar o consumo real de materiais por ordem para trocar de produto sem erro de parâmetro.",3,High,SHOULD,PLANO_INICIAL,R2,4,To Do
+173,Task,"PA-142 · Configurar o monitoramento e os registros: Receitas, setup e ordens de produção",,5,High,SHOULD,PLANO_INICIAL,R2,4,To Do
+174,Story,PA-143 · Controlar os pontos críticos com limites e alertas,"Como analista de qualidade, quero controlar os pontos críticos com limites e alertas para rastrear qualquer lote em minutos.",3,High,SHOULD,PLANO_INICIAL,R2,3,To Do
+175,Story,PA-144 · Bloquear o início da ordem sem liberação da qualidade,"Como operador líder, quero bloquear o início da ordem sem liberação da qualidade para trocar de produto sem erro de parâmetro.",3,High,SHOULD,PLANO_INICIAL,R2,4,To Do
+176,Story,PA-145 · Sequenciar as ordens do turno por arrastar e soltar,"Como operador líder, quero sequenciar as ordens do turno por arrastar e soltar para trocar de produto sem erro de parâmetro.",3,High,SHOULD,PLANO_INICIAL,R2,4,To Do
+177,Story,PA-146 · Importar o cadastro de produtos do ERP,"Como técnico de automação, quero importar o cadastro de produtos do ERP para ter os dados da linha no sistema sem digitação.",2,Medium,COULD,PLANO_INICIAL,R2,1,To Do
+178,Story,PA-147 · Comparar o setup realizado com o setup padrão,"Como operador líder, quero comparar o setup realizado com o setup padrão para trocar de produto sem erro de parâmetro.",8,Medium,COULD,PLANO_INICIAL,R2,4,To Do
+179,Story,PA-148 · Abrir uma ordem de manutenção a partir de um alarme,"Como técnico de manutenção, quero abrir uma ordem de manutenção a partir de um alarme para resolver a falha mais rápido e treinar a equipe.",3,Highest,MUST,PLANO_INICIAL,R3,5,To Do
+180,Story,PA-149 · Controlar o estoque mínimo dos sobressalentes críticos,"Como técnico de manutenção, quero controlar o estoque mínimo dos sobressalentes críticos para resolver a falha mais rápido e treinar a equipe.",8,Highest,MUST,PLANO_INICIAL,R3,5,To Do
+181,Task,PA-150 · Investigar a viabilidade técnica: Manutenção e treinamento digital,,2,Highest,MUST,PLANO_INICIAL,R3,5,To Do
+182,Story,PA-151 · Consultar o manual e o desenho do equipamento no celular,"Como técnico de manutenção, quero consultar o manual e o desenho do equipamento no celular para resolver a falha mais rápido e treinar a equipe.",5,Highest,MUST,PLANO_INICIAL,R3,5,To Do
+183,Story,PA-152 · Registrar a causa e a solução de cada falha,"Como técnico de manutenção, quero registrar a causa e a solução de cada falha para resolver a falha mais rápido e treinar a equipe.",3,Highest,MUST,PLANO_INICIAL,R3,5,To Do
+184,Story,PA-153 · Ver o plano de lubrificação e inspeção do dia,"Como técnico de manutenção, quero ver o plano de lubrificação e inspeção do dia para resolver a falha mais rápido e treinar a equipe.",3,Highest,MUST,PLANO_INICIAL,R3,5,To Do
+185,Story,PA-154 · Assistir às videoaulas de operação da cabine de pintura robotizada,"Como técnico de manutenção, quero assistir às videoaulas de operação da cabine de pintura robotizada para resolver a falha mais rápido e treinar a equipe.",3,High,SHOULD,PLANO_INICIAL,R3,5,To Do
+186,Story,PA-155 · Ver a matriz de habilidades da equipe por posto,"Como técnico de manutenção, quero ver a matriz de habilidades da equipe por posto para resolver a falha mais rápido e treinar a equipe.",3,High,SHOULD,PLANO_INICIAL,R3,5,To Do
+187,Story,PA-156 · Fazer a prova de certificação do operador no tablet,"Como técnico de manutenção, quero fazer a prova de certificação do operador no tablet para resolver a falha mais rápido e treinar a equipe.",3,High,SHOULD,PLANO_INICIAL,R3,5,To Do
+188,Task,PA-157 · Configurar o monitoramento e os registros: Manutenção e treinamento digital,,2,High,SHOULD,PLANO_INICIAL,R3,5,To Do
+189,Story,PA-158 · Ver a carta de controle das variáveis críticas,"Como analista de qualidade, quero ver a carta de controle das variáveis críticas para rastrear qualquer lote em minutos.",8,Medium,COULD,PLANO_INICIAL,R3,3,To Do
+190,Story,PA-159 · Registrar a passagem de turno com pendências,"Como técnico de manutenção, quero registrar a passagem de turno com pendências para resolver a falha mais rápido e treinar a equipe.",8,Medium,COULD,PLANO_INICIAL,R3,5,To Do
+191,Story,PA-160 · Receber o passo a passo de partida e parada da linha,"Como técnico de manutenção, quero receber o passo a passo de partida e parada da linha para resolver a falha mais rápido e treinar a equipe.",2,Medium,COULD,PLANO_INICIAL,R3,5,To Do
+192,Story,PA-161 · Simular um recall e listar os clientes afetados,"Como analista de qualidade, quero simular um recall e listar os clientes afetados para rastrear qualquer lote em minutos.",3,Medium,COULD,PLANO_INICIAL,R3,3,To Do
+193,Story,PA-162 · Manter o histórico de alterações das receitas,"Como operador líder, quero manter o histórico de alterações das receitas para trocar de produto sem erro de parâmetro.",5,Medium,COULD,PLANO_INICIAL,R3,4,To Do
