@@ -102,14 +102,19 @@
 
 ## 5. Divisão do grupo
 
-| Quem | Documentos | Folhas | Ferramenta |
-|---|---|---|---|
-| Diego (coordenação) | D1, D11, D12, D15, D16, relatório | M7 | GitHub |
-| Kaique | D3, D4 | M1, M2 | ProjectLibre |
-| Marjorie | D5 | M3 | — |
-| José | D9, D10 | M4, M6 | — |
-| Guilherme | D7, D8 | M5 | Jira |
-| Arley | D2, D6, D13, D14 | M8 | — |
+| Quem | Documentos | Folhas | Ferramenta | Boletins que lança no sistema | Na apresentação |
+|---|---|---|---|---|---|
+| Diego (coordenação) | D1, D11, D12, D15, D16, relatório | M7 | GitHub | Confere os números de controle | Abertura, decisão e recomendação |
+| Kaique | D3, D4 | M1, M2 | ProjectLibre | B1 (avanço) | Prazo e caminho crítico |
+| Marjorie | D5 | M3 | — | B2 e B3 (horas e custos) | Custo e valor agregado |
+| José | D9, D10 | M4, M6 | — | B4 e B8 (inspeções, riscos e mudanças) | Riscos, reserva e fornecedores |
+| **Guilherme** | D7, D8 | M5 | **Jira (responsável)**: criar o site e o projeto Scrum, convidar o professor, importar o backlog, executar a sprint S14 e capturar o burndown e a velocidade | B5, B6 e B7 (sprint, quadro e impedimentos) | Trilha ágil e escopo fora do controle |
+| Arley | D2, D6, D13, D14 | M8 | — | B9 e B10 (reuniões, engajamento e produção) | Pessoas e produtividade |
+
+**Regras para todos:**
+- Pelo menos 1 commit e 2 entradas no diário de prompts por pessoa.
+- Cada um assina a sua folha e confere a conta contra o gabarito.
+- Cada um sabe explicar os números da sua parte na arguição individual.
 
 ## 6. O que já está pronto (status)
 
