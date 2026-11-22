@@ -134,18 +134,19 @@ PERG = {
 }
 
 PESSOAS = [
- ('Diego', 'Coordenação', ['D16', 'REL'], ['M7'], 'GitHub', [], 'Abertura, cenários e recomendação',
+ ('Diego', 'Coordenação', ['D16', 'REL'], ['M7'], 'GitHub', ['sprint', 'backlog', 'itemSprint', 'defeitos', 'quadro', 'impedimentos', 'implantacoes'], 'Abertura, cenários e recomendação',
   ['Convidar os colegas e o professor como colaboradores no GitHub e mandar o link do sistema e o roteiro ao grupo.',
+   'Você lança a trilha ágil (B5 a B7): faça "Novo item no backlog" ANTES de "Itens da sprint" e do quadro, e mova os cartões na ordem exata. É o treino para o boletim surpresa ao vivo.',
    'Depois dos lançamentos, abrir Conferência e checar as 13 linhas "até 13/11" (todas ✔).',
    'Montar a ficha do grupo (uma página: quem fez o quê), o diário de prompts (10 entradas, de 3 pessoas) e enviar o formulário de entrega até 24/11, 23h59.']),
- ('Caique', '', ['D3', 'D4', 'D12', 'D17'], ['M1', 'M2'], 'ProjectLibre', ['avanco'], 'Prazo, caminho crítico e modelo 3D',
+ ('Caique', '', ['D3', 'D4', 'D12', 'D17'], ['M1', 'M2'], 'ProjectLibre', ['avanco', 'producao'], 'Prazo, caminho crítico e modelo 3D',
   ['Instalar o ProjectLibre e importar o arquivo que eu gero; salvar a linha de base e o avanço em 13/11; exportar o PDF do Gantt.']),
- ('José', '', ['D1', 'D5', 'D15'], ['M3'], '—', ['horas', 'custos', 'medicoes'], 'Custo, valor agregado e caso de negócio', []),
- ('Marjorie', '', ['D9', 'D10'], ['M4', 'M6'], '—', ['inspecoes', 'mudancas'], 'Riscos, reserva e fornecedores', []),
- ('Guilherme', '', ['D7', 'D8', 'D11'], ['M5'], 'Jira (responsável)', ['sprint', 'backlog', 'itemSprint', 'defeitos', 'quadro', 'impedimentos', 'implantacoes'],
+ ('José', '', ['D1', 'D5', 'D15'], ['M3'], '—', [R.H1, 'custos'], 'Custo, valor agregado e caso de negócio', []),
+ ('Marjorie', '', ['D9', 'D10'], ['M4', 'M6'], '—', [R.H2, 'medicoes', 'inspecoes'], 'Riscos, reserva e fornecedores', []),
+ ('Guilherme', '', ['D7', 'D8', 'D11'], ['M5'], 'Jira (responsável)', ['mudancas', 'okr', 'funil'],
   'Trilha ágil, escopo e Bússola de Abordagem',
   ['Criar o site gratuito do Jira e o projeto Scrum; convidar o professor; importar o CSV do backlog que eu gero; criar as versões R1, R2 e R3; executar a S14 no quadro na ordem do boletim B6; capturar burndown e velocidade.']),
- ('Arley', '', ['D2', 'D6', 'D13', 'D14'], ['M8'], '—', ['reunioes', 'engajamento', 'pulso', 'okr', 'producao', 'funil'], 'Partes interessadas e pessoas', []),
+ ('Arley', '', ['D2', 'D6', 'D13', 'D14'], ['M8'], '—', ['reunioes', 'engajamento', 'pulso'], 'Partes interessadas e pessoas', []),
 ]
 
 CSS = '''@page { size: A4; margin: 12mm; } body { font-family: "DejaVu Sans", Arial, sans-serif; font-size: 10.5px; color: #1d2733; line-height: 1.4; }
@@ -159,15 +160,16 @@ td.n { color: #6b7785; width: 16px; } .resumo td:first-child { width: 22%; font-
 def kit(nome, papel, docs, folhas, ferr, telas, apres, tarefas):
     resumo = f'''<table class="resumo"><tr><td>Documentos</td><td>{", ".join(f"{d} {DOC[d][0]}" if d != "REL" else "Relatório gerencial (slides)" for d in docs)}</td></tr>
       <tr><td>Folha(s) à mão</td><td>{", ".join(folhas)} · A4 quadriculado, caneta, com nome e assinatura</td></tr><tr><td>Ferramenta</td><td>{ferr}</td></tr>
-      <tr><td>Lança no sistema</td><td>{", ".join(f"{R.BOL[t]} {R.TIT[t]}" if t != "quadro" else "B6 Quadro da sprint" for t in telas) or "Confere os números de controle"}</td></tr>
+      <tr><td>Lança no sistema</td><td>{", ".join((lambda k, ls, c: f"{R.BOL[k]} {R.TIT[k]}" + (f" ({c})" if c else "") if k != "quadro" else "B6 Quadro da sprint")(*R.item(t)) for t in telas)}</td></tr>
       <tr><td>Apresenta</td><td>{apres}</td></tr></table>'''
     extra = ''.join(f'<li>{E(t)}</li>' for t in tarefas)
     docs_html = ''.join(f'<h3>{d if d != "REL" else ""} {E(DOC[d][0])}</h3><ul>' + ''.join(f'<li>{E(x)}</li>' for x in DOC[d][1]) + '</ul>' for d in docs)
     folhas_html = ''.join(f'<h3>Folha {m}</h3>{texto_folha(m)}<p class="dica">Dados do dossiê para a folha {m}:</p>' + ''.join(tab_docx(i) for i in FOLHAS[m]) for m in folhas)
     bol = ''
     for t in telas:
+        t, linhas, comp = R.item(t)
         if t == 'quadro': bol += f'<h3><span class="chip">B6</span> Quadro da sprint · {len(R.MOV)} movimentos</h3>{R.quadro()}'
-        else: bol += f'<h3><span class="chip">{R.BOL[t]}</span> {E(R.TIT[t])} · {len(R.B[t])} linha(s)</h3>' + (f'<p class="dica">{R.AVISO[t]}</p>' if t in R.AVISO else '') + R.tabela(t)
+        else: bol += f'<h3><span class="chip">{R.BOL[t]}</span> {E(R.TIT[t])}{" · " + comp if comp else ""} · {len(linhas)} linha(s)</h3>' + (f'<p class="dica">{R.AVISO[t]}</p>' if t in R.AVISO else '') + R.tabela(t, linhas)
     perg = ''.join(f'<li><b>{E(q)}</b><br>{E(a)}</li>' for q, a in PERG[nome])
     return f'''<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><title>Kit {nome} · G7</title><style>{CSS}</style></head><body>
 <h1>{nome}{(" · " + papel) if papel else ""}</h1><p class="sub">ENGN62 Gestão de Projetos · Trabalho final "Sala de Guerra das Duas Trilhas" · G7 Plásticos Abrantes</p>

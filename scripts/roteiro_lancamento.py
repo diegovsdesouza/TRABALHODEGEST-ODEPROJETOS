@@ -19,17 +19,25 @@ def fmt(c, v):
     if re.fullmatch(r'\d{4}-\d{2}-\d{2}', v): return '/'.join(reversed(v.split('-')))
     return v.replace('.', ',') if re.fullmatch(r'-?\d+\.\d+', v) else v
 
+# (tela, filtro de linhas, complemento do título). A folha de horas (B2) foi dividida por semana.
+H1 = ('horas', lambda l: l['semana_inicio'] == '2026-11-02', 'semana de 02/11')
+H2 = ('horas', lambda l: l['semana_inicio'] == '2026-11-09', 'semana de 09/11')
 PESSOAS = [
-    ('Caique', ['avanco']),
-    ('José', ['horas', 'custos', 'medicoes']),
-    ('Marjorie', ['inspecoes', 'mudancas']),
-    ('Guilherme', ['sprint', 'backlog', 'itemSprint', 'defeitos', 'quadro', 'impedimentos', 'implantacoes']),
-    ('Arley', ['reunioes', 'engajamento', 'pulso', 'okr', 'producao', 'funil']),
+    ('Diego', ['sprint', 'backlog', 'itemSprint', 'defeitos', 'quadro', 'impedimentos', 'implantacoes']),
+    ('Caique', ['avanco', 'producao']),
+    ('José', [H1, 'custos']),
+    ('Marjorie', [H2, 'medicoes', 'inspecoes']),
+    ('Guilherme', ['mudancas', 'okr', 'funil']),
+    ('Arley', ['reunioes', 'engajamento', 'pulso']),
 ]
+def item(t):
+    """Normaliza a entrada: devolve (tela, linhas, complemento)."""
+    if isinstance(t, tuple): return t[0], [l for l in B[t[0]] if t[1](l)], t[2]
+    return t, (MOV if t == 'quadro' else B[t]), ''
 
-def tabela(tela):
+def tabela(tela, linhas=None):
     ROT = ROTT[tela]
-    linhas = B[tela]; cols = []
+    linhas = B[tela] if linhas is None else linhas; cols = []
     for l in linhas:
         for c in l:
             if c not in cols: cols.append(c)
@@ -58,11 +66,12 @@ def main():
     for nome, telas in PESSOAS:
         blocos = []
         for t in telas:
+            t, linhas, comp = item(t)
             if t == 'quadro':
                 blocos.append(f'<h3><span class="chip">B6</span> Quadro da sprint (mover cartões) · {len(MOV)} movimentos</h3>{quadro()}')
                 continue
             aviso = f'<p class="dica">{AVISO[t]}</p>' if t in AVISO else ''
-            blocos.append(f'<h3><span class="chip">{BOL[t]}</span> {html.escape(TIT[t])} · {len(B[t])} linha(s)</h3>{aviso}{tabela(t)}')
+            blocos.append(f'<h3><span class="chip">{BOL[t]}</span> {html.escape(TIT[t])}{" · " + comp if comp else ""} · {len(linhas)} linha(s)</h3>{aviso}{tabela(t, linhas)}')
         partes.append(f'<section><h2>{nome}</h2>{"".join(blocos)}</section>')
 
     doc = f'''<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><title>Roteiro de lançamento dos boletins · G7</title><style>
@@ -82,7 +91,7 @@ def main():
     <li>Em <b>Lançamentos</b>, toque na aba da tela (os botões com B1, B2…). Preencha <b>uma linha da tabela por vez</b> e toque em <b>Salvar</b>. Espere a mensagem "Salvo em…" antes da próxima.</li>
     <li>Campos marcados como <i>vazio</i>: deixe em branco ou escolha "— vazio —". Datas no formato do iPad/celular; números com vírgula ou ponto.</li>
     <li><b>Errou?</b> Na lista "Últimos lançamentos" embaixo da tela, toque em <b>apagar</b> na linha errada e lance de novo. <b>Nunca lance a mesma linha duas vezes</b>: duplicata quebra os números de controle.</li>
-    <li>Ordem entre pessoas: o <b>Guilherme</b> faz "Novo item no backlog" antes de "Itens da sprint" e do quadro. As outras telas podem ser feitas em qualquer ordem, ao mesmo tempo.</li>
+    <li>Ordem entre pessoas: o <b>Diego</b> faz "Novo item no backlog" antes de "Itens da sprint" e do quadro. As outras telas podem ser feitas em qualquer ordem, ao mesmo tempo.</li>
     <li>No fim, o <b>Diego</b> abre <b>Conferência</b>: as 13 linhas da coluna "até 13/11" devem ficar com ✔ confere.</li></ol></div>
     {"".join(partes)}
     </body></html>'''
