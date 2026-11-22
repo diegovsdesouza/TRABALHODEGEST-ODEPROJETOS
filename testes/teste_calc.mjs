@@ -1,0 +1,12 @@
+import { carregar } from './carrega.mjs';
+import * as K from '../app/js/calc.js';
+const db = carregar(new URL('../dados/tratados', import.meta.url).pathname);
+const lb = K.linhaDeBase(db);
+console.log('LB término', lb.termino, 'du', lb.fim);
+for (const r of K.controle(db, '2026-10-30')) console.log((Math.abs(r.valor - r.esperado30) < 0.01 ? 'OK ' : 'XX ') + r.indicador, r.valor, r.esperado30);
+const ev = K.valorAgregado(db, '2026-09-25', lb);
+const k = (x) => (x / 1000).toFixed(1);
+for (const e of [...ev.entregas, ev.preditiva, ev.agil, ev.projeto]) console.log(e.entrega.padEnd(18), 'VP', k(e.vp), 'VA', k(e.va), 'CR', k(e.cr), 'IDP', e.idp?.toFixed(3), 'IDC', e.idc?.toFixed(3));
+console.log('ENT', ev.projeto.ent.toFixed(0), 'IDPT', ev.projeto.idpt.toFixed(3));
+const pv = K.previsao(db, '2026-10-30', lb); console.log('previsão 30/10', pv.termino, pv.duAlemContrato, pv.cadeia.join('>'), pv.agil.vmed);
+console.log(K.riscos(db).exposicao, K.riscos(db).abertas.length);
