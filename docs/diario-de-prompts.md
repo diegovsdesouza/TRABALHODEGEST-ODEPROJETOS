@@ -14,8 +14,8 @@ Regra do enunciado: **10 entradas, de pelo menos 3 pessoas**. Regra do grupo: **
 | 8 | | José | | | | |
 | 9 | | Marjorie | | | | |
 | 10 | | Marjorie | | | | |
-| 11 | | Guilherme | | | | |
-| 12 | | Guilherme | | | | |
+| 11 | 22/11 | Guilherme | Claude | Configurar o quadro do Jira com as colunas Em revisão e Em teste, que o fluxo da base de dados usa e o quadro padrão do Scrum não tem | Passou o caminho de um menu que não existe na versão atual do Jira (criar a coluna pelo campo "Colunas" das configurações do projeto) | Ao seguir o passo a passo, o menu não apareceu na tela; enviamos prints e o caminho foi corrigido: os status são criados no editor de fluxo de trabalho ("Adicionar status") e as colunas em Configurar colunas, no menu do quadro. Registramos nos pontos de atenção que os status foram criados depois da carga e que as transições anteriores não ficaram no histórico do Jira |
+| 12 | 22/11 | Guilherme | Claude | Redigir o D7 (backlog e releases no Jira) a partir dos dados e do que foi montado no Jira | Incluiu no documento exigências que a especificação do D7 não pede, apresentadas como se fizessem parte dela | Na revisão, comparamos o texto com a especificação do D7 no kit e perguntamos de onde vinham aqueles itens; a IA confirmou que eram proposta dela. Cortamos o que não fazia parte da entrega e o documento ficou com 4 páginas |
 | 13 | | Arley | | | | |
 | 14 | | Arley | | | | |
 
