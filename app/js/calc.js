@@ -359,3 +359,25 @@ export function produtividade(db, corte) {
         : real / r.produtividade_planejada < 0.9 ? 'falta gente e produtividade' : 'no ritmo') };
   });
 }
+
+// ---------- M5 · burndown e fluxo da sprint (convenção 9)
+export function burndown(db, C, sp) {
+  const s = db.sprints.find((x) => x.id_sprint === sp); const itens = db.sprint_itens.filter((x) => x.id_sprint === sp);
+  const dias = [...C.d2du.keys()].filter((x) => x >= s.data_inicio && x <= s.data_fim);
+  const total = itens.reduce((a, x) => a + Number(x.pontos), 0); const bl = Object.fromEntries(db.backlog_itens.map((b) => [b.id_item, b]));
+  const concl = itens.filter((x) => Number(x.concluido_na_sprint) === 1);
+  const rest = dias.map((dd) => total - concl.filter((x) => bl[x.id_item]?.data_conclusao && bl[x.id_item].data_conclusao <= dd).reduce((a, x) => a + Number(x.pontos), 0));
+  return { dias, rest, ideal: dias.map((_, i) => total * (1 - (i + 1) / dias.length)), total, vel: concl.reduce((a, x) => a + Number(x.pontos), 0) };
+}
+
+export function fluxo(db, C, sp) {
+  const s = db.sprints.find((x) => x.id_sprint === sp);
+  const concl = db.sprint_itens.filter((x) => x.id_sprint === sp && Number(x.concluido_na_sprint) === 1).map((x) => x.id_item);
+  const ciclos = concl.map((id) => {
+    const tr = db.itens_transicoes.filter((t) => t.id_item === id && t.status_destino === 'EM_ANDAMENTO').map((t) => t.data).sort();
+    const fim = db.backlog_itens.find((b) => b.id_item === id)?.data_conclusao; if (!tr.length || !fim) return null;
+    return C.duAte(fim) - C.duAte(tr[0]) + 1;
+  }).filter((x) => x != null);
+  const dus = C.duAte(s.data_fim) - C.duAte(s.data_inicio) + 1;
+  return { ciclo: ciclos.reduce((a, b) => a + b, 0) / (ciclos.length || 1), vazao: concl.length / dus, n: concl.length };
+}

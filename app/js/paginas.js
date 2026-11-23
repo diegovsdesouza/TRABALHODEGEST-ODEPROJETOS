@@ -2,6 +2,7 @@
 import Chart from 'chart.js/auto';
 import { dados, fmt, htmlTabela, dataCorte } from './db.js';
 import * as K from './calc.js';
+import { burndown, fluxo } from './calc.js';
 
 const graficos = [];
 function grafico(canvas, cfg) { const g = new Chart(canvas, cfg); graficos.push(g); return g; }
@@ -116,27 +117,6 @@ export async function paginaAgil(alvo) {
   grafico(alvo.querySelector('#gB'), { type: 'line', data: { labels: bd.dias.map((x) => fmt.data(x).slice(0, 5)), datasets: [
     { label: 'restantes', data: bd.rest, borderColor: '#c00000' }, { label: 'ideal', data: bd.ideal, borderColor: '#6b7785', borderDash: [5, 4], pointRadius: 0 }] }, options: { plugins: { legend: { position: 'bottom' } } } });
   alvo.querySelector('#spB').onchange = (e) => { sessionStorage.setItem('spBurn', e.target.value); paginaAgil(alvo); };
-}
-
-export function burndown(db, C, sp) {
-  const s = db.sprints.find((x) => x.id_sprint === sp); const itens = db.sprint_itens.filter((x) => x.id_sprint === sp);
-  const dias = [...C.d2du.keys()].filter((x) => x >= s.data_inicio && x <= s.data_fim);
-  const total = itens.reduce((a, x) => a + Number(x.pontos), 0); const bl = Object.fromEntries(db.backlog_itens.map((b) => [b.id_item, b]));
-  const concl = itens.filter((x) => Number(x.concluido_na_sprint) === 1);
-  const rest = dias.map((dd) => total - concl.filter((x) => bl[x.id_item]?.data_conclusao && bl[x.id_item].data_conclusao <= dd).reduce((a, x) => a + Number(x.pontos), 0));
-  return { dias, rest, ideal: dias.map((_, i) => total * (1 - (i + 1) / dias.length)), total, vel: concl.reduce((a, x) => a + Number(x.pontos), 0) };
-}
-
-export function fluxo(db, C, sp) {
-  const s = db.sprints.find((x) => x.id_sprint === sp);
-  const concl = db.sprint_itens.filter((x) => x.id_sprint === sp && Number(x.concluido_na_sprint) === 1).map((x) => x.id_item);
-  const ciclos = concl.map((id) => {
-    const tr = db.itens_transicoes.filter((t) => t.id_item === id && t.status_destino === 'EM_ANDAMENTO').map((t) => t.data).sort();
-    const fim = db.backlog_itens.find((b) => b.id_item === id)?.data_conclusao; if (!tr.length || !fim) return null;
-    return C.duAte(fim) - C.duAte(tr[0]) + 1;
-  }).filter((x) => x != null);
-  const dus = C.duAte(s.data_fim) - C.duAte(s.data_inicio) + 1;
-  return { ciclo: ciclos.reduce((a, b) => a + b, 0) / (ciclos.length || 1), vazao: concl.length / dus, n: concl.length };
 }
 
 // ---------------- R1 · Conferência com os números de controle e com o caderno
