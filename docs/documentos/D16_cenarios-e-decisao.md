@@ -1,7 +1,7 @@
 # D16 · Cenários e decisão
 
 **Projeto:** Linha de injeção e pintura de para-choques · Plásticos Abrantes (G7) · ENGN62 2026.2
-**Versão:** 1.0 · **Data de status:** 13/11/2026 · **Responsável:** Diego · **Revisão:** Diego Santana de Souza,23/11/2026
+**Versão:** 1.0 · **Data de status:** 13/11/2026 · **Responsável:** Diego · **Revisão:** Diego Santana de Souza, 23/11/2026
 **Fontes:** tabelas 02 e 43 a 46; convenções 21 a 23; página Cenários; folha M7
 
 ## 1. Os seis cenários (convenções 21 a 23)
@@ -28,14 +28,17 @@ Conferência com o dossiê (M7): C1 10/05/2027 e ENT 41.764.252; C3 10/05/2027 e
 | C3 + C6 | 10/05/2027 | 1 | 41.506.282 | 2.607.789 | **2.557.689** | -482.552 |
 | C5 + C6 | 10/05/2027 | 1 | 41.867.261 | 3.326.369 | **3.276.269** | 236.028 |
 
+**Combinação testada: C5 + C6.** É a melhor das cinco combinações (R$ 3.276.269, R$ 236.028 acima do C1), mas fica R$ 62.294 abaixo do C6 sozinho: o custo da licença do C5 come o ganho. A combinação não compensa.
+
 
 ## 3. O que se perde em cada escolha
 
+- **C1 seguir como está:** termina 1 du além do contrato (R$ 50.100), com a contingência já estourada (saldo −R$ 266.400) e R$ 371 mil em multas a cobrar. Não resolve nenhum dos problemas do diagnóstico.
 - **C2 recuperar o prazo:** termina antes do contrato, mas a compressão custa mais do que o atraso que evita.
 - **C3 cortar escopo:** economiza custo, mas perde benefício (−1,4%) e eleva o custo operacional.
 - **C4 ampliar o escopo:** maior VPL, mas 32 du de atraso (R$ 1,6 mi) derrubam o resultado.
-- **C5 trocar a solução:** praticamente igual ao C1.
-- **C6 dois estágios:** antecipa 60% do benefício (produção em um turno após os testes a frio) sem mexer no caminho crítico.
+- **C5 trocar a solução:** perde o que já foi gasto no épico Receitas, setup e ordens de produção (não volta) e acrescenta a licença anual (+R$ 17.500/ano de operação). Fica R$ 61.107 abaixo do C1 e cria dependência de fornecedor.
+- **C6 dois estágios:** antecipa 60% do benefício (produção em um turno após os testes a frio) sem mexer no caminho crítico. **Perde:** exige a atividade nova N05 (8 du, R$ 116.400); nos primeiros meses a linha roda em um turno, com operação manual e mais risco de qualidade; o aceite final não antecipa.
 
 ## 4. Recomendação ao comitê
 
@@ -43,5 +46,3 @@ Conferência com o dossiê (M7): C1 10/05/2027 e ENT 41.764.252; C3 10/05/2027 e
 **Decisão pedida:** aprovar o investimento adicional e a operação em um turno após os testes a frio · **dono:** gerente do projeto · **prazo:** comitê de dezembro/2026.
 Em paralelo (sem custo): bloquear pedidos diretos (D11), cobrar multas (D10) e pedir o remanejamento da reserva gerencial (D9).
 
----
-*Rascunho gerado a partir dos números do sistema (https://trabalhodegest-odeprojetos.netlify.app, data de corte 13/11/2026, com os boletins B1 a B10 lançados). O responsável revisa, completa os campos em branco, ajusta o texto e assina.*
