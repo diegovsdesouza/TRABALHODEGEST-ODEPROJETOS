@@ -1,7 +1,7 @@
 # D16 · Cenários e decisão
 
 **Projeto:** Linha de injeção e pintura de para-choques · Plásticos Abrantes (G7) · ENGN62 2026.2
-**Versão:** 0.1 (rascunho) · **Data de status:** 13/11/2026 · **Responsável:** Diego · **Revisão:** ____________
+**Versão:** 1.0 · **Data de status:** 13/11/2026 · **Responsável:** Diego · **Revisão:** Diego Santana de Souza,23/11/2026
 **Fontes:** tabelas 02 e 43 a 46; convenções 21 a 23; página Cenários; folha M7
 
 ## 1. Os seis cenários (convenções 21 a 23)
