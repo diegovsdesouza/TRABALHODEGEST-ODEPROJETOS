@@ -24,7 +24,7 @@ Arquivos: `cronograma_G7.xml` (projeto gerado), `cronograma_G7.pod` e `gantt_G7.
 
 **Conferência com o sistema e com o papel:** o término e o caminho crítico do ProjectLibre devem ser os mesmos do sistema (página Prazo) e da folha M1 (sub-rede).
 
-**No ProjectLibre:** linha de base com término em 27/04/2027 e, com o avanço de 13/11 lançado, previsão em 10/05/2027, pela mesma cadeia A11 → A12 → … → A56. O mesmo resultado aparece na página Prazo e na folha M1.
+**No ProjectLibre** (`cronograma_G7.pod`, `gantt_G7.pdf` e `rede_G7.pdf`): com o avanço de 13/11 lançado, o término previsto ficou em **11/05/2027**, pela mesma cadeia A11 → A12 → A13 → A38 → … → A56. O sistema e a folha M1 dão **10/05/2027**. A diferença de 1 dia útil vem da A12 (transporte da injetora, 70%): o ProjectLibre mantém a duração original a partir do início real (20/10/2026) e termina a A12 em 30/11; a convenção 11 do dicionário reprograma o restante a partir da data de status (13/11 + 28 × 30% = 9 du) e termina em 27/11. Para a decisão vale a convenção 11 (10/05/2027); nos dois casos o projeto passa do contrato (07/05/2027).
 
 ## 3. Tabela da rede
 
