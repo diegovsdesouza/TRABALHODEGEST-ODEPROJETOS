@@ -1,7 +1,7 @@
 # D17 · Modelo 3D
 
 **Projeto:** Linha de injeção e pintura de para-choques · Plásticos Abrantes (G7) · ENGN62 2026.2
-**Versão:** 0.1 (rascunho) · **Data de status:** 13/11/2026 · **Responsável:** Caique · **Revisão:** ____________
+**Versão:** 0.1 · **Data de status:** 13/11/2026 · **Responsável:** Caique · **Revisão:** Caique Mattos, 24/11/2026
 **Fontes:** tabela 38; página Modelo 3D do sistema (R12)
 
 ## 1. O modelo
@@ -42,5 +42,3 @@
 
 **Capturas da animação (página Modelo 3D):** projeto executivo, obra civil pronta, equipamentos montados e linha pronta, em `docs/` (anexadas pelo responsável).
 
----
-*Rascunho gerado a partir dos números do sistema (https://trabalhodegest-odeprojetos.netlify.app, data de corte 13/11/2026, com os boletins B1 a B10 lançados). O responsável revisa, completa os campos em branco, ajusta o texto e assina.*
