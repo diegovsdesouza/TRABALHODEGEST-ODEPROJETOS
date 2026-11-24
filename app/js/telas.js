@@ -133,7 +133,7 @@ function campoHTML([nome, rotulo, tipo, o = {}], valor) {
 function lerForm(form, t) {
   const r = {};
   for (const [nome, , tipo, o = {}] of t.campos) {
-    const v = form.elements[nome].value;
+    const v = form.elements[nome].value.trim();
     const ehNum = tipo === 'int' || tipo === 'num' || (tipo === 'sel' && Array.isArray(o.op) && Array.isArray(o.op[0]) && /^\d$/.test(o.op[0][0]));
     r[nome] = v === '' ? null : ehNum ? Number(v) : v;
   }
