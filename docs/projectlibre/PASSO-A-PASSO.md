@@ -1,6 +1,6 @@
 # ProjectLibre · cronograma do G7 (responsável: Caique)
 
-Arquivos: `cronograma_G7.xml` (o projeto) e `avanco_13-11.csv` (o avanço real na data de status). O ProjectLibre roda **no computador** (Windows, Mac ou Linux), não no iPad nem no celular.
+Arquivos: `cronograma_G7.xml` (o projeto) e `avanco_13-11.pdf` (o avanço real na data de status, em tabela para digitar; o mesmo conteúdo está em `avanco_13-11.csv`). O ProjectLibre roda **no computador** (Windows, Mac ou Linux), não no iPad nem no celular.
 
 1. Instale o ProjectLibre (projectlibre.com, gratuito).
 2. **Arquivo → Abrir** → escolha o `cronograma_G7.xml`. Ele traz:
@@ -14,7 +14,7 @@ Arquivos: `cronograma_G7.xml` (o projeto) e `avanco_13-11.csv` (o avanço real n
    - se algo diferente aparecer, me avise antes de salvar a linha de base.
 4. **Projeto → Linha de base → Salvar linha de base.**
 5. Defina a **data de status 13/11/2026** (Projeto → Informações do projeto).
-6. Lance o avanço real de cada atividade do `avanco_13-11.csv`: duplo clique na tarefa → **% concluído**, **Início real** e, se tiver, **Término real**.
+6. Lance o avanço real de cada atividade do `avanco_13-11.pdf`: duplo clique na tarefa → **% concluído**, **Início real** e, se tiver, **Término real**.
 7. Confira a previsão: o término deve ir para **10/05/2027**.
 8. **Salve como `.pod`** em `docs/projectlibre/` e exporte em **PDF** o Gantt (com a linha de base) e a rede (Diagrama de rede) com o caminho crítico.
 
