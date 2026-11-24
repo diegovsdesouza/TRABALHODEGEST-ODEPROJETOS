@@ -22,7 +22,7 @@
 - **Preditiva:** engenharia e licenças; compra e importação da injetora de 3.200 t, da cabine de pintura robotizada e do transportador aéreo com robôs; obra civil e utilidades; elétrica e automação; montagem; NR-12; comissionamento, testes (FAT, SAT) e partida; treinamento.
 - **Ágil:** sistemas digitais da linha (coleta de dados, painel de desempenho, rastreabilidade, receitas e manutenção), em 3 releases.
 
-**Fora do escopo:** _(completar: ex. ampliação do galpão, outros produtos, integração com o ERP da montadora)_.
+**Fora do escopo:** ampliação do galpão; outros produtos além dos para-choques; integração com o ERP da montadora; operação da linha depois do aceite final (A56); manutenção das outras linhas da fábrica, como a Linha de painéis.
 
 **Premissas e restrições:** a Linha de painéis continua operando durante a obra; a injetora é importada (câmbio em euro); a Release 2 precisa estar pronta para o teste de aceite em campo (A47) e a Release 3 para o aceite final (A56).
 

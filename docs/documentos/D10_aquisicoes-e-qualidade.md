@@ -24,7 +24,13 @@
 
 
 - **Desvios:** CT03 injetora (contrato em euro): +R$ 812.232 de câmbio (risco R15). CT07 obra civil (preço unitário): todas as medições 5% a 9% acima do previsto, +R$ 291.061 (quantidade medida maior que a orçada).
-- **Multas por atraso (convenção 14):** total R$ 371.061 a cobrar (CT01, CT03, CT05, CT08). _(Marjorie: justificar o tipo de contrato de cada fornecedor.)_
+- **Multas por atraso (convenção 14):** total R$ 371.061 a cobrar (CT01, CT03, CT05, CT08).
+
+**Por que cada tipo de contrato:**
+- **Preço fixo** (CT01, CT03, CT04, CT05, CT08, CT09, CT11, CT13): escopo bem definido em projeto e especificação; o risco de custo fica com o fornecedor. Usado em projetos, equipamentos, utilidades, elétrica, montagem e treinamento.
+- **Preço unitário** (CT07, obra civil): as quantidades só se confirmam na escavação e na demolição; paga-se o que é medido. Por isso a obra está R$ 291 mil acima: a quantidade medida foi maior que a orçada.
+- **Tempo e material** (CT02, CT10, CT12): licenciamento, integração de automação e supervisão dos fabricantes dependem de horas difíceis de prever; exige controle das horas e teto.
+- **Custo reembolsável** (CT06, logística internacional): fretes, seguro e impostos variam com câmbio e rota; reembolsa-se o custo comprovado mais a taxa.
 
 ## 2. Seleção do fornecedor de comissionamento elétrico (convenção 15)
 
@@ -58,7 +64,18 @@ Pesos: preço 35%, técnica 30%, prazo 15%, experiência 10%, garantia 10%. **Re
 | equipe própria | 16.0 | 15.0 de 575.0 (2,6%) | 0.0 | 10.459 |
 
 
-Defeitos da trilha ágil: 24 (tabela 24). _(Marjorie: plano de qualidade — critérios de aceite, quem inspeciona, quando.)_
+Defeitos da trilha ágil: 24 (tabela 24).
+
+**Plano de qualidade:**
+
+| Entrega | Critério de aceite | Quem inspeciona | Quando |
+|---|---|---|---|
+| Equipamentos (injetora, cabine, transportador) | FAT aprovado e inspeção de recebimento sem avarias | Comprador técnico (P06) e engenharia (P08) | No FAT e no recebimento (A11, A13, A18, A20, A23) |
+| Bases e piso | Cotas e nivelamento dentro da tolerância do fabricante | Engenheiro civil (P07) | Antes da montagem (A26, A27) |
+| Elétrica e automação | Lista de verificação sem não conformidade aberta; lógica testada em bancada | Engenheiros eletricista (P09) e de automação (P10) | Na energização (A34) e no teste de bancada (A37) |
+| Segurança da linha | Laudo NR-12 emitido | Segurança do trabalho (P03) | A44, antes dos testes |
+| Linha pronta | SAT com produto e painel-padrão aprovado pela montadora | Coordenador de comissionamento (P11) e cliente (PI13) | A47 |
+| Sistema digital | Item com revisão por par, teste do QA e implantação sem falha | QA (P17) e Product Owner (P13) | A cada item e na revisão da sprint |
 
 ---
 *Rascunho gerado a partir dos números do sistema (https://trabalhodegest-odeprojetos.netlify.app, data de corte 13/11/2026, com os boletins B1 a B10 lançados). O responsável revisa, completa os campos em branco, ajusta o texto e assina.*

@@ -40,7 +40,15 @@
 
 ## 3. Respostas para os 5 maiores riscos
 
-_(Marjorie: para cada um, a resposta concreta, o custo da resposta, o dono e o gatilho de acompanhamento. Ex.: R13 cabine fora do padrão → mitigar com teste de aparência no FAT e painel-padrão aprovado pela montadora.)_
+| Risco | VME (R$) | Resposta concreta | Custo da resposta (R$) | Dono | Gatilho de acompanhamento |
+|---|---|---|---|---|---|
+| R13 · Cabine fora do padrão de aparência do cliente | 192.000 | **Mitigar:** teste de aparência no FAT (A18) e painel-padrão aprovado pela montadora antes do SAT; controle de temperatura e umidade da cabine | 66.400 | P11 Rafael Rebouças | Reprovação de painel no FAT ou umidade fora da faixa na partida |
+| R12 · Atraso na entrega da injetora | 119.000 | **Transferir:** cobrar a multa contratual do fornecedor e acionar o seguro de transporte; acompanhar a rota marítima semanalmente | 21.600 | P06 Yara Paranhos | A12 sem avanço por uma semana ou nova data de chegada do navio |
+| R02 · Incompatibilidade entre projetos | 58.830 | **Mitigar:** reunião de compatibilização antes de cada frente e registro único de interferências | 19.700 | P09 Caio Caldas | Interferência encontrada em campo na A33 |
+| R16 · Perda do especialista de pintura | 55.000 | **Mitigar:** bônus de retenção até o ramp-up e um segundo técnico treinado na A53 | 20.300 | P12 Ramon Espinheira | Pedido de desligamento ou proposta de concorrente |
+| R06 · Acidente com afastamento na montagem | 32.810 | **Evitar:** plano de içamento, permissão de trabalho em altura e SESMT presente nos içamentos | 9.900 | P08 Xavier Xavier | Qualquer quase-acidente registrado na A38 |
+
+Custo das cinco respostas: **R$ 137.900**, para reduzir uma exposição de R$ 457.640.
 
 ---
 *Rascunho gerado a partir dos números do sistema (https://trabalhodegest-odeprojetos.netlify.app, data de corte 13/11/2026, com os boletins B1 a B10 lançados). O responsável revisa, completa os campos em branco, ajusta o texto e assina.*

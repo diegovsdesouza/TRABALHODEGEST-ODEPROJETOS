@@ -29,7 +29,11 @@ Fórmulas: real = quantidade ÷ Hh; índice de produtividade = real ÷ planejada
 
 - **A33 · elétrica:** produtividade e efetivo abaixo do plano ao mesmo tempo → falta gente **e** falta rendimento. Ação: cobrar do fornecedor (CT09) o efetivo contratado e um plano de recuperação; avaliar multa.
 - **A39 · cabine de pintura:** produtividade acima do plano → concluída em 10/11.
-- _(Arley: completar as demais)_
+- **A26 · concreto das bases:** índice 0,88 com efetivo de 61% do planejado → falta gente e produtividade. Concluída; a lição vale para a próxima obra: mobilizar a equipe completa desde o início.
+- **A27 · piso industrial:** produtividade no plano (0,97), mas efetivo de 83% → falta gente. Concluída.
+- **A28 · tubulação de utilidades:** efetivo quase completo (0,95), mas índice 0,87 → baixa produtividade. Concluída; registrar como lição aprendida para o CT08.
+- **A25, A30, A31, A35:** no ritmo (índices entre 0,97 e 1,02).
+- **A38, A40, A42, A43:** ainda sem produção; acompanhar a partir do início da montagem, com o mesmo critério de 0,9.
 
 ---
 *Rascunho gerado a partir dos números do sistema (https://trabalhodegest-odeprojetos.netlify.app, data de corte 13/11/2026, com os boletins B1 a B10 lançados). O responsável revisa, completa os campos em branco, ajusta o texto e assina.*

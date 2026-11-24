@@ -526,7 +526,7 @@ doc('D17', 'Modelo 3D', 'Caique', 'tabela 38; página Modelo 3D do sistema (R12)
 ''')
 
 # ------------------------------------------------------------ gravar
-FINAIS = {'D16'}
+FINAIS = {'D1','D2','D3','D4','D5','D6','D9','D10','D13','D14','D16','D17'}  # lacunas preenchidas; não sobrescrever
 CSS = '''@page { size: A4; margin: 13mm; } body { font-family: "DejaVu Sans", Arial, sans-serif; font-size: 10px; color: #1d2733; line-height: 1.4; }
 h1 { font-size: 18px; color: #1f3a5f; border-bottom: 2px solid #1f3a5f; padding-bottom: 3px; } h2 { font-size: 13px; color: #1f3a5f; margin: 12px 0 4px; }
 table { border-collapse: collapse; width: 100%; margin: 4px 0 8px; font-size: 8.8px; } th { background: #e8eef5; } th, td { border: 1px solid #c9d2dc; padding: 2px 4px; text-align: left; vertical-align: top; }

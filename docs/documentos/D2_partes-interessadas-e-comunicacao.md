@@ -27,7 +27,7 @@
 **Destaques:**
 - **PI13 · engenharia da montadora:** RESISTENTE, satisfação 2,8. É quem pede mudanças direto ao time ágil (8 pedidos diretos, 22 pontos, sem solicitação de mudança). Ação: canal único pelo controle de mudanças (D11) e reunião quinzenal com o gerente do projeto.
 - **PI01 · patrocinador:** caiu para NEUTRO (5,9) e esteve ausente do último comitê diretor (12/11). Ação: relatório executivo curto antes de cada comitê, com a decisão pedida.
-- _(completar: ações para as demais partes abaixo do desejado)_
+- **Demais partes:** todas estão no nível desejado. Atenção a duas: PI12 (órgão ambiental e bombeiros), de poder 5, que precisa aprovar a rede de incêndio (A31), e PI11 (sindicato), que deve ser informado antes da contratação dos operadores (A50). Ação: contato formal antes de cada um desses marcos.
 
 ## 2. Plano de comunicação (reuniões realizadas)
 
@@ -46,7 +46,8 @@
 | Comitê diretor | patrocinador, diretoria, cliente | mensal | gerente do projeto | reunião + relatório executivo |
 | Cerimônias ágeis | time ágil, dono do produto | por sprint | Scrum Master | Jira + reunião |
 | Relatório ao cliente | engenharia da montadora | quinzenal | gerente do projeto | relatório + reunião |
-| _(completar)_ | | | | |
+| Comunicado de contratação e treinamento | operadores, sindicato | antes da A50 e da A53 | RH (P12) | comunicado + reunião |
+| Painel do projeto | todas as partes internas | contínuo | escritório de projetos | site do sistema (Sala de Guerra) |
 
 ---
 *Rascunho gerado a partir dos números do sistema (https://trabalhodegest-odeprojetos.netlify.app, data de corte 13/11/2026, com os boletins B1 a B10 lançados). O responsável revisa, completa os campos em branco, ajusta o texto e assina.*

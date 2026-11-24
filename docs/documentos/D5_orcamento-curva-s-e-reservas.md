@@ -55,8 +55,10 @@ VP R$ 33.850.144 · VA R$ 33.438.629 · CR R$ 35.800.186 · IDP 0,988 · IDC 0,9
 | Linha de base de custo (ONT) | 39.009.276 |
 | Contingência (riscos identificados) | 831.000 |
 | Reserva gerencial (não identificados) | 1.170.000 |
-| Gestão do projeto (indiretos, R$ 85.800/mês × 15 meses) | 1.287.000 _(conferir o prazo usado)_ |
-| **Total** | **42.297.276** _(comparar com o investimento do ano 0 do caso de negócio: R$ 43.007.000)_ |
+| Gestão do projeto (indiretos, R$ 85.800/mês × 15 meses) | 1.287.000 (fev/2026 a abr/2027, do início da rede, 02/02/2026, ao término da linha de base, 27/04/2027: 15 meses) |
+| **Total** | **42.297.276** |
+
+**Comparação com o caso de negócio:** o investimento do ano 0 (tabela 02) é R$ 43.007.000, R$ 709.724 acima do orçamento total do projeto. Os dados não detalham essa diferença; tratamos como folga do caso de negócio. Com o ENT de R$ 41.764.252 mais a gestão e o saldo das reservas, o investimento real tende a ficar perto desse valor.
 
 **Consumo das reservas até 13/11:** contingência R$ 1.097.400 de R$ 831.000 (saldo **R$ -266.400**); gerencial R$ 164.700 (saldo R$ 1.005.300).
 

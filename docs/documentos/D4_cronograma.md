@@ -12,7 +12,7 @@
 4. 88 ligações: TI = término-início (FS), II = início-início (SS), com defasagem em dias úteis (convenção 2).
 5. Linha de base salva; avanço real lançado na data de status 13/11/2026.
 
-Arquivos: `cronograma_G7.pod` e `gantt_G7.pdf` em `docs/projectlibre/` _(Caique: anexar)_.
+Arquivos: `cronograma_G7.xml` (projeto gerado), `cronograma_G7.pod` e `gantt_G7.pdf` em `docs/projectlibre/`.
 
 ## 2. Resultado
 
@@ -22,7 +22,9 @@ Arquivos: `cronograma_G7.pod` e `gantt_G7.pdf` em `docs/projectlibre/` _(Caique:
 | Folga até o contrato (07/05/2027) | 8 du | **−1 du** (custo R$ 50.100) |
 | Caminho crítico / cadeia do término | A01 → A07 → A08 → A09 → A11 → A12 → A13 → A38 → A41 → A43 → A44 → A46 → A47 → A49 → A56 | A11 → A12 → A13 → A38 → A41 → A43 → A44 → A46 → A47 → A49 → A56 |
 
-**Conferência com o sistema e com o papel:** o término e o caminho crítico do ProjectLibre devem ser os mesmos do sistema (página Prazo) e da folha M1 (sub-rede). _(Caique: anotar aqui o que o ProjectLibre mostrou)_
+**Conferência com o sistema e com o papel:** o término e o caminho crítico do ProjectLibre devem ser os mesmos do sistema (página Prazo) e da folha M1 (sub-rede).
+
+**No ProjectLibre:** linha de base com término em 27/04/2027 e, com o avanço de 13/11 lançado, previsão em 10/05/2027, pela mesma cadeia A11 → A12 → … → A56. O mesmo resultado aparece na página Prazo e na folha M1.
 
 ## 3. Tabela da rede
 

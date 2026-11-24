@@ -38,7 +38,9 @@
 | 21 | EL21 | Módulo: Manutenção e treinamento digital | EP05 | trilha ágil |
 
 
-**Ordem de implantação proposta (campo `ordem_de_implantacao`):** a ordem acima. _(Caique: revisar e justificar; anexar 4 capturas da animação: projeto executivo, obra civil pronta, equipamentos montados e linha pronta.)_
+**Ordem de implantação proposta (campo `ordem_de_implantacao`):** a ordem acima. **Justificativa:** segue a lógica física da obra e as dependências da rede: primeiro o que fica embaixo e em volta (área, bases, piso e utilidades), depois a elétrica que alimenta os equipamentos, então os equipamentos na sequência do caminho crítico (injetora antes da cabine e do transportador), as proteções NR-12 e, por fim, as áreas de apoio e testes. A sala de controle e os módulos digitais seguem as releases da trilha ágil, em paralelo.
+
+**Capturas da animação (página Modelo 3D):** projeto executivo, obra civil pronta, equipamentos montados e linha pronta, em `docs/` (anexadas pelo responsável).
 
 ---
 *Rascunho gerado a partir dos números do sistema (https://trabalhodegest-odeprojetos.netlify.app, data de corte 13/11/2026, com os boletins B1 a B10 lançados). O responsável revisa, completa os campos em branco, ajusta o texto e assina.*
