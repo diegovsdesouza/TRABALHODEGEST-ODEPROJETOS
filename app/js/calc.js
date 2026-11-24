@@ -378,6 +378,7 @@ export function fluxo(db, C, sp) {
     const fim = db.backlog_itens.find((b) => b.id_item === id)?.data_conclusao; if (!tr.length || !fim) return null;
     return C.duAte(fim) - C.duAte(tr[0]) + 1;
   }).filter((x) => x != null);
-  const dus = C.duAte(s.data_fim) - C.duAte(s.data_inicio) + 1;
+  // dias úteis da sprint: campo da tabela 15 (a S14 começa em 02/11, feriado; duAte(data_inicio) cairia no dia útil anterior)
+  const dus = Number(s.dias_uteis) || (C.duAte(s.data_fim) - C.duAte(addDias(s.data_inicio, -1)));
   return { ciclo: ciclos.reduce((a, b) => a + b, 0) / (ciclos.length || 1), vazao: concl.length / dus, n: concl.length };
 }

@@ -293,7 +293,7 @@ Burndown S14 (restantes no fim de cada du): {', '.join(map(str, S['bd14']['rest'
 ## 4. DORA, qualidade e equipe
 
 - Implantações em produção: {len(dora)} em {br(sem, 1)} semanas → **{br(len(dora) / sem, 2)}/semana**; taxa de falha **{pc((dora.falhou == 1).mean(), 0)}**; restauração média {br(dora[dora.falhou == 1].tempo_restauracao_h.mean(), 1)} h; lead time mediano {br(dora.tempo_ate_producao_h.median(), 1)} h (convenção 13).
-- Defeitos abertos: {len(dfe)} no total, {int(dfe.data_resolucao.isna().sum())} sem resolução. Impedimentos: {len(impd)}, {int(impd.data_fechamento.isna().sum())} abertos.
+- Defeitos abertos: {len(dfe)} no total, {int((dfe.data_resolucao.isna() & ~dfe.id_item_defeito.isin(bl[bl.status == 'CONCLUIDO'].id_item)).sum())} sem resolução (defeito resolvido quando o item de correção está concluído). Impedimentos: {len(impd)}, {int(impd.data_fechamento.isna().sum())} abertos.
 - Pulso da equipe: {', '.join(f"{p.id_sprint}={br(p.satisfacao_media, 2)}" for p in pul.tail(5).itertuples())} (escala 1 a 5).
 - Funil do piloto: _(resumir a tabela 37: alcance, ativação, retenção, NPS)_.
 
