@@ -21,7 +21,7 @@
 |---|---|
 | Sistema publicado | https://trabalhodegest-odeprojetos.netlify.app |
 | Repositório | https://github.com/diegovsdesouza/TRABALHODEGEST-ODEPROJETOS |
-| Jira | __________________________________ (Guilherme) |
+| Jira | https://plasticosabrantes.atlassian.net/jira/software/c/projects/LIP/boards/2/timeline (projeto LIP) |
 | ProjectLibre | `docs/projectlibre/` no repositório (Caique) |
 | Documentos D1 a D17 | `docs/documentos/` (.md e .pdf) |
 | Diário de prompts | `docs/diario-de-prompts.md` |
