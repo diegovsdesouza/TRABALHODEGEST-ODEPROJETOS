@@ -8,7 +8,7 @@
 
 | Integrante | Matrícula | Documentos | Folhas | Ferramenta | Boletins | Assinatura |
 |---|---|---|---|---|---|---|
-| Diego Santana de Souza (coordenação) | 222215124 | D16 e relatório gerencial | M7 | GitHub | B1, B10 (produção) | |
+| Diego de Souza (coordenação) | 222215124 | D16 e relatório gerencial | M7 | GitHub | B1, B10 (produção) | |
 | Caique Mattos | 220115794 | D3, D4, D12, D17 | M1, M2 | ProjectLibre | B5, B6, B7 | |
 | João José Sousa | 222118958 | D1, D5, D15 | M3 | — | B2 (02/11), B3 (custos) | |
 | Marjorie Santos | | D9, D10 | M4, M6 | — | B2 (09/11), B3 (medições), B4 | |
