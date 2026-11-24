@@ -1,7 +1,7 @@
 # D1 · Termo de abertura e caso de negócio
 
 **Projeto:** Linha de injeção e pintura de para-choques · Plásticos Abrantes (G7) · ENGN62 2026.2
-**Versão:** 0.1 (rascunho) · **Data de status:** 13/11/2026 · **Responsável:** José · **Revisão:** ____________
+**Versão:** 1.0 · **Data de status:** 13/11/2026 · **Responsável:** José · **Revisão:** João José, 24/11/2026 ·
 **Fontes:** tabelas 01, 02, 03 e 10; dossiê (ficha do projeto); convenção 16
 
 ## 1. Termo de abertura
@@ -58,6 +58,3 @@
 - **VPL hoje (cenário C1, com a ENT de R$ 41.764.252 e 0,43 mês de atraso):** R$ 3.090.341 · payback 4,26 anos.
 
 **Leitura:** o projeto se paga em pouco mais de 4 anos e continua atrativo, mas o estouro de custo (+R$ 2.754.976) já consumiu 49% do VPL original.
-
----
-*Rascunho gerado a partir dos números do sistema (https://trabalhodegest-odeprojetos.netlify.app, data de corte 13/11/2026, com os boletins B1 a B10 lançados). O responsável revisa, completa os campos em branco, ajusta o texto e assina.*
