@@ -1,7 +1,7 @@
 # D5 · Orçamento, curva S e reservas
 
 **Projeto:** Linha de injeção e pintura de para-choques · Plásticos Abrantes (G7) · ENGN62 2026.2
-**Versão:** 0.1 (rascunho) · **Data de status:** 13/11/2026 · **Responsável:** José · **Revisão:** ____________
+**Versão:** 1.0 · **Data de status:** 13/11/2026 · **Responsável:** José · **Revisão:** João José, 24/11/2026 ·
 **Fontes:** tabelas 01, 02, 09, 15, 17, 18 e 19; convenções 4 a 7
 
 ## 1. Orçamento por entrega e categoria (frente preditiva, R$)
@@ -61,6 +61,3 @@ VP R$ 33.850.144 · VA R$ 33.438.629 · CR R$ 35.800.186 · IDP 0,988 · IDC 0,9
 **Comparação com o caso de negócio:** o investimento do ano 0 (tabela 02) é R$ 43.007.000, R$ 709.724 acima do orçamento total do projeto. Os dados não detalham essa diferença; tratamos como folga do caso de negócio. Com o ENT de R$ 41.764.252 mais a gestão e o saldo das reservas, o investimento real tende a ficar perto desse valor.
 
 **Consumo das reservas até 13/11:** contingência R$ 1.097.400 de R$ 831.000 (saldo **R$ -266.400**); gerencial R$ 164.700 (saldo R$ 1.005.300).
-
----
-*Rascunho gerado a partir dos números do sistema (https://trabalhodegest-odeprojetos.netlify.app, data de corte 13/11/2026, com os boletins B1 a B10 lançados). O responsável revisa, completa os campos em branco, ajusta o texto e assina.*
