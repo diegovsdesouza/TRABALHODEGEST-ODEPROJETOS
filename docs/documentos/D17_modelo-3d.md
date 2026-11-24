@@ -1,7 +1,7 @@
 # D17 · Modelo 3D
 
 **Projeto:** Linha de injeção e pintura de para-choques · Plásticos Abrantes (G7) · ENGN62 2026.2
-**Versão:** 0.1 · **Data de status:** 13/11/2026 · **Responsável:** Caique · **Revisão:** Caique Mattos, 24/11/2026
+**Versão:** 1.0 · **Data de status:** 13/11/2026 · **Responsável:** Caique · **Revisão:** Caique Mattos, 24/11/2026
 **Fontes:** tabela 38; página Modelo 3D do sistema (R12)
 
 ## 1. O modelo
@@ -41,4 +41,3 @@
 **Ordem de implantação proposta (campo `ordem_de_implantacao`):** a ordem acima. **Justificativa:** segue a lógica física da obra e as dependências da rede: primeiro o que fica embaixo e em volta (área, bases, piso e utilidades), depois a elétrica que alimenta os equipamentos, então os equipamentos na sequência do caminho crítico (injetora antes da cabine e do transportador), as proteções NR-12 e, por fim, as áreas de apoio e testes. A sala de controle e os módulos digitais seguem as releases da trilha ágil, em paralelo.
 
 **Capturas da animação (página Modelo 3D):** projeto executivo, obra civil pronta, equipamentos montados e linha pronta, em `docs/` (anexadas pelo responsável).
-
