@@ -1,7 +1,7 @@
 # D15 · Análise financeira
 
 **Projeto:** Linha de injeção e pintura de para-choques · Plásticos Abrantes (G7) · ENGN62 2026.2
-**Versão:** 0.1 (rascunho) · **Data de status:** 13/11/2026 · **Responsável:** José · **Revisão:** ____________
+**Versão:** 1.0 · **Data de status:** 13/11/2026 · **Responsável:** José · **Revisão:** João José, 24/11/2026
 **Fontes:** tabela 02; convenções 6, 7, 16, 22 e 23; página Cenários
 
 ## 1. Estimativa no término (ENT)
@@ -40,6 +40,3 @@ ENT = ONT ÷ IDC = R$ 39.009.276 ÷ 0,934 = **R$ 41.764.252** → desvio de **R$
 - **VPL R$ 3.090.341** (plano original: R$ 6.036.501) · **payback 4,26 anos** · custo do atraso R$ 50.100 (1 du × R$ 50.100).
 
 **Leitura:** o projeto continua com VPL positivo, mas cada R$ 1 de estouro sai direto do VPL do ano 0, e cada mês de atraso tira 1/12 do fluxo do primeiro ano (~R$ 510 mil). É a base para comparar os cenários (D16).
-
----
-*Rascunho gerado a partir dos números do sistema (https://trabalhodegest-odeprojetos.netlify.app, data de corte 13/11/2026, com os boletins B1 a B10 lançados). O responsável revisa, completa os campos em branco, ajusta o texto e assina.*
