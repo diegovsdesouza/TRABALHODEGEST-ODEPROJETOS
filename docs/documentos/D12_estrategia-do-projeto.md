@@ -1,7 +1,7 @@
 # D12 · Estratégia do projeto
 
 **Projeto:** Linha de injeção e pintura de para-choques · Plásticos Abrantes (G7) · ENGN62 2026.2
-**Versão:** 0.1 (rascunho) · **Data de status:** 13/11/2026 · **Responsável:** Caique · **Revisão:** ____________
+**Versão:** 0.1 · **Data de status:** 13/11/2026 · **Responsável:** Caique · **Revisão:** Caique Mattos, 24/11/2026
 **Fontes:** D4, D9, D11, D16; páginas Prazo e Cenários do sistema
 
 ## 1. Por que híbrido
@@ -22,5 +22,4 @@ A cadeia da **injetora importada**: A11 → A12 → A13 → A38 → A41 → A43 
 
 Status semanal (avanço, horas, custos, quadro da sprint) → indicadores do sistema (término previsto, ENT, IDC/IDP, velocidade, exposição a riscos) → comitê mensal com decisão pedida. Alçadas: gerente até o limite da tabela 05; acima, patrocinador ou comitê.
 
----
-*Rascunho gerado a partir dos números do sistema (https://trabalhodegest-odeprojetos.netlify.app, data de corte 13/11/2026, com os boletins B1 a B10 lançados). O responsável revisa, completa os campos em branco, ajusta o texto e assina.*
+
