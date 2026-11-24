@@ -11,7 +11,7 @@
 | Diego de Souza (coordenação) | 222215124 | D16 e relatório gerencial | M7 | GitHub | B1, B10 (produção) | |
 | Caique Mattos | 220115794 | D3, D4, D12, D17 | M1, M2 | ProjectLibre | B5, B6, B7 | |
 | João José Sousa | 222118958 | D1, D5, D15 | M3 | — | B2 (02/11), B3 (custos) | |
-| Marjorie Santos | | D9, D10 | M4, M6 | — | B2 (09/11), B3 (medições), B4 | |
+| Marjorie Santos | 224215260 | D9, D10 | M4, M6 | — | B2 (09/11), B3 (medições), B4 | |
 | Guilherme Rosa | 222115955 | D7, D8, D11 | M5 | Jira | B8, B9 (OKR), B10 (funil) | |
 | Arley Piana | 222118949 | D2, D6, D13, D14 | M8 | — | B9 (reuniões, engajamento, pulso) | |
 
