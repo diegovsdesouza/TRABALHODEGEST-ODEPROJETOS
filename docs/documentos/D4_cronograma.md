@@ -1,7 +1,7 @@
 # D4 · Cronograma (ProjectLibre)
 
 **Projeto:** Linha de injeção e pintura de para-choques · Plásticos Abrantes (G7) · ENGN62 2026.2
-**Versão:** 0.1 (rascunho) · **Data de status:** 13/11/2026 · **Responsável:** Caique · **Revisão:** ____________
+**Versão:** 0.1 · **Data de status:** 13/11/2026 · **Responsável:** Caique · **Revisão:** Caique Mattos, 24/11/2026
 **Fontes:** tabelas 07, 08, 11 e 17; convenções 1, 2 e 11; arquivos docs/projectlibre/
 
 ## 1. Como foi montado
@@ -90,5 +90,4 @@ Arquivos: `cronograma_G7.xml` (projeto gerado), `cronograma_G7.pod` e `gantt_G7.
 | A55 | Registrar as lições aprendidas e desmobilizar o canteiro | 7 | 01/04/2027 | 09/04/2027 | 5 |  | nao iniciada | 23/04/2027 | 9 |
 | A56 | Formalizar o aceite final e encerrar o projeto | 6 | 19/04/2027 | 27/04/2027 | 0 | sim | nao iniciada | 10/05/2027 | 9 |
 
----
-*Rascunho gerado a partir dos números do sistema (https://trabalhodegest-odeprojetos.netlify.app, data de corte 13/11/2026, com os boletins B1 a B10 lançados). O responsável revisa, completa os campos em branco, ajusta o texto e assina.*
+
