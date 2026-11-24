@@ -8,8 +8,8 @@ Regra do enunciado: **10 entradas, de pelo menos 3 pessoas**. Regra do grupo: **
 | 2 | 22/11 | Diego | Claude | Gerar os rascunhos dos documentos D1 a D17 com os números do sistema | Leu os CSVs do histórico (até 30/10) e ignorou os boletins de 03 a 13/11 | Os números não batiam com a página Conferência; o gerador passou a ler do banco, com os boletins lançados |
 | 3 | 22/11 | Diego | Claude | Mostrar no dashboard se a reserva de contingência cobre os riscos | O indicador dizia "cobre 100%" com a contingência já estourada | Conferimos contra o D9: saldo de −R$ 266.400; o indicador passou a mostrar o saldo |
 | 4 | 22/11 | Diego | Claude | Ligar o assistente de IA do sistema ao Gemini | Sem a chave configurada, a tela mostrava "IA (undefined)" em vez de cair na resposta local | Testamos sem a chave; a tela só aceita a resposta da IA quando ela existe |
-| 5 | | Caique | | | | |
-| 6 | | Caique | | | | |
+| 5 | 23/11 | Caique | Claude (pela conta do grupo) | Gerar os arquivos para montar o cronograma no ProjectLibre: o projeto e o avanço real de 13/11 | Entregou o avanço só em CSV e o passo a passo com o nome "LEIA-ME"; no celular o CSV abria como texto corrido no Notas e não dava para usar na digitação | Ao tentar repassar os arquivos; pedimos o avanço em PDF, como tabela para digitar (mesmo conteúdo do CSV), e o passo a passo renomeado para PASSO-A-PASSO |
+| 6 | 24/11 | Caique | Claude (pela conta do grupo) | Lançar o quadro da sprint 14 (B6) nas telas do sistema que a IA construiu | A tela gravou códigos com espaço antes (" PA-195"), o que criava um item "diferente", e não permitia editar uma transição lançada errada (PA-190 e PA-194) | A Conferência mostrou 330 transições em vez de 329; listamos as 4 correções, a IA as aplicou no banco, tirou os espaços e passou a limpar os campos digitados nas telas |
 | 7 | | José | | | | |
 | 8 | | José | | | | |
 | 9 | | Marjorie | | | | |
