@@ -48,4 +48,3 @@
 | Relatório ao cliente | engenharia da montadora | quinzenal | gerente do projeto | relatório + reunião |
 | Comunicado de contratação e treinamento | operadores, sindicato | antes da A50 e da A53 | RH (P12) | comunicado + reunião |
 | Painel do projeto | todas as partes internas | contínuo | escritório de projetos | site do sistema (Sala de Guerra) |
-
