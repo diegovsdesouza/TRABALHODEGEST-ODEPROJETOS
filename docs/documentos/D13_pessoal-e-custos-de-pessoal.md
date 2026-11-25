@@ -1,7 +1,7 @@
 # D13 · Pessoal e custos de pessoal
 
 **Projeto:** Linha de injeção e pintura de para-choques · Plásticos Abrantes (G7) · ENGN62 2026.2
-**Versão:** 0.1 (rascunho) · **Data de status:** 13/11/2026 · **Responsável:** Arley · **Revisão:** ____________
+**Versão:** 1.0 · **Data de status:** 13/11/2026 · **Responsável:** Arley · **Revisão:** Arley Piana da Silva, 24/11/2026
 **Fontes:** tabelas 04, 18, 39 e 40; convenções 17 a 20; folha M8
 
 ## 1. Custo de cada pessoa (convenção 17)
@@ -68,5 +68,3 @@ Folha mensal: **R$ 282.910** (confere com o controle: R$ 282.910,40). Impacto to
 
 **Leitura:** **sobrecarregados** em ago/2026: o gerente (P01, +25%), os dois desenvolvedores (P15 +28% e P16 +27%) e a QA (P17, +35%), no fechamento da Release 1. **Abaixo do plano:** o desenvolvedor P15 caiu para −61% em setembro e −31% em outubro, e o engenheiro de automação P10 para −75% em setembro; os −100% de abril e maio são horas planejadas antes de a pessoa entrar na frente. **O que fazer:** nivelar a carga do time ágil entre sprints (sem horas extras recorrentes), verificar a disponibilidade do P15 e do P10 com os gestores das áreas, que dividem essas pessoas com outros trabalhos, e replanejar as horas da QA para o período de testes (A45 a A47). No custo por ponto, P16 entrega mais barato (R$ 880 contra R$ 1.188 do P15).
 
----
-*Rascunho gerado a partir dos números do sistema (https://trabalhodegest-odeprojetos.netlify.app, data de corte 13/11/2026, com os boletins B1 a B10 lançados). O responsável revisa, completa os campos em branco, ajusta o texto e assina.*
