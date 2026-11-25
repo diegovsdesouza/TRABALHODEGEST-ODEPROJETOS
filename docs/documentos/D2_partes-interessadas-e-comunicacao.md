@@ -1,7 +1,7 @@
 # D2 · Partes interessadas e comunicação
 
 **Projeto:** Linha de injeção e pintura de para-choques · Plásticos Abrantes (G7) · ENGN62 2026.2
-**Versão:** 0.1 (rascunho) · **Data de status:** 13/11/2026 · **Responsável:** Arley · **Revisão:** ____________
+**Versão:** 1.0 · **Data de status:** 13/11/2026 · **Responsável:** Arley · **Revisão:** Arley Piana da Silva, 24/11/2026
 **Fontes:** tabelas 03, 33 e 34 (com o boletim B9)
 
 ## 1. Registro e estratégia (poder × interesse; alto = 4 ou 5)
@@ -49,5 +49,3 @@
 | Comunicado de contratação e treinamento | operadores, sindicato | antes da A50 e da A53 | RH (P12) | comunicado + reunião |
 | Painel do projeto | todas as partes internas | contínuo | escritório de projetos | site do sistema (Sala de Guerra) |
 
----
-*Rascunho gerado a partir dos números do sistema (https://trabalhodegest-odeprojetos.netlify.app, data de corte 13/11/2026, com os boletins B1 a B10 lançados). O responsável revisa, completa os campos em branco, ajusta o texto e assina.*
