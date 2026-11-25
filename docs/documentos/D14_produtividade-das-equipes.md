@@ -1,7 +1,7 @@
 # D14 · Produtividade das equipes
 
 **Projeto:** Linha de injeção e pintura de para-choques · Plásticos Abrantes (G7) · ENGN62 2026.2
-**Versão:** 0.1 (rascunho) · **Data de status:** 13/11/2026 · **Responsável:** Arley · **Revisão:** ____________
+**Versão:** 1.0 · **Data de status:** 13/11/2026 · **Responsável:** Arley · **Revisão:** Arley Piana da Silva, 24/11/2026
 **Fontes:** tabelas 41 e 42 (com o boletim B10); convenção 20; folha M8
 
 ## 1. Produtividade em 13/11/2026
@@ -35,5 +35,3 @@ Fórmulas: real = quantidade ÷ Hh; índice de produtividade = real ÷ planejada
 - **A25, A30, A31, A35:** no ritmo (índices entre 0,97 e 1,02).
 - **A38, A40, A42, A43:** ainda sem produção; acompanhar a partir do início da montagem, com o mesmo critério de 0,9.
 
----
-*Rascunho gerado a partir dos números do sistema (https://trabalhodegest-odeprojetos.netlify.app, data de corte 13/11/2026, com os boletins B1 a B10 lançados). O responsável revisa, completa os campos em branco, ajusta o texto e assina.*
